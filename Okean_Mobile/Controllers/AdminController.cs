@@ -1,6 +1,15 @@
-﻿namespace Okean_Mobile.Controllers
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Okean_Mobile.Controllers
 {
-    public class AdminController
+    [Authorize(Roles = "Admin")]
+    public class AdminDashboardController : Controller
     {
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
+
 }

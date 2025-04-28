@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace Okean_Mobile.Models
 {
-    public class User
+    public class User 
     {
         public int Id { get; set; }
 
@@ -21,6 +22,9 @@ namespace Okean_Mobile.Models
         [Required]
         [StringLength(20)]
         public string Role { get; set; } // "Admin" hoặc "Customer"
+        [PersonalData]
+        [StringLength(100)]
+        public string? FullName { get; set; }
 
         public ICollection<Order> Orders { get; set; }
     }

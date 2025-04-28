@@ -1,4 +1,32 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+
+@if (User.Identity.IsAuthenticated)
+{
+    <li class="nav-item">
+        <a class="nav-link" href="#">Xin chào, @User.Identity.Name!</a>
+    </li>
+
+    @if (User.IsInRole("Admin"))
+    {
+        <li class="nav-item">
+            <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="Index">Quản trị</a>
+        </li>
+    }
+
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="Account" asp-action="Logout">Đăng xuất</a>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="Account" asp-action="Login">Đăng nhập</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="Account" asp-action="Register">Đăng ký</a>
+    </li>
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />

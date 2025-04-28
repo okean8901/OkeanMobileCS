@@ -1,5 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Okean_Mobile.Data;
+using Okean_Mobile.Models;
+using System;
 
 namespace Okean_Mobile
 {
@@ -21,17 +25,20 @@ namespace Okean_Mobile
             builder.Services.AddScoped<Repositories.ICategoryRepository, Repositories.CategoryRepository>();
             builder.Services.AddScoped<Repositories.IOrderRepository,
               Repositories.OrderRepository>();
+            builder.Services.AddScoped<Repositories.IUserRepository,
+              Repositories.UserRepository>();
 
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Account/Login";
+                    options.AccessDeniedPath = "/Account/AccessDenied";
+                });
+
+
+            builder.Services.AddSession();
 
             var app = builder.Build();
-
-            //gọi seedData khi khởi động ứng dụng
-            using (var scope = app.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-                var context = services.GetRequiredService<ApplicationDbContext>();
-                SeedData.Initialize(services, context);
-            }
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -43,9 +50,14 @@ namespace Okean_Mobile
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
             app.UseRouting();
-            app.UseAuthorization();
+
             app.UseAuthentication();
+            app.UseAuthorization();
+            
+            // Sử dụng session nếu đã đăng ký
+            app.UseSession();
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

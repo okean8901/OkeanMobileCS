@@ -178,3 +178,5 @@ T:\Source code c#\Okean_Mobile\Okean_Mobile\obj\Debug\net8.0\refint\Okean_Mobile
 T:\Source code c#\Okean_Mobile\Okean_Mobile\obj\Debug\net8.0\Okean_Mobile.pdb
 T:\Source code c#\Okean_Mobile\Okean_Mobile\obj\Debug\net8.0\Okean_Mobile.genruntimeconfig.cache
 T:\Source code c#\Okean_Mobile\Okean_Mobile\obj\Debug\net8.0\ref\Okean_Mobile.dll
+T:\Source code c#\Okean_Mobile\Okean_Mobile\obj\Debug\net8.0\Okean_Mobile.sourcelink.json
+T:\Source code c#\Okean_Mobile\Okean_Mobile\bin\Debug\net8.0\BCrypt.Net-Next.dll
