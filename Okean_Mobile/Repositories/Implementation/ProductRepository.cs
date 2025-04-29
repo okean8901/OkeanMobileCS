@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Okean_Mobile.Data;
 using Okean_Mobile.Models;
+using Okean_Mobile.Repositories.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Okean_Mobile.Repositories
+namespace Okean_Mobile.Repositories.Implementation
 {
     public class ProductRepository : IProductRepository
     {

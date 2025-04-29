@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Okean_Mobile.Data;
 using Okean_Mobile.Models;
+using Okean_Mobile.Repositories.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Okean_Mobile.Repositories
+namespace Okean_Mobile.Repositories.Implementation
 {
     public class OrderRepository : IOrderRepository
     {
@@ -43,6 +44,14 @@ namespace Okean_Mobile.Repositories
                 _context.Orders.Remove(order);
                 await _context.SaveChangesAsync();
             }
+        }
+        public async Task<IEnumerable<Order>> GetOrdersByUserIdAsync(int userId)
+        {
+            return await _context.Orders
+                .Include(o => o.OrderDetails)
+                .ThenInclude(od => od.Product)
+                .Where(o => o.UserId == userId)
+                .ToListAsync();
         }
 
     }

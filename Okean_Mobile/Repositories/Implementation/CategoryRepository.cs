@@ -3,8 +3,9 @@ using Okean_Mobile.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Okean_Mobile.Repositories.Interfaces;
 
-namespace Okean_Mobile.Repositories
+namespace Okean_Mobile.Repositories.Implementation
 {
     public class CategoryRepository : ICategoryRepository
     {

@@ -1,6 +1,6 @@
 ﻿using Okean_Mobile.Models;
 
-namespace Okean_Mobile.Repositories
+namespace Okean_Mobile.Repositories.Interfaces
 {
     public interface IProductRepository
     {

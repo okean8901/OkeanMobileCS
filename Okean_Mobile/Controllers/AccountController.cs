@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Okean_Mobile.Models;
-using Okean_Mobile.Repositories;
+using Okean_Mobile.Repositories.Interfaces;
 using Okean_Mobile.ViewModels;
 using System.Security.Claims;
 using System.Security.Cryptography;
@@ -113,7 +113,7 @@ namespace Okean_Mobile.Controllers
 
                 if (user.Role == "Admin")
                 {
-                    return RedirectToAction("Index", "Admin"); // Nếu Admin
+                    return RedirectToAction("Index", "Home"); // Nếu Admin
                 }
                 else
                 {

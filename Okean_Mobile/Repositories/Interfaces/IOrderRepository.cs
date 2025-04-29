@@ -1,6 +1,6 @@
 ﻿using Okean_Mobile.Models;
 
-namespace Okean_Mobile.Repositories
+namespace Okean_Mobile.Repositories.Interfaces
 {
     public interface IOrderRepository
     {
@@ -9,5 +9,6 @@ namespace Okean_Mobile.Repositories
         Task AddOrderAsync(Order order);
         Task UpdateOrderAsync(Order order);
         Task DeleteOrderAsync(int id);
+        Task<IEnumerable<Order>> GetOrdersByUserIdAsync(int userId);
     }
 }

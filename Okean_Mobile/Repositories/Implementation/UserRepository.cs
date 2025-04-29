@@ -1,8 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Okean_Mobile.Data;
 using Okean_Mobile.Models;
+using Okean_Mobile.Repositories.Interfaces;
 
-namespace Okean_Mobile.Repositories
+namespace Okean_Mobile.Repositories.Implementation
 {
     public class UserRepository : IUserRepository
     {
