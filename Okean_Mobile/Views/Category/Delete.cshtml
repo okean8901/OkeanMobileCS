@@ -1,0 +1,47 @@
+@model Okean_Mobile.Models.Category
+
+@{
+    ViewData["Title"] = "Xóa danh mục";
+}
+@{
+    Layout = "_AdminLayout";
+}
+<div class="container-fluid">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Xóa danh mục</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-danger">Bạn có chắc chắn muốn xóa danh mục này?</h6>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">Tên danh mục:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+                        <dt class="col-sm-4">Mô tả:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+
+                        <dt class="col-sm-4">Số sản phẩm:</dt>
+                        <dd class="col-sm-8">@(Model.Products?.Count ?? 0)</dd>
+                    </dl>
+
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="Id" />
+                        <div class="form-group">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Quay lại
+                            </a>
+                            <button type="submit" class="btn btn-danger">
+                                <i class="fas fa-trash"></i> Xóa
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

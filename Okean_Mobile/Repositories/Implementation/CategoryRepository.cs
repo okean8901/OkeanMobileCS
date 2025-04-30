@@ -47,5 +47,10 @@ namespace Okean_Mobile.Repositories.Implementation
                 await _context.SaveChangesAsync();
             }
         }
+
+        public Task<bool> CategoryExistsAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
