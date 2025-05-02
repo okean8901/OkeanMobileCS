@@ -1,0 +1,55 @@
+@model Okean_Mobile.Models.User
+
+@{
+    ViewData["Title"] = "Chỉnh sửa người dùng";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <h1>Chỉnh sửa người dùng</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Edit">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                
+                <div class="form-group mb-3">
+                    <label asp-for="Username" class="control-label">Tên đăng nhập *</label>
+                    <input asp-for="Username" class="form-control" readonly />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="control-label">Email *</label>
+                    <input asp-for="Email" class="form-control" type="email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="FullName" class="control-label">Họ tên</label>
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Role" class="control-label">Vai trò *</label>
+                    <select asp-for="Role" class="form-control">
+                        <option value="Admin">Admin</option>
+                        <option value="Customer">Customer</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} 

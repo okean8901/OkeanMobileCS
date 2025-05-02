@@ -36,6 +36,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Okean_Mobile</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Okean_Mobile</BasePath>
+      <RelativePath>images/products/24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j121cwlo0q</Fingerprint>
+      <Integrity>aeMcr/m57iy6E9JHJLmJOoRtBmBWqXlfkV/of48xOMk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\436e272a-d91b-45b4-a6f8-433243e3a40a_Ảnh chụp màn hình 2025-04-19 152735.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Okean_Mobile</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Okean_Mobile</BasePath>
+      <RelativePath>images/products/436e272a-d91b-45b4-a6f8-433243e3a40a_Ảnh chụp màn hình 2025-04-19 152735.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cgk0g97p3j</Fingerprint>
+      <Integrity>dBRpyMBCI2e1JUo1HZl/BPagEiPWEOjLYoYx9OuW5PM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\436e272a-d91b-45b4-a6f8-433243e3a40a_Ảnh chụp màn hình 2025-04-19 152735.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\e0513a00-2d51-465d-8621-405dcda73da7_484967871_695434816143169_6720345346745522057_n.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Okean_Mobile</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Okean_Mobile</BasePath>
+      <RelativePath>images/products/e0513a00-2d51-465d-8621-405dcda73da7_484967871_695434816143169_6720345346745522057_n.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j2n7bni3jz</Fingerprint>
+      <Integrity>i/cs7C/jii1gB70Qp4fd56mDzybbhBsQIidLark8hLs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\e0513a00-2d51-465d-8621-405dcda73da7_484967871_695434816143169_6720345346745522057_n.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Okean_Mobile</SourceId>

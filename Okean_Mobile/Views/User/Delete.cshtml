@@ -1,0 +1,37 @@
+@model Okean_Mobile.Models.User
+
+@{
+    ViewData["Title"] = "Xóa người dùng";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <h1>Xóa người dùng</h1>
+
+    <h3>Bạn có chắc chắn muốn xóa người dùng này?</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4">Tên đăng nhập:</dt>
+                <dd class="col-sm-8">@Model.Username</dd>
+
+                <dt class="col-sm-4">Email:</dt>
+                <dd class="col-sm-8">@Model.Email</dd>
+
+                <dt class="col-sm-4">Họ tên:</dt>
+                <dd class="col-sm-8">@Model.FullName</dd>
+
+                <dt class="col-sm-4">Vai trò:</dt>
+                <dd class="col-sm-8">@Model.Role</dd>
+            </dl>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <input type="submit" value="Xóa" class="btn btn-danger" />
+                    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 

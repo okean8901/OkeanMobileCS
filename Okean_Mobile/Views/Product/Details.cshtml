@@ -1,262 +1,51 @@
 ﻿@model Okean_Mobile.Models.Product
 
 @{
-    ViewData["Title"] = Model.Name;
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<div class="container py-5">
+<div class="container">
+    <h1>Chi tiết sản phẩm</h1>
+
     <div class="row">
-        <!-- Breadcrumb navigation -->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
-                <li class="breadcrumb-item"><a asp-controller="Product" asp-action="Index">Sản phẩm</a></li>
-                @if (Model.Category != null)
-                {
-                    <li class="breadcrumb-item"><a asp-controller="Product" asp-action="ByCategory" asp-route-categoryId="@Model.Category.Id">@Model.Category.Name</a></li>
-                }
-                <li class="breadcrumb-item active" aria-current="page">@Model.Name</li>
-            </ol>
-        </nav>
-    </div>
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4">Tên sản phẩm:</dt>
+                <dd class="col-sm-8">@Model.Name</dd>
 
-    <div class="row g-4">
-        <!-- Product Images -->
-        <div class="col-lg-6">
-            <div class="card border-0 shadow-sm">
-                <div class="card-body p-3">
-                    <div class="product-image-main mb-3">
-                        <img src="@Model.ImageUrl" class="img-fluid rounded" alt="@Model.Name" id="mainImage">
-                    </div>
-                    <div class="product-image-thumbnails d-flex flex-wrap gap-2">
-                        <!-- Thumbnail images (you can add more if needed) -->
-                        <div class="thumbnail-item">
-                            <img src="@Model.ImageUrl" class="img-thumbnail" width="80" alt="Thumbnail 1" onclick="changeImage(this)">
-                        </div>
-                        <!-- Add more thumbnails here if you have multiple images -->
-                    </div>
-                </div>
-            </div>
-        </div>
+                <dt class="col-sm-4">Mô tả:</dt>
+                <dd class="col-sm-8">@Model.Description</dd>
 
-        <!-- Product Details -->
-        <div class="col-lg-6">
-            <div class="card border-0 shadow-sm">
-                <div class="card-body p-4">
-                    <h1 class="product-title mb-3">@Model.Name</h1>
+                <dt class="col-sm-4">Giá:</dt>
+                <dd class="col-sm-8">@Model.Price.ToString("N0") đ</dd>
 
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="product-price text-danger fw-bold fs-4 me-3">
-                            @Model.Price.ToString("C")
-                        </div>
-                        @if (Model.Category != null)
-                        {
-                            <span class="badge bg-info">@Model.Category.Name</span>
-                        }
-                    </div>
+                <dt class="col-sm-4">Số lượng:</dt>
+                <dd class="col-sm-8">@Model.StockQuantity</dd>
 
-                    <div class="product-rating mb-4">
-                        <div class="stars">
-                            <i class="fas fa-star text-warning"></i>
-                            <i class="fas fa-star text-warning"></i>
-                            <i class="fas fa-star text-warning"></i>
-                            <i class="fas fa-star text-warning"></i>
-                            <i class="fas fa-star-half-alt text-warning"></i>
-                            <small class="text-muted ms-2">(4.5/5.0)</small>
-                        </div>
-                        <a href="#reviews" class="small ms-2">Xem đánh giá</a>
-                    </div>
+                <dt class="col-sm-4">Danh mục:</dt>
+                <dd class="col-sm-8">@(Model.Category?.Name ?? "Chưa phân loại")</dd>
 
-                    <div class="product-description mb-4">
-                        <h5 class="mb-2">Mô tả sản phẩm</h5>
-                        <p class="text-muted">@Model.Description</p>
-                    </div>
+                <dt class="col-sm-4">Trạng thái:</dt>
+                <dd class="col-sm-8">@(Model.IsActive ? "Đang bán" : "Ngừng bán")</dd>
 
-                    <div class="product-actions mb-4">
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            <form asp-controller="Cart" asp-action="AddToCart" method="post" class="row g-3 align-items-center">
-                                <input type="hidden" name="productId" value="@Model.Id" />
-                                <div class="col-auto">
-                                    <label for="quantity" class="col-form-label">Số lượng:</label>
-                                </div>
-                                <div class="col-auto">
-                                    <div class="input-group" style="width: 120px;">
-                                        <button class="btn btn-outline-secondary quantity-btn" type="button" onclick="changeQuantity(-1)">-</button>
-                                        <input type="number" id="quantity" name="quantity" value="1" min="1" class="form-control text-center">
-                                        <button class="btn btn-outline-secondary quantity-btn" type="button" onclick="changeQuantity(1)">+</button>
-                                    </div>
-                                </div>
-                                <div class="col-auto">
-                                    <button type="submit" class="btn btn-primary btn-lg">
-                                        <i class="fas fa-cart-plus me-2"></i> Thêm vào giỏ
-                                    </button>
-                                </div>
-                            </form>
-                        }
-                        else
-                        {
-                            <div class="alert alert-warning">
-                                <a asp-controller="Account" asp-action="Login" class="alert-link">Đăng nhập</a> để thêm sản phẩm vào giỏ hàng
-                            </div>
-                        }
-                    </div>
+                <dt class="col-sm-4">Ảnh sản phẩm:</dt>
+                <dd class="col-sm-8">
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        <img src="@Model.ImageUrl" alt="@Model.Name" style="width: 200px; height: 200px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <span>Không có ảnh</span>
+                    }
+                </dd>
+            </dl>
 
-                    <div class="product-meta">
-                        <div class="d-flex flex-wrap gap-3">
-                            <div>
-                                <span class="text-muted me-2">Mã sản phẩm:</span>
-                                <strong>@Model.Id.ToString("D5")</strong>
-                            </div>
-                            <div>
-                                <span class="text-muted me-2">Tình trạng:</span>
-                                <strong class="text-success">Còn hàng</strong>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Product Tabs -->
-    <div class="row mt-5">
-        <div class="col-12">
-            <div class="card border-0 shadow-sm">
-                <div class="card-body p-4">
-                    <ul class="nav nav-tabs" id="productTabs" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="details-tab" data-bs-toggle="tab" data-bs-target="#details" type="button" role="tab">Thông tin chi tiết</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab">Thông số kỹ thuật</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab">Đánh giá</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content py-3" id="productTabsContent">
-                        <div class="tab-pane fade show active" id="details" role="tabpanel">
-                            <p>@Model.Description</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc, quis aliquam nisl nunc eu nisl.</p>
-                        </div>
-                        <div class="tab-pane fade" id="specs" role="tabpanel">
-                            <table class="table table-bordered">
-                                <tbody>
-                                    <tr>
-                                        <th scope="row" style="width: 30%">Thương hiệu</th>
-                                        <td>Okean Mobile</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Kích thước</th>
-                                        <td>15.5 x 7.5 x 0.8 cm</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Trọng lượng</th>
-                                        <td>180g</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Bảo hành</th>
-                                        <td>12 tháng</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="tab-pane fade" id="reviews" role="tabpanel">
-                            <div class="alert alert-info">
-                                Chưa có đánh giá nào. Hãy là người đầu tiên đánh giá sản phẩm này!
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Related Products -->
-    <div class="row mt-5">
-        <div class="col-12">
-            <h4 class="mb-4">Sản phẩm liên quan</h4>
-            <div class="row">
-                <!-- This should be populated with related products from your database -->
-                <div class="col-md-3 mb-4">
-                    <div class="card h-100">
-                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Related Product">
-                        <div class="card-body">
-                            <h5 class="card-title">Sản phẩm liên quan 1</h5>
-                            <p class="card-text text-danger fw-bold">5.990.000đ</p>
-                        </div>
-                        <div class="card-footer bg-transparent">
-                            <a href="#" class="btn btn-sm btn-outline-primary">Xem chi tiết</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add more related products here -->
+            <div class="mt-3">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Sửa</a>
+                <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
             </div>
         </div>
     </div>
 </div>
-
-@section Scripts {
-    <script>
-        // Change main product image when clicking on thumbnails
-        function changeImage(element) {
-            document.getElementById('mainImage').src = element.src;
-        }
-
-        // Quantity adjustment
-        function changeQuantity(change) {
-            const quantityInput = document.getElementById('quantity');
-            let newValue = parseInt(quantityInput.value) + change;
-            if (newValue < 1) newValue = 1;
-            quantityInput.value = newValue;
-        }
-
-        // Handle form submission with AJAX
-        $(document).ready(function() {
-            $('form[action*="AddToCart"]').submit(function(e) {
-                e.preventDefault();
-                var form = $(this);
-
-                $.ajax({
-                    url: form.attr('action'),
-                    type: 'POST',
-                    data: form.serialize(),
-                    success: function() {
-                        updateCartCount();
-                        showToast('Đã thêm sản phẩm vào giỏ hàng');
-                    },
-                    error: function() {
-                        showToast('Có lỗi xảy ra, vui lòng thử lại', 'danger');
-                    }
-                });
-            });
-        });
-
-        function updateCartCount() {
-            $.get('/Cart/GetCartCount', function(data) {
-                $('.cart-count').text(data.count);
-            });
-        }
-
-        function showToast(message, type = 'success') {
-            // Create toast notification
-            var toast = `<div class="toast align-items-center text-white bg-${type} border-0 position-fixed bottom-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true">
-                            <div class="d-flex">
-                                <div class="toast-body">
-                                    ${message}
-                                </div>
-                                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-                            </div>
-                        </div>`;
-
-            $('.toast-container').append(toast);
-            $('.toast').toast({ autohide: true, delay: 3000 }).toast('show');
-
-            // Remove toast after hiding
-            $('.toast').on('hidden.bs.toast', function() {
-                $(this).remove();
-            });
-        }
-    </script>
-}

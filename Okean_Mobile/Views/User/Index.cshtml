@@ -1,0 +1,42 @@
+@model IEnumerable<Okean_Mobile.Models.User>
+
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <h1>Quản lý người dùng</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Thêm người dùng mới</a>
+    </p>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Tên đăng nhập</th>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Vai trò</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Username</td>
+                    <td>@item.FullName</td>
+                    <td>@item.Email</td>
+                    <td>@item.Role</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Sửa</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Chi tiết</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div> 

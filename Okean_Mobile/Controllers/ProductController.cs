@@ -8,6 +8,9 @@ using Microsoft.Extensions.Logging;
 using System.Linq;
 using System;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Hosting;
+using System.Collections.Generic;
+using System.IO;
 
 namespace Okean_Mobile.Controllers
 {
@@ -15,169 +18,81 @@ namespace Okean_Mobile.Controllers
     public class ProductController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly ILogger<ProductController> _logger;
-        private readonly IWebHostEnvironment _environment;
 
-        public ProductController(ApplicationDbContext context, ILogger<ProductController> logger, IWebHostEnvironment environment)
+        public ProductController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment, ILogger<ProductController> logger)
         {
             _context = context;
+            _webHostEnvironment = webHostEnvironment;
             _logger = logger;
-            _environment = environment;
         }
 
         // GET: Product
         public async Task<IActionResult> Index()
         {
-            try
-            {
-                var products = await _context.Products
-                    .Include(p => p.Category)
-                    .ToListAsync();
-                return View(products);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Lỗi khi lấy danh sách sản phẩm");
-                TempData["ErrorMessage"] = "Có lỗi xảy ra khi lấy danh sách sản phẩm";
-                return View(new List<Product>());
-            }
+            var products = await _context.Products
+                .Include(p => p.Category)
+                .ToListAsync();
+            return View(products);
         }
 
-        // GET: Product/Create
-        public async Task<IActionResult> Create()
-        {
-            try
-            {
-                ViewBag.Categories = await _context.Categories
-                    .Select(c => new SelectListItem
-                    {
-                        Value = c.Id.ToString(),
-                        Text = c.Name
-                    })
-                    .ToListAsync();
-                return View();
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Lỗi khi lấy danh sách danh mục");
-                TempData["ErrorMessage"] = "Có lỗi xảy ra khi lấy danh sách danh mục";
-                return RedirectToAction(nameof(Index));
-            }
-        }
-
-        // POST: Product/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Name,Description,Price,StockQuantity,CategoryId,IsActive")] Product product, IFormFile imageFile)
-        {
-            try
-            {
-                if (!ModelState.IsValid)
-                {
-                    ViewBag.Categories = await _context.Categories
-                        .Select(c => new SelectListItem
-                        {
-                            Value = c.Id.ToString(),
-                            Text = c.Name
-                        })
-                        .ToListAsync();
-                    return View(product);
-                }
-
-                // Xử lý upload hình ảnh
-                var file = Request.Form.Files["imageFile"];
-                if (file != null && file.Length > 0)
-                {
-                    var uploadsFolder = Path.Combine(_environment.WebRootPath, "images", "products");
-                    if (!Directory.Exists(uploadsFolder))
-                    {
-                        Directory.CreateDirectory(uploadsFolder);
-                    }
-
-                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
-                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                    using (var fileStream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await file.CopyToAsync(fileStream);
-                    }
-
-                    product.ImageUrl = "/images/products/" + uniqueFileName;
-                }
-                else
-                {
-                    ModelState.AddModelError("ImageUrl", "Vui lòng chọn hình ảnh sản phẩm");
-                    ViewBag.Categories = await _context.Categories
-                        .Select(c => new SelectListItem
-                        {
-                            Value = c.Id.ToString(),
-                            Text = c.Name
-                        })
-                        .ToListAsync();
-                    return View(product);
-                }
-
-                _context.Add(product);
-                await _context.SaveChangesAsync();
-
-                TempData["SuccessMessage"] = "Thêm sản phẩm thành công!";
-                return RedirectToAction(nameof(Index));
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Lỗi khi thêm sản phẩm mới");
-                TempData["ErrorMessage"] = "Có lỗi xảy ra khi thêm sản phẩm mới";
-                return RedirectToAction(nameof(Index));
-            }
-        }
-
-        // GET: Product/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        // GET: Product/Details/5
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            try
-            {
-                var product = await _context.Products.FindAsync(id);
-                if (product == null)
-                {
-                    return NotFound();
-                }
-
-                ViewBag.Categories = await _context.Categories
-                    .Select(c => new { c.Id, c.Name })
-                    .ToListAsync();
-                return View(product);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Lỗi khi lấy thông tin sản phẩm để chỉnh sửa");
-                TempData["ErrorMessage"] = "Có lỗi xảy ra khi lấy thông tin sản phẩm";
-                return RedirectToAction(nameof(Index));
-            }
-        }
-
-        // POST: Product/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,StockQuantity,CategoryId,IsActive,ImageUrl")] Product product, IFormFile imageFile)
-        {
-            if (id != product.Id)
+            var product = await _context.Products
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (product == null)
             {
                 return NotFound();
             }
 
+            return View(product);
+        }
+
+        // GET: Product/Create
+        public IActionResult Create()
+        {
             try
             {
+                ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
+                return View(new Product());
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading categories for Create view");
+                return View(new Product());
+            }
+        }
+
+        // POST: Product/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Product product, IFormFile imageFile)
+        {
+            try
+            {
+                if (imageFile == null || imageFile.Length == 0)
+                {
+                    ModelState.AddModelError("", "Vui lòng chọn ảnh sản phẩm");
+                }
+
+                if (product.CategoryId == null || product.CategoryId == 0)
+                {
+                    ModelState.AddModelError("", "Vui lòng chọn danh mục");
+                }
+
                 if (ModelState.IsValid)
                 {
-                    // Xử lý upload hình ảnh mới nếu có
                     if (imageFile != null && imageFile.Length > 0)
                     {
-                        var uploadsFolder = Path.Combine(_environment.WebRootPath, "images", "products");
+                        var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images", "products");
                         if (!Directory.Exists(uploadsFolder))
                         {
                             Directory.CreateDirectory(uploadsFolder);
@@ -191,14 +106,79 @@ namespace Okean_Mobile.Controllers
                             await imageFile.CopyToAsync(fileStream);
                         }
 
-                        // Xóa hình ảnh cũ nếu có
+                        product.ImageUrl = "/images/products/" + uniqueFileName;
+                    }
+
+                    _context.Add(product);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error creating product");
+                ModelState.AddModelError("", "Có lỗi xảy ra khi thêm sản phẩm. Vui lòng thử lại.");
+            }
+
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
+            return View(product);
+        }
+
+        // GET: Product/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
+            return View(product);
+        }
+
+        // POST: Product/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,StockQuantity,CategoryId,ImageUrl")] Product product, IFormFile imageFile)
+        {
+            if (id != product.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    if (imageFile != null && imageFile.Length > 0)
+                    {
+                        var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images", "products");
+                        if (!Directory.Exists(uploadsFolder))
+                        {
+                            Directory.CreateDirectory(uploadsFolder);
+                        }
+
+                        // Delete old image if exists
                         if (!string.IsNullOrEmpty(product.ImageUrl))
                         {
-                            var oldImagePath = Path.Combine(_environment.WebRootPath, product.ImageUrl.TrimStart('/'));
+                            var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, product.ImageUrl.TrimStart('/'));
                             if (System.IO.File.Exists(oldImagePath))
                             {
                                 System.IO.File.Delete(oldImagePath);
                             }
+                        }
+
+                        var uniqueFileName = Guid.NewGuid().ToString() + "_" + imageFile.FileName;
+                        var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await imageFile.CopyToAsync(fileStream);
                         }
 
                         product.ImageUrl = "/images/products/" + uniqueFileName;
@@ -206,32 +186,21 @@ namespace Okean_Mobile.Controllers
 
                     _context.Update(product);
                     await _context.SaveChangesAsync();
-
-                    TempData["SuccessMessage"] = "Cập nhật sản phẩm thành công!";
-                    return RedirectToAction(nameof(Index));
                 }
-            }
-            catch (DbUpdateConcurrencyException ex)
-            {
-                _logger.LogError(ex, "Lỗi đồng thời khi cập nhật sản phẩm");
-                if (!ProductExists(product.Id))
+                catch (DbUpdateConcurrencyException)
                 {
-                    return NotFound();
+                    if (!ProductExists(product.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
                 }
-                else
-                {
-                    TempData["ErrorMessage"] = "Có lỗi xảy ra khi cập nhật sản phẩm";
-                }
+                return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Lỗi khi cập nhật sản phẩm");
-                TempData["ErrorMessage"] = "Có lỗi xảy ra khi cập nhật sản phẩm";
-            }
-
-            ViewBag.Categories = await _context.Categories
-                .Select(c => new { c.Id, c.Name })
-                .ToListAsync();
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
             return View(product);
         }
 
@@ -243,25 +212,15 @@ namespace Okean_Mobile.Controllers
                 return NotFound();
             }
 
-            try
+            var product = await _context.Products
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (product == null)
             {
-                var product = await _context.Products
-                    .Include(p => p.Category)
-                    .FirstOrDefaultAsync(m => m.Id == id);
-
-                if (product == null)
-                {
-                    return NotFound();
-                }
-
-                return View(product);
+                return NotFound();
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Lỗi khi lấy thông tin sản phẩm để xóa");
-                TempData["ErrorMessage"] = "Có lỗi xảy ra khi lấy thông tin sản phẩm";
-                return RedirectToAction(nameof(Index));
-            }
+
+            return View(product);
         }
 
         // POST: Product/Delete/5
@@ -269,18 +228,13 @@ namespace Okean_Mobile.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            try
+            var product = await _context.Products.FindAsync(id);
+            if (product != null)
             {
-                var product = await _context.Products.FindAsync(id);
-                if (product == null)
-                {
-                    return NotFound();
-                }
-
-                // Xóa hình ảnh nếu có
+                // Delete image file if exists
                 if (!string.IsNullOrEmpty(product.ImageUrl))
                 {
-                    var imagePath = Path.Combine(_environment.WebRootPath, product.ImageUrl.TrimStart('/'));
+                    var imagePath = Path.Combine(_webHostEnvironment.WebRootPath, product.ImageUrl.TrimStart('/'));
                     if (System.IO.File.Exists(imagePath))
                     {
                         System.IO.File.Delete(imagePath);
@@ -289,13 +243,6 @@ namespace Okean_Mobile.Controllers
 
                 _context.Products.Remove(product);
                 await _context.SaveChangesAsync();
-
-                TempData["SuccessMessage"] = "Xóa sản phẩm thành công!";
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Lỗi khi xóa sản phẩm");
-                TempData["ErrorMessage"] = "Có lỗi xảy ra khi xóa sản phẩm";
             }
             return RedirectToAction(nameof(Index));
         }

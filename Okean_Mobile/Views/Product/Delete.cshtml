@@ -1,0 +1,49 @@
+@model Okean_Mobile.Models.Product
+
+@{
+    ViewData["Title"] = "Xóa sản phẩm";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <h1>Xóa sản phẩm</h1>
+
+    <h3>Bạn có chắc chắn muốn xóa sản phẩm này?</h3>
+    <div>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-4">Tên sản phẩm:</dt>
+            <dd class="col-sm-8">@Model.Name</dd>
+
+            <dt class="col-sm-4">Mô tả:</dt>
+            <dd class="col-sm-8">@Model.Description</dd>
+
+            <dt class="col-sm-4">Giá:</dt>
+            <dd class="col-sm-8">@Model.Price.ToString("N0") đ</dd>
+
+            <dt class="col-sm-4">Số lượng:</dt>
+            <dd class="col-sm-8">@Model.StockQuantity</dd>
+
+            <dt class="col-sm-4">Danh mục:</dt>
+            <dd class="col-sm-8">@(Model.Category?.Name ?? "Chưa phân loại")</dd>
+
+            <dt class="col-sm-4">Ảnh sản phẩm:</dt>
+            <dd class="col-sm-8">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" alt="@Model.Name" style="width: 200px; height: 200px; object-fit: cover;" />
+                }
+                else
+                {
+                    <span>Không có ảnh</span>
+                }
+            </dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Xóa" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div> 
