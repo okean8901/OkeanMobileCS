@@ -1,0 +1,144 @@
+@model IEnumerable<Okean_Mobile.Models.Order>
+
+@{
+    ViewData["Title"] = "Quản lý đơn hàng";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <h1 class="h3 mb-4 text-gray-800">@ViewData["Title"]</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Danh sách đơn hàng</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Mã đơn hàng</th>
+                            <th>Khách hàng</th>
+                            <th>Ngày đặt</th>
+                            <th>Tổng tiền</th>
+                            <th>Trạng thái</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model)
+                        {
+                            <tr>
+                                <td>@order.Id</td>
+                                <td>@order.User.Username</td>
+                                <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                                <td>@order.OrderDetails.Sum(od => od.Quantity * od.Price).ToString("N0") đ</td>
+                                <td>
+                                    <span class="badge badge-@(order.Status == "Completed" ? "success" : 
+                                                          order.Status == "Cancelled" ? "danger" : 
+                                                          order.Status == "Processing" ? "info" : 
+                                                          order.Status == "Shipped" ? "primary" : "warning")">
+                                        @switch (order.Status)
+                                        {
+                                            case "Pending":
+                                                @:Đang chờ xử lý
+                                                break;
+                                            case "Processing":
+                                                @:Đang xử lý
+                                                break;
+                                            case "Shipped":
+                                                @:Đang giao hàng
+                                                break;
+                                            case "Completed":
+                                                @:Hoàn thành
+                                                break;
+                                            case "Cancelled":
+                                                @:Đã hủy
+                                                break;
+                                            default:
+                                                @order.Status
+                                                break;
+                                        }
+                                    </span>
+                                </td>
+                                <td>
+                                    <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-info btn-sm">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    @if (order.Status != "Completed" && order.Status != "Cancelled")
+                                    {
+                                        <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#updateStatusModal" 
+                                                data-order-id="@order.Id" data-current-status="@order.Status">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <form asp-action="Cancel" asp-route-id="@order.Id" method="post" class="d-inline">
+                                            @Html.AntiForgeryToken()
+                                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc chắn muốn hủy đơn hàng này?')">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </form>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal cập nhật trạng thái -->
+<div class="modal fade" id="updateStatusModal" tabindex="-1" aria-labelledby="updateStatusModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateStatusModalLabel">Cập nhật trạng thái đơn hàng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-action="UpdateStatus" method="post">
+                @Html.AntiForgeryToken()
+                <div class="modal-body">
+                    <input type="hidden" name="id" id="orderId" />
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Trạng thái</label>
+                        <select class="form-select" id="status" name="status">
+                            <option value="Pending">Đang chờ xử lý</option>
+                            <option value="Processing">Đang xử lý</option>
+                            <option value="Shipped">Đang giao hàng</option>
+                            <option value="Completed">Hoàn thành</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Cập nhật</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#updateStatusModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var orderId = button.data('order-id');
+                var currentStatus = button.data('current-status');
+                
+                var modal = $(this);
+                modal.find('#orderId').val(orderId);
+                modal.find('#status').val(currentStatus);
+            });
+        });
+    </script>
+} 

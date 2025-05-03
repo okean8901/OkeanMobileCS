@@ -116,13 +116,35 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <a href="@Url.Action("Index", "Order")" class="btn btn-info btn-block">
+                            <a href="@Url.Action("Index", "AdminOrder")" class="btn btn-info btn-block">
                                 <i class="fas fa-shopping-cart"></i> Danh sách đơn hàng
                             </a>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <a href="@Url.Action("Create", "Order")" class="btn btn-warning btn-block">
-                                <i class="fas fa-plus"></i> Tạo đơn hàng mới
+                            <a href="@Url.Action("Index", "User")" class="btn btn-warning btn-block">
+                                <i class="fas fa-users"></i> Quản lý người dùng
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Quản lý danh mục</h6>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <a href="@Url.Action("Index", "Category")" class="btn btn-primary btn-block">
+                                <i class="fas fa-tags"></i> Danh sách danh mục
+                            </a>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <a href="@Url.Action("Create", "Category")" class="btn btn-success btn-block">
+                                <i class="fas fa-plus"></i> Thêm danh mục mới
                             </a>
                         </div>
                     </div>
