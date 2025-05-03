@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "ContainingType": "Okean_Mobile.Controllers.ChatbotController",
+    "Method": "Chat",
+    "RelativePath": "api/Chatbot/chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Okean_Mobile.Controllers.ChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Okean_Mobile.Controllers.ChatbotController",
+    "Method": "SpeechToText",
+    "RelativePath": "api/Chatbot/speech-to-text",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "audioFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,3 +1,4 @@
+wwwroot\css\chatbot.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\products\24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png
@@ -10,6 +11,7 @@ wwwroot\images\products\8346411e-29f4-4b23-9d45-0ecd89787a90_484967871_695434816
 wwwroot\images\products\dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.jpg
 wwwroot\images\products\e8de160f-4367-4339-85b9-c61209c4465d_DSC07623.jpg
 wwwroot\images\products\fd29f716-14ce-4244-85b8-7d387aa53408_IMG_1083.jpg
+wwwroot\js\chatbot.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
