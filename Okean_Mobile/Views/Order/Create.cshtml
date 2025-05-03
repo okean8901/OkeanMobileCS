@@ -8,20 +8,36 @@
 <div class="container mt-4">
     <h1 class="mb-4">Tạo đơn hàng</h1>
 
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
     <div class="row">
         <div class="col-md-8">
-            <form asp-action="Create">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <form asp-action="Create" method="post">
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
 
                 <div class="mb-3">
                     <label asp-for="ShippingAddress" class="form-label">Địa chỉ giao hàng</label>
-                    <input asp-for="ShippingAddress" class="form-control" />
+                    <input asp-for="ShippingAddress" class="form-control" required />
                     <span asp-validation-for="ShippingAddress" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label asp-for="PhoneNumber" class="form-label">Số điện thoại</label>
-                    <input asp-for="PhoneNumber" class="form-control" />
+                    <input asp-for="PhoneNumber" class="form-control" required />
                     <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                 </div>
 
