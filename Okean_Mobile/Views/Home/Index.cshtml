@@ -1,8 +1,74 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang chủ - Okean Mobile";
+    Layout = "_LayoutWithFooter";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Hero Section -->
+<div class="hero-section bg-primary text-white py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-4 fw-bold mb-4">Chào mừng đến với Okean Mobile</h1>
+                <p class="lead mb-4">Khám phá thế giới di động với những sản phẩm chất lượng cao và giá cả phải chăng</p>
+                <a asp-controller="Product" asp-action="Index" class="btn btn-light btn-lg">Xem sản phẩm</a>
+            </div>
+            <div class="col-md-6">
+                <img src="~/images/hero-image.png" alt="Smartphones" class="img-fluid rounded shadow-lg" />
+            </div>
+        </div>
+    </div>
 </div>
+
+<!-- Featured Categories -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Danh mục nổi bật</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/smartphone-category.jpg" class="card-img-top" alt="Smartphones">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Điện thoại thông minh</h5>
+                    <a asp-controller="Product" asp-action="Index" asp-route-category="smartphone" class="btn btn-outline-primary">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/tablet-category.jpg" class="card-img-top" alt="Tablets">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Máy tính bảng</h5>
+                    <a asp-controller="Product" asp-action="Index" asp-route-category="tablet" class="btn btn-outline-primary">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="~/images/accessory-category.jpg" class="card-img-top" alt="Accessories">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Phụ kiện</h5>
+                    <a asp-controller="Product" asp-action="Index" asp-route-category="accessory" class="btn btn-outline-primary">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hero-section {
+        background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+        padding: 4rem 0;
+    }
+
+    .card {
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+</style>

@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Okean_Mobile.Models;
+using System.Security.Claims;
 
 namespace Okean_Mobile.Controllers
 {
@@ -16,6 +17,17 @@ namespace Okean_Mobile.Controllers
 
         public IActionResult Index()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                if (User.IsInRole("Admin"))
+                {
+                    return RedirectToAction("Index", "AdminHome");
+                }
+                else if (User.IsInRole("Customer"))
+                {
+                    return RedirectToAction("Index", "CustomerHome");
+                }
+            }
             return View();
         }
 

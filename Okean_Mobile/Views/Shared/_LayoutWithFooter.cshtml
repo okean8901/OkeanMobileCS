@@ -1,0 +1,11 @@
+@{
+    Layout = "_Layout";
+}
+
+@RenderBody()
+
+@await Html.PartialAsync("_Footer")
+
+@section Scripts {
+    @await RenderSectionAsync("Scripts", required: false)
+} 

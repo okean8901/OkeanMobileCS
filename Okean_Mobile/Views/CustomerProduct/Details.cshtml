@@ -1,0 +1,71 @@
+@model Okean_Mobile.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <img src="@Model.ImageUrl" class="img-fluid rounded" alt="@Model.Name">
+            }
+            else
+            {
+                <div class="bg-light d-flex align-items-center justify-content-center" style="height: 400px;">
+                    <span class="text-muted">Không có ảnh</span>
+                </div>
+            }
+        </div>
+        <div class="col-md-6">
+            <h1>@Model.Name</h1>
+            <p class="text-muted">Danh mục: @(Model.Category?.Name ?? "Chưa phân loại")</p>
+            <h3 class="text-danger mb-4">@Model.Price.ToString("N0") đ</h3>
+            
+            <div class="mb-4">
+                <h5>Mô tả sản phẩm</h5>
+                <p>@Model.Description</p>
+            </div>
+
+            <div class="mb-4">
+                <h5>Tình trạng</h5>
+                <p>Số lượng còn lại: @Model.StockQuantity</p>
+            </div>
+
+            <div class="d-flex gap-2">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-arrow-left"></i> Quay lại
+                </a>
+                <button class="btn btn-success add-to-cart" data-product-id="@Model.Id">
+                    <i class="fas fa-shopping-cart"></i> Thêm vào giỏ hàng
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('.add-to-cart').click(function() {
+                var productId = $(this).data('product-id');
+                $.post('/Cart/AddToCart', { productId: productId, quantity: 1 })
+                    .done(function(response) {
+                        if (response.success) {
+                            // Update cart count
+                            $('.cart-count').text(response.cartCount);
+                            // Show success message
+                            alert('Đã thêm sản phẩm vào giỏ hàng');
+                        } else {
+                            alert('Có lỗi xảy ra: ' + response.message);
+                        }
+                    })
+                    .fail(function() {
+                        alert('Có lỗi xảy ra khi thêm vào giỏ hàng');
+                    });
+            });
+        });
+    </script>
+} 

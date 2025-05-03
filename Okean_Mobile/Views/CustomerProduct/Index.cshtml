@@ -1,0 +1,82 @@
+@model IEnumerable<Okean_Mobile.Models.Product>
+
+@{
+    ViewData["Title"] = "Sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Sản phẩm</h1>
+
+    <!-- Category Filter -->
+    <div class="mb-4">
+        <div class="btn-group" role="group">
+            <a asp-action="Index" class="btn btn-outline-primary @(ViewBag.SelectedCategory == null ? "active" : "")">
+                Tất cả
+            </a>
+            @foreach (var category in ViewBag.Categories)
+            {
+                <a asp-action="Index" asp-route-categoryId="@category.Id" 
+                   class="btn btn-outline-primary @(ViewBag.SelectedCategory == category.Id ? "active" : "")">
+                    @category.Name
+                </a>
+            }
+        </div>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 200px; object-fit: cover;">
+                    }
+                    else
+                    {
+                        <div class="card-img-top bg-light d-flex align-items-center justify-content-center" style="height: 200px;">
+                            <span class="text-muted">Không có ảnh</span>
+                        </div>
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text text-muted">@(item.Category?.Name ?? "Chưa phân loại")</p>
+                        <p class="card-text text-danger fw-bold">@item.Price.ToString("N0") đ</p>
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Xem chi tiết</a>
+                            <button class="btn btn-success add-to-cart" data-product-id="@item.Id">
+                                <i class="fas fa-shopping-cart"></i> Thêm vào giỏ
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('.add-to-cart').click(function() {
+                var productId = $(this).data('product-id');
+                $.post('/Cart/AddToCart', { productId: productId, quantity: 1 })
+                    .done(function(response) {
+                        if (response.success) {
+                            // Update cart count
+                            $('.cart-count').text(response.cartCount);
+                            // Show success message
+                            alert('Đã thêm sản phẩm vào giỏ hàng');
+                        } else {
+                            alert('Có lỗi xảy ra: ' + response.message);
+                        }
+                    })
+                    .fail(function() {
+                        alert('Có lỗi xảy ra khi thêm vào giỏ hàng');
+                    });
+            });
+        });
+    </script>
+} 

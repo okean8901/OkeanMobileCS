@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D4mgsV/pfDo=",
+  "dgSpecHash": "v95gkt4tC0M=",
   "success": true,
-  "projectFilePath": "T:\\Source code c#\\Okean_Mobile\\Okean_Mobile\\Okean_Mobile.csproj",
+  "projectFilePath": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Okean_Mobile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trang\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\trang\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
