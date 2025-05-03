@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|t:\\source code c#\\okean_mobile\\okeanmobilecs\\okean_mobile\\migrations\\20250503081310_payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|solutionrelative:okean_mobile\\migrations\\20250503081310_payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|t:\\source code c#\\okean_mobile\\okeanmobilecs\\okean_mobile\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|solutionrelative:okean_mobile\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -282,7 +286,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -314,7 +318,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "20250503081310_payment.cs",
+              "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Migrations\\20250503081310_payment.cs",
+              "RelativeDocumentMoniker": "Okean_Mobile\\Migrations\\20250503081310_payment.cs",
+              "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Migrations\\20250503081310_payment.cs",
+              "RelativeToolTip": "Okean_Mobile\\Migrations\\20250503081310_payment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T08:13:11.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\CustomerProduct\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\CustomerProduct\\Index.cshtml",
@@ -327,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Account\\Login.cshtml",
@@ -340,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Category.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\Category.cs",
@@ -353,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "20250428103223_seedcate2.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Migrations\\20250428103223_seedcate2.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Migrations\\20250428103223_seedcate2.cs",
@@ -366,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Account\\Register.cshtml",
@@ -379,20 +396,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Order\\Details.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Order\\Details.cshtml",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Order\\Details.cshtml",
               "RelativeToolTip": "Okean_Mobile\\Views\\Order\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-29T10:15:09.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\OrderDetail.cs",
@@ -405,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CartController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\CartController.cs",
@@ -418,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OrderController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\OrderController.cs",
@@ -431,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "20250502032650_AddUserTimestamps.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Migrations\\20250502032650_AddUserTimestamps.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Migrations\\20250502032650_AddUserTimestamps.cs",
@@ -444,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\CategoryController.cs",
@@ -457,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AdminHomeController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Controllers\\AdminHomeController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\AdminHomeController.cs",
@@ -470,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "site.js",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\js\\site.js",
@@ -483,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "5eab6fed-dca7-4584-9b38-bffc4b6c4e99__MG_1034.jpg",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\products\\5eab6fed-dca7-4584-9b38-bffc4b6c4e99__MG_1034.jpg",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\images\\products\\5eab6fed-dca7-4584-9b38-bffc4b6c4e99__MG_1034.jpg",
@@ -494,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "57ce1939-f5ee-4e49-9fb1-6c107198409a_IMG_1148.jpg",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\products\\57ce1939-f5ee-4e49-9fb1-6c107198409a_IMG_1148.jpg",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\images\\products\\57ce1939-f5ee-4e49-9fb1-6c107198409a_IMG_1148.jpg",
@@ -505,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "24c0f011-0a1e-4b24-b408-6896b50fb3be_\u1EA2nh ch\u1EE5p m\u00E0n h\u00ECnh 2025-04-19 110230.png",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\products\\24c0f011-0a1e-4b24-b408-6896b50fb3be_\u1EA2nh ch\u1EE5p m\u00E0n h\u00ECnh 2025-04-19 110230.png",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\images\\products\\24c0f011-0a1e-4b24-b408-6896b50fb3be_\u1EA2nh ch\u1EE5p m\u00E0n h\u00ECnh 2025-04-19 110230.png",
@@ -516,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AccountController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\AccountController.cs",
@@ -529,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AdminController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\AdminController.cs",
@@ -542,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "site.css",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\css\\site.css",
@@ -555,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\AdminHome\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\AdminHome\\Index.cshtml",
@@ -568,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "_LayoutWithFooter.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Shared\\_LayoutWithFooter.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Shared\\_LayoutWithFooter.cshtml",
@@ -581,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Shared\\_Layout.cshtml",
@@ -594,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Category\\Index.cshtml",
@@ -607,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Product\\Index.cshtml",
@@ -620,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Home\\Index.cshtml",
@@ -633,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Product\\Edit.cshtml",
@@ -646,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Product\\Create.cshtml",
@@ -659,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "_Footer.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Shared\\_Footer.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Shared\\_Footer.cshtml",
@@ -672,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Create.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\User\\Create.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\User\\Create.cshtml",
@@ -685,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Details.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\User\\Details.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\User\\Details.cshtml",
@@ -698,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\User\\Edit.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\User\\Edit.cshtml",
@@ -711,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\User\\Delete.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\User\\Delete.cshtml",
@@ -724,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "EmptyCategory.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Product\\EmptyCategory.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Product\\EmptyCategory.cshtml",
@@ -737,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ProductController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\ProductController.cs",
@@ -750,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Details.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Product\\Details.cshtml",
@@ -763,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Product\\Delete.cshtml",
@@ -776,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "20250430065629_urlimg.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Migrations\\20250430065629_urlimg.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Migrations\\20250430065629_urlimg.cs",
@@ -789,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Category.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Admin\\Category.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Admin\\Category.cshtml",
@@ -802,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Product.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\Product.cs",
@@ -815,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Implementation\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Implementation\\ProductRepository.cs",
@@ -828,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Create.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Category\\Create.cshtml",
@@ -841,7 +858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Category\\Delete.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Category\\Delete.cshtml",
@@ -854,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "20250430031836_AddProductFields.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Migrations\\20250430031836_AddProductFields.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Migrations\\20250430031836_AddProductFields.cs",
@@ -867,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Category\\Edit.cshtml",
@@ -880,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Product.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Admin\\Product.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Admin\\Product.cshtml",
@@ -893,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Admin\\Index.cshtml",
@@ -906,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Implementation\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Implementation\\CategoryRepository.cs",
@@ -919,7 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "appsettings.json",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\appsettings.json",
               "RelativeDocumentMoniker": "Okean_Mobile\\appsettings.json",
@@ -932,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Program.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Program.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Program.cs",
@@ -945,7 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "ICartRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Interfaces\\ICartRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Interfaces\\ICartRepository.cs",
@@ -958,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Implementation\\CartRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Implementation\\CartRepository.cs",
@@ -971,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Cart\\Index.cshtml",
@@ -984,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Order\\Index.cshtml",
@@ -997,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "CartItem.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\CartItem.cs",
@@ -1010,7 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Implementation\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Implementation\\OrderRepository.cs",
@@ -1023,7 +1040,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Interfaces\\ICategoryRepository.cs",
@@ -1036,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Interfaces\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Interfaces\\IOrderRepository.cs",
@@ -1049,7 +1066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "Order.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\Order.cs",
@@ -1062,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Interfaces\\IProductRepository.cs",
@@ -1075,7 +1092,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "HomeController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\HomeController.cs",
@@ -1088,7 +1105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Implementation\\UserRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Implementation\\UserRepository.cs",
@@ -1101,7 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Interfaces\\IUserRepository.cs",
@@ -1114,7 +1131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Models\\ViewModel\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\ViewModel\\LoginViewModel.cs",
@@ -1127,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Models\\ViewModel\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\ViewModel\\RegisterViewModel.cs",
@@ -1140,7 +1157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "User.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Models\\User.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\User.cs",
@@ -1153,7 +1170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "Okean_Mobile.csproj",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Okean_Mobile.csproj",
               "RelativeDocumentMoniker": "Okean_Mobile\\Okean_Mobile.csproj",
@@ -1165,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "20250428110300_log.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Migrations\\20250428110300_log.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Migrations\\20250428110300_log.cs",
@@ -1178,7 +1195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "20250428102942_seedcategory.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\Migrations\\20250428102942_seedcategory.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Migrations\\20250428102942_seedcategory.cs",

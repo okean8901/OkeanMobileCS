@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Okean_Mobile.Data;
 using Okean_Mobile.Models;
+using Okean_Mobile.Services;
 using System.Security.Claims;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace Okean_Mobile.Controllers
 {
@@ -13,10 +15,12 @@ namespace Okean_Mobile.Controllers
     public class OrderController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly Okean_Mobile.Services.VNPayService _vnPayService;
 
-        public OrderController(ApplicationDbContext context)
+        public OrderController(ApplicationDbContext context, Okean_Mobile.Services.VNPayService vnPayService)
         {
             _context = context;
+            _vnPayService = vnPayService;
         }
 
         // GET: Order
@@ -44,11 +48,13 @@ namespace Okean_Mobile.Controllers
 
             if (!cartItems.Any())
             {
+                TempData["ErrorMessage"] = "Giỏ hàng của bạn đang trống!";
                 return RedirectToAction(nameof(Index));
             }
 
             // Calculate subtotal
             ViewBag.Subtotal = cartItems.Sum(c => c.Quantity * c.Product.Price);
+            ViewBag.CartItems = cartItems;
 
             return View();
         }
@@ -56,7 +62,7 @@ namespace Okean_Mobile.Controllers
         // POST: Order/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ShippingAddress,PhoneNumber,Note")] Order order)
+        public async Task<IActionResult> Create([Bind("ShippingAddress,PhoneNumber,Note,PaymentMethod")] Order order)
         {
             try
             {
@@ -74,6 +80,7 @@ namespace Okean_Mobile.Controllers
 
                 // Calculate subtotal
                 ViewBag.Subtotal = cartItems.Sum(c => c.Quantity * c.Product.Price);
+                ViewBag.CartItems = cartItems;
 
                 // Clear ModelState errors for fields we're not binding
                 ModelState.Remove("User");
@@ -125,6 +132,15 @@ namespace Okean_Mobile.Controllers
                 _context.CartItems.RemoveRange(cartItems);
                 await _context.SaveChangesAsync();
 
+                // Handle payment based on selected method
+                if (order.PaymentMethod == "VNPay")
+                {
+                    decimal amount = order.OrderDetails.Sum(od => od.Quantity * od.Price);
+                    string orderInfo = $"Thanh toán đơn hàng #{order.Id}";
+                    string paymentUrl = _vnPayService.CreatePaymentUrl(order.Id, amount, orderInfo);
+                    return Redirect(paymentUrl);
+                }
+
                 TempData["SuccessMessage"] = "Đơn hàng đã được tạo thành công!";
                 return RedirectToAction(nameof(Details), new { id = order.Id });
             }
@@ -155,6 +171,76 @@ namespace Okean_Mobile.Controllers
             }
 
             return View(order);
+        }
+
+        // GET: Order/Payment/5
+        public async Task<IActionResult> Payment(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var order = await _context.Orders
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Product)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            return View(order);
+        }
+
+        // POST: Order/Payment/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Payment(int id)
+        {
+            var order = await _context.Orders
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Product)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            decimal amount = order.OrderDetails.Sum(od => od.Quantity * od.Price);
+            string orderInfo = $"Thanh toán đơn hàng #{order.Id}";
+            string paymentUrl = _vnPayService.CreatePaymentUrl(order.Id, amount, orderInfo);
+
+            return Redirect(paymentUrl);
+        }
+
+        // GET: Order/PaymentConfirm
+        public async Task<IActionResult> PaymentConfirm()
+        {
+            string queryString = Request.QueryString.Value;
+            bool isValid = _vnPayService.ValidatePayment(queryString);
+
+            if (isValid)
+            {
+                var parameters = HttpUtility.ParseQueryString(queryString);
+                int orderId = int.Parse(parameters["vnp_TxnRef"]);
+
+                var order = await _context.Orders.FindAsync(orderId);
+                if (order != null)
+                {
+                    order.Status = "Processing";
+                    _context.Update(order);
+                    await _context.SaveChangesAsync();
+
+                    TempData["SuccessMessage"] = "Thanh toán thành công! Đơn hàng của bạn đang được xử lý.";
+                    return RedirectToAction(nameof(Details), new { id = orderId });
+                }
+            }
+
+            TempData["ErrorMessage"] = "Thanh toán thất bại. Vui lòng thử lại.";
+            return RedirectToAction(nameof(Index));
         }
     }
 }

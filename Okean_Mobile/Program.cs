@@ -5,6 +5,7 @@ using Okean_Mobile.Data;
 using Okean_Mobile.Repositories;
 using Okean_Mobile.Repositories.Implementation;
 using Okean_Mobile.Repositories.Interfaces;
+using Okean_Mobile.Services;
 
 namespace Okean_Mobile
 {
@@ -27,6 +28,7 @@ namespace Okean_Mobile
             builder.Services.AddScoped<IOrderRepository, OrderRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<ICartRepository, CartRepository>();
+            builder.Services.AddScoped<Okean_Mobile.Services.VNPayService>();
 
             // Configure cookie authentication
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

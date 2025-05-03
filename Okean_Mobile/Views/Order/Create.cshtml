@@ -26,55 +26,91 @@
 
     <div class="row">
         <div class="col-md-8">
-            <form asp-action="Create" method="post">
-                <div asp-validation-summary="All" class="text-danger mb-3"></div>
-
-                <div class="mb-3">
-                    <label asp-for="ShippingAddress" class="form-label">Địa chỉ giao hàng</label>
-                    <input asp-for="ShippingAddress" class="form-control" required />
-                    <span asp-validation-for="ShippingAddress" class="text-danger"></span>
-                </div>
-
-                <div class="mb-3">
-                    <label asp-for="PhoneNumber" class="form-label">Số điện thoại</label>
-                    <input asp-for="PhoneNumber" class="form-control" required />
-                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-                </div>
-
-                <div class="mb-3">
-                    <label asp-for="Note" class="form-label">Ghi chú</label>
-                    <textarea asp-for="Note" class="form-control" rows="3"></textarea>
-                    <span asp-validation-for="Note" class="text-danger"></span>
-                </div>
-
-                <div class="d-flex justify-content-between">
-                    <a asp-controller="Cart" asp-action="Index" class="btn btn-outline-secondary">
-                        <i class="fas fa-arrow-left me-2"></i>Quay lại giỏ hàng
-                    </a>
-                    <button type="submit" class="btn btn-primary">
-                        <i class="fas fa-check me-2"></i>Xác nhận đơn hàng
-                    </button>
-                </div>
-            </form>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
+            <div class="card mb-4">
                 <div class="card-header">
                     <h5 class="card-title mb-0">Thông tin đơn hàng</h5>
                 </div>
                 <div class="card-body">
-                    <div class="d-flex justify-content-between mb-2">
-                        <span>Tạm tính:</span>
-                        <span class="subtotal">@ViewBag.Subtotal.ToString("N0") đ</span>
-                    </div>
-                    <div class="d-flex justify-content-between mb-2">
-                        <span>Phí vận chuyển:</span>
-                        <span>0 đ</span>
-                    </div>
-                    <hr>
-                    <div class="d-flex justify-content-between">
-                        <strong>Tổng cộng:</strong>
-                        <strong class="total">@ViewBag.Subtotal.ToString("N0") đ</strong>
+                    <form asp-action="Create" method="post">
+                        @Html.AntiForgeryToken()
+                        <div class="mb-3">
+                            <label asp-for="ShippingAddress" class="form-label">Địa chỉ giao hàng</label>
+                            <input asp-for="ShippingAddress" class="form-control" required />
+                            <span asp-validation-for="ShippingAddress" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="PhoneNumber" class="form-label">Số điện thoại</label>
+                            <input asp-for="PhoneNumber" class="form-control" required />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Note" class="form-label">Ghi chú</label>
+                            <textarea asp-for="Note" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="Note" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Phương thức thanh toán</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" asp-for="PaymentMethod" value="COD" checked>
+                                <label class="form-check-label">
+                                    Thanh toán khi nhận hàng (COD)
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" asp-for="PaymentMethod" value="VNPay">
+                                <label class="form-check-label">
+                                    Thanh toán qua VNPay
+                                </label>
+                            </div>
+                            <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-check me-2"></i>Xác nhận đơn hàng
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">
+                                <i class="fas fa-arrow-left me-2"></i>Quay lại
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Chi tiết giỏ hàng</h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th>Đơn giá</th>
+                                    <th>Số lượng</th>
+                                    <th>Thành tiền</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in ViewBag.CartItems)
+                                {
+                                    <tr>
+                                        <td>@item.Product.Name</td>
+                                        <td>@item.Product.Price.ToString("N0") đ</td>
+                                        <td>@item.Quantity</td>
+                                        <td>@((item.Quantity * item.Product.Price).ToString("N0")) đ</td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" class="text-end"><strong>Tổng cộng:</strong></td>
+                                    <td><strong>@ViewBag.Subtotal.ToString("N0") đ</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
                     </div>
                 </div>
             </div>
