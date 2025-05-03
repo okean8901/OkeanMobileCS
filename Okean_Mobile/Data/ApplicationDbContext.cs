@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Okean_Mobile.Models;
 
 namespace Okean_Mobile.Data
@@ -26,7 +26,16 @@ namespace Okean_Mobile.Data
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Email)
                 .IsUnique();
-        }
 
+            // Configure decimal precision for Product
+            modelBuilder.Entity<Product>()
+                .Property(p => p.Price)
+                .HasPrecision(18, 2);
+
+            // Configure decimal precision for OrderDetail
+            modelBuilder.Entity<OrderDetail>()
+                .Property(od => od.Price)
+                .HasPrecision(18, 2);
+        }
     }
 }

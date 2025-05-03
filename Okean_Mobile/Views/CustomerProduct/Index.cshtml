@@ -9,17 +9,34 @@
     <h1 class="mb-4">Sản phẩm</h1>
 
     <!-- Category Filter -->
-    <div class="mb-4">
-        <div class="btn-group" role="group">
-            <a asp-action="Index" class="btn btn-outline-primary @(ViewBag.SelectedCategory == null ? "active" : "")">
-                Tất cả
-            </a>
+    <div class="category-section mb-5">
+        <h2 class="text-center mb-4">Danh mục sản phẩm</h2>
+        <div class="row g-4">
+            <div class="col-6 col-md-3">
+                <a asp-action="Index" class="category-card @(ViewBag.SelectedCategory == null ? "active" : "")">
+                    <div class="category-card-inner">
+                        <div class="category-icon">
+                            <i class="fas fa-th-large"></i>
+                        </div>
+                        <h3>Tất cả</h3>
+                        <p>Xem tất cả sản phẩm</p>
+                    </div>
+                </a>
+            </div>
             @foreach (var category in ViewBag.Categories)
             {
-                <a asp-action="Index" asp-route-categoryId="@category.Id" 
-                   class="btn btn-outline-primary @(ViewBag.SelectedCategory == category.Id ? "active" : "")">
-                    @category.Name
-                </a>
+                <div class="col-6 col-md-3">
+                    <a asp-action="Index" asp-route-categoryId="@category.Id" 
+                       class="category-card @(ViewBag.SelectedCategory == category.Id ? "active" : "")">
+                        <div class="category-card-inner">
+                            <div class="category-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>@category.Name</h3>
+                            <p>@category.Description</p>
+                        </div>
+                    </a>
+                </div>
             }
         </div>
     </div>
@@ -29,7 +46,7 @@
         @foreach (var item in Model)
         {
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 product-card">
                     @if (!string.IsNullOrEmpty(item.ImageUrl))
                     {
                         <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 200px; object-fit: cover;">
@@ -46,9 +63,14 @@
                         <p class="card-text text-danger fw-bold">@item.Price.ToString("N0") đ</p>
                         <div class="d-flex justify-content-between">
                             <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Xem chi tiết</a>
-                            <button class="btn btn-success add-to-cart" data-product-id="@item.Id">
-                                <i class="fas fa-shopping-cart"></i> Thêm vào giỏ
-                            </button>
+                            <form class="add-to-cart-form" data-product-id="@item.Id">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="productId" value="@item.Id" />
+                                <input type="hidden" name="quantity" value="1" />
+                                <button type="submit" class="btn btn-success">
+                                    <i class="fas fa-shopping-cart"></i> Thêm vào giỏ
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -57,25 +79,141 @@
     </div>
 </div>
 
+<!-- Toast Notification -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="cartToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header bg-success text-white">
+            <i class="fas fa-check-circle me-2"></i>
+            <strong class="me-auto">Thành công</strong>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Đã thêm sản phẩm vào giỏ hàng thành công!
+        </div>
+    </div>
+</div>
+
+<style>
+    .category-section {
+        padding: 2rem 0;
+    }
+
+    .category-card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        height: 100%;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .category-card:hover {
+        transform: translateY(-5px);
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .category-card.active {
+        background-color: #f8f9fa;
+    }
+
+    .category-card-inner {
+        background: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+
+    .category-card:hover .category-card-inner {
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .category-icon {
+        width: 60px;
+        height: 60px;
+        background: #f8f9fa;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .category-icon i {
+        font-size: 24px;
+        color: #0d6efd;
+    }
+
+    .category-card h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+    }
+
+    .category-card p {
+        font-size: 0.9rem;
+        color: #6c757d;
+        margin-bottom: 0;
+    }
+
+    .product-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
 @section Scripts {
     <script>
         $(document).ready(function() {
-            $('.add-to-cart').click(function() {
-                var productId = $(this).data('product-id');
-                $.post('/Cart/AddToCart', { productId: productId, quantity: 1 })
-                    .done(function(response) {
+            // Initialize toast
+            var cartToast = new bootstrap.Toast(document.getElementById('cartToast'), {
+                autohide: true,
+                delay: 3000
+            });
+
+            // Handle form submission
+            $('.add-to-cart-form').submit(function(e) {
+                e.preventDefault();
+                
+                var form = $(this);
+                var formData = {
+                    productId: form.find('input[name="productId"]').val(),
+                    quantity: form.find('input[name="quantity"]').val(),
+                    __RequestVerificationToken: form.find('input[name="__RequestVerificationToken"]').val()
+                };
+
+                $.ajax({
+                    url: '/Cart/AddToCart',
+                    type: 'POST',
+                    data: formData,
+                    success: function(response) {
                         if (response.success) {
-                            // Update cart count
+                            // Update cart count in navbar
                             $('.cart-count').text(response.cartCount);
-                            // Show success message
-                            alert('Đã thêm sản phẩm vào giỏ hàng');
+                            // Show toast notification
+                            cartToast.show();
                         } else {
-                            alert('Có lỗi xảy ra: ' + response.message);
+                            // Show error message
+                            alert(response.message);
                         }
-                    })
-                    .fail(function() {
-                        alert('Có lỗi xảy ra khi thêm vào giỏ hàng');
-                    });
+                    },
+                    error: function(xhr, status, error) {
+                        console.error('Error:', error);
+                        console.error('Status:', status);
+                        console.error('Response:', xhr.responseText);
+                        alert('Có lỗi xảy ra khi thêm vào giỏ hàng. Vui lòng thử lại sau.');
+                    }
+                });
             });
         });
     </script>

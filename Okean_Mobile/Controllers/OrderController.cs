@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Okean_Mobile.Data;
 using Okean_Mobile.Models;
-using Okean_Mobile.Repositories.Interfaces;
 using System.Security.Claims;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Okean_Mobile.Controllers
@@ -10,98 +12,115 @@ namespace Okean_Mobile.Controllers
     [Authorize(Roles = "Customer")]
     public class OrderController : Controller
     {
-        private readonly IOrderRepository _orderRepository;
-        private readonly ICartRepository _cartRepository;
-        private readonly ILogger<OrderController> _logger;
+        private readonly ApplicationDbContext _context;
 
-        public OrderController(
-            IOrderRepository orderRepository,
-            ICartRepository cartRepository,
-            ILogger<OrderController> logger)
+        public OrderController(ApplicationDbContext context)
         {
-            _orderRepository = orderRepository;
-            _cartRepository = cartRepository;
-            _logger = logger;
+            _context = context;
         }
 
         // GET: Order
         public async Task<IActionResult> Index()
         {
-            var userId = GetCurrentUserId();
-            var orders = await _orderRepository.GetOrdersByUserIdAsync(userId);
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var orders = await _context.Orders
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Product)
+                .Where(o => o.UserId == userId)
+                .OrderByDescending(o => o.OrderDate)
+                .ToListAsync();
+
             return View(orders);
         }
 
-        // GET: Order/Details/5
-        public async Task<IActionResult> Details(int id)
+        // GET: Order/Create
+        public async Task<IActionResult> Create()
         {
-            var order = await _orderRepository.GetOrderByIdAsync(id);
-            if (order == null || order.UserId != GetCurrentUserId())
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var cartItems = await _context.CartItems
+                .Include(c => c.Product)
+                .Where(c => c.UserId == userId)
+                .ToListAsync();
+
+            if (!cartItems.Any())
             {
-                return NotFound();
+                return RedirectToAction(nameof(Index));
             }
 
-            return View(order);
+            return View();
         }
 
         // POST: Order/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> Create([Bind("ShippingAddress,PhoneNumber,Note")] Order order)
         {
-            var userId = GetCurrentUserId();
-
-            try
+            if (ModelState.IsValid)
             {
-                // Get cart items
-                var cartItems = await _cartRepository.GetCartItemsByUserIdAsync(userId.ToString());
+                var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                var cartItems = await _context.CartItems
+                    .Include(c => c.Product)
+                    .Where(c => c.UserId == userId)
+                    .ToListAsync();
 
                 if (!cartItems.Any())
                 {
-                    TempData["ErrorMessage"] = "Your cart is empty";
-                    return RedirectToAction("Index", "Cart");
+                    return RedirectToAction(nameof(Index));
                 }
 
-                // Create new order
-                var order = new Order
-                {
-                    UserId = userId,
-                    OrderDate = DateTime.Now,
-                    Status = "Pending",
-                    OrderDetails = new List<OrderDetail>()
-                };
+                // Create order
+                order.UserId = userId;
+                order.OrderDate = DateTime.Now;
+                order.Status = "Pending";
+                _context.Orders.Add(order);
+                await _context.SaveChangesAsync();
 
-                // Add order details from cart items
+                // Create order details
                 foreach (var cartItem in cartItems)
                 {
-                    order.OrderDetails.Add(new OrderDetail
+                    var orderDetail = new OrderDetail
                     {
+                        OrderId = order.Id,
                         ProductId = cartItem.ProductId,
                         Quantity = cartItem.Quantity,
-                        Price = cartItem.Product.Price // Assuming Product is included and has Price
-                    });
+                        Price = cartItem.Product.Price
+                    };
+                    _context.OrderDetails.Add(orderDetail);
+
+                    // Update product stock
+                    cartItem.Product.StockQuantity -= cartItem.Quantity;
                 }
 
-                // Save order
-                await _orderRepository.AddOrderAsync(order);
-
                 // Clear cart
-                await _cartRepository.ClearCartAsync(userId);
+                _context.CartItems.RemoveRange(cartItems);
+                await _context.SaveChangesAsync();
 
-                TempData["SuccessMessage"] = "Order placed successfully!";
                 return RedirectToAction(nameof(Details), new { id = order.Id });
             }
-            catch (System.Exception ex)
-            {
-                _logger.LogError(ex, "Error creating order");
-                TempData["ErrorMessage"] = "There was an error processing your order";
-                return RedirectToAction("Index", "Cart");
-            }
+
+            return View(order);
         }
 
-        private int GetCurrentUserId()
+        // GET: Order/Details/5
+        public async Task<IActionResult> Details(int? id)
         {
-            return int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var order = await _context.Orders
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Product)
+                .FirstOrDefaultAsync(m => m.Id == id && m.UserId == userId);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            return View(order);
         }
     }
 }
