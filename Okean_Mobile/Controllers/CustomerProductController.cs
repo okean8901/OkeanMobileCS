@@ -19,7 +19,7 @@ namespace Okean_Mobile.Controllers
         }
 
         // GET: CustomerProduct
-        public async Task<IActionResult> Index(int? categoryId)
+        public async Task<IActionResult> Index(int? categoryId, string searchString, string sortOrder)
         {
             var products = _context.Products
                 .Include(p => p.Category)
@@ -30,7 +30,30 @@ namespace Okean_Mobile.Controllers
                 products = products.Where(p => p.CategoryId == categoryId);
             }
 
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(p => p.Name.Contains(searchString));
+            }
+
+            // Sorting
+            ViewBag.PriceSortParam = string.IsNullOrEmpty(sortOrder) ? "price_desc" : "";
+            ViewBag.CurrentSort = sortOrder;
+
+            switch (sortOrder)
+            {
+                case "price_desc":
+                    products = products.OrderByDescending(p => p.Price);
+                    break;
+                case "price_asc":
+                    products = products.OrderBy(p => p.Price);
+                    break;
+                default:
+                    products = products.OrderBy(p => p.Name);
+                    break;
+            }
+
             ViewBag.Categories = await _context.Categories.ToListAsync();
+            ViewBag.SearchString = searchString;
             return View(await products.ToListAsync());
         }
 

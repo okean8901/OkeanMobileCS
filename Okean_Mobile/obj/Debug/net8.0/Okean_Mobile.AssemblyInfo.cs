@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Okean_Mobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0a0bf1d3d4444d4600a9003835e4785acc8c4af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a26ef080aafefb7f0477a03cb7e906aad247083a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Okean_Mobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Okean_Mobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

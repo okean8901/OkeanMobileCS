@@ -8,6 +8,39 @@
 <div class="container mt-4">
     <h1 class="mb-4">Sản phẩm</h1>
 
+    <!-- Search and Sort Section -->
+    <div class="search-sort-section mb-4">
+        <div class="row g-3">
+            <!-- Search Form -->
+            <div class="col-md-8">
+                <form asp-action="Index" method="get" class="input-group">
+                    <input type="text" name="searchString" class="form-control" placeholder="Tìm kiếm sản phẩm..." value="@ViewBag.SearchString">
+                    <input type="hidden" name="sortOrder" value="@ViewBag.CurrentSort" />
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-search"></i> Tìm kiếm
+                    </button>
+                </form>
+            </div>
+            <!-- Sort Buttons -->
+            <div class="col-md-4">
+                <div class="btn-group" role="group">
+                    <a asp-action="Index" 
+                       asp-route-sortOrder="@ViewBag.PriceSortParam"
+                       asp-route-searchString="@ViewBag.SearchString"
+                       class="btn @(ViewBag.CurrentSort == "price_desc" ? "btn-primary" : "btn-outline-primary")">
+                        <i class="fas fa-sort-amount-down"></i> Giá cao đến thấp
+                    </a>
+                    <a asp-action="Index" 
+                       asp-route-sortOrder="price_asc"
+                       asp-route-searchString="@ViewBag.SearchString"
+                       class="btn @(ViewBag.CurrentSort == "price_asc" ? "btn-primary" : "btn-outline-primary")">
+                        <i class="fas fa-sort-amount-up"></i> Giá thấp đến cao
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Category Filter -->
     <div class="category-section mb-5">
         <h2 class="text-center mb-4">Danh mục sản phẩm</h2>
