@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Okean_Mobile.Controllers.ChatbotController",
-    "Method": "Chat",
+    "Method": "ProcessMessage",
     "RelativePath": "api/Chatbot/chat",
     "HttpMethod": "POST",
     "IsController": true,
@@ -17,15 +17,40 @@
   },
   {
     "ContainingType": "Okean_Mobile.Controllers.ChatbotController",
-    "Method": "SpeechToText",
+    "Method": "ProcessSpeechToText",
     "RelativePath": "api/Chatbot/speech-to-text",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "audioFile",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

@@ -5,6 +5,7 @@ namespace Okean_Mobile.Models
 {
     public class Product
     {
+        [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Vui lòng nhập tên sản phẩm")]
@@ -37,5 +38,7 @@ namespace Okean_Mobile.Models
         public virtual Category? Category { get; set; }
 
         public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new HashSet<OrderDetail>();
+
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

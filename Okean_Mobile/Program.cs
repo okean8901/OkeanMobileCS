@@ -29,6 +29,7 @@ namespace Okean_Mobile
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<ICartRepository, CartRepository>();
             builder.Services.AddScoped<Okean_Mobile.Services.VNPayService>();
+            builder.Services.AddScoped<IChatbotService, ChatbotService>();
 
             // Configure cookie authentication
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

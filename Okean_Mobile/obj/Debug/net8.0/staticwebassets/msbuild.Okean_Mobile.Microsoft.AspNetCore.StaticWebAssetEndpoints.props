@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\chatbot.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3ks4wioh88"},{"Name":"integrity","Value":"sha256-k9GqaeUKGH5\u002Brdkr0NgOnscfUaOL9Rv3QeVm\u002B3YA1II="},{"Name":"label","Value":"_content/Okean_Mobile/css/chatbot.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2184"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022k9GqaeUKGH5\u002Brdkr0NgOnscfUaOL9Rv3QeVm\u002B3YA1II=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:21:29 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2184"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022k9GqaeUKGH5\u002Brdkr0NgOnscfUaOL9Rv3QeVm\u002B3YA1II=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 02:22:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Okean_Mobile/css/chatbot.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\chatbot.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-k9GqaeUKGH5\u002Brdkr0NgOnscfUaOL9Rv3QeVm\u002B3YA1II="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2184"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022k9GqaeUKGH5\u002Brdkr0NgOnscfUaOL9Rv3QeVm\u002B3YA1II=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:21:29 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2184"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022k9GqaeUKGH5\u002Brdkr0NgOnscfUaOL9Rv3QeVm\u002B3YA1II=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 02:22:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Okean_Mobile/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
@@ -160,13 +160,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4596"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:21:49 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4596"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 01:56:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Okean_Mobile/js/chatbot.nmm7j5hwry.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nmm7j5hwry"},{"Name":"integrity","Value":"sha256-T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00="},{"Name":"label","Value":"_content/Okean_Mobile/js/chatbot.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4596"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:21:49 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4596"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 01:56:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Okean_Mobile/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

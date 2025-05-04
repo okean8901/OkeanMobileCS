@@ -2,25 +2,74 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Azure.Core/1.38.0": {
+      "Azure.AI.OpenAI/2.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "System.ClientModel": "1.0.0",
-          "System.Diagnostics.DiagnosticSource": "6.0.1",
-          "System.Memory.Data": "1.0.2",
-          "System.Numerics.Vectors": "4.5.0",
-          "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.7.2",
-          "System.Threading.Tasks.Extensions": "4.5.4"
+          "Azure.Core": "1.44.1",
+          "OpenAI": "2.1.0"
         },
         "compile": {
-          "lib/net6.0/Azure.Core.dll": {
+          "lib/netstandard2.0/Azure.AI.OpenAI.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Azure.Core.dll": {
+          "lib/netstandard2.0/Azure.AI.OpenAI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.AI.TextAnalytics/5.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.33.0",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.AI.TextAnalytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.AI.TextAnalytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.AI.Vision.ImageAnalysis/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.44.1",
+          "System.ClientModel": "1.2.1",
+          "System.Text.Json": "6.0.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.AI.Vision.ImageAnalysis.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.AI.Vision.ImageAnalysis.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Core/1.45.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "System.ClientModel": "1.2.1",
+          "System.Memory.Data": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net8.0/Azure.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Azure.Core.dll": {
             "related": ".xml"
           }
         }
@@ -450,8 +499,11 @@
           }
         }
       },
-      "Microsoft.CognitiveServices.Speech/1.34.0": {
+      "Microsoft.CognitiveServices.Speech/1.43.0": {
         "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.44.1"
+        },
         "compile": {
           "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
             "related": ".xml"
@@ -546,30 +598,6 @@
             "assetType": "native",
             "rid": "android-x86"
           },
-          "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.core.so": {
-            "assetType": "native",
-            "rid": "centos7-x64"
-          },
-          "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so": {
-            "assetType": "native",
-            "rid": "centos7-x64"
-          },
-          "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so": {
-            "assetType": "native",
-            "rid": "centos7-x64"
-          },
-          "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so": {
-            "assetType": "native",
-            "rid": "centos7-x64"
-          },
-          "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
-            "assetType": "native",
-            "rid": "centos7-x64"
-          },
-          "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so": {
-            "assetType": "native",
-            "rid": "centos7-x64"
-          },
           "runtimes/ios-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a": {
             "assetType": "native",
             "rid": "ios-arm64"
@@ -610,6 +638,14 @@
             "assetType": "native",
             "rid": "linux-arm"
           },
+          "runtimes/linux-arm/native/libpal_azure_c_shared.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libpal_azure_c_shared_openssl3.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
           "runtimes/linux-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
             "assetType": "runtime",
             "rid": "linux-arm64"
@@ -635,6 +671,14 @@
             "rid": "linux-arm64"
           },
           "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libpal_azure_c_shared.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libpal_azure_c_shared_openssl3.so": {
             "assetType": "native",
             "rid": "linux-arm64"
           },
@@ -666,6 +710,14 @@
             "assetType": "native",
             "rid": "linux-x64"
           },
+          "runtimes/linux-x64/native/libpal_azure_c_shared.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libpal_azure_c_shared_openssl3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
           "runtimes/maccatalyst-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a": {
             "assetType": "native",
             "rid": "maccatalyst-arm64"
@@ -682,6 +734,10 @@
             "assetType": "native",
             "rid": "osx-arm64"
           },
+          "runtimes/osx-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
           "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
             "assetType": "runtime",
             "rid": "osx-x64"
@@ -690,19 +746,15 @@
             "assetType": "native",
             "rid": "osx-x64"
           },
+          "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
           "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.core.dll": {
             "assetType": "native",
             "rid": "win-arm"
           },
           "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll": {
-            "assetType": "native",
-            "rid": "win-arm"
-          },
-          "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
-            "assetType": "native",
-            "rid": "win-arm"
-          },
-          "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll": {
             "assetType": "native",
             "rid": "win-arm"
           },
@@ -1393,6 +1445,23 @@
           "buildTransitive/Mono.TextTemplating.targets": {}
         }
       },
+      "OpenAI/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ClientModel": "1.2.1",
+          "System.Diagnostics.DiagnosticSource": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/OpenAI.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OpenAI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -1428,11 +1497,11 @@
           }
         }
       },
-      "System.ClientModel/1.0.0": {
+      "System.ClientModel/1.2.1": {
         "type": "package",
         "dependencies": {
-          "System.Memory.Data": "1.0.2",
-          "System.Text.Json": "4.7.2"
+          "System.Memory.Data": "6.0.0",
+          "System.Text.Json": "6.0.10"
         },
         "compile": {
           "lib/net6.0/System.ClientModel.dll": {
@@ -1751,30 +1820,23 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "System.Memory.Data/1.0.2": {
+      "System.Memory.Data/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.6.0"
+          "System.Text.Json": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {
+          "lib/net6.0/System.Memory.Data.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {
+          "lib/net6.0/System.Memory.Data.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "System.Numerics.Vectors/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
         },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Reflection.Metadata/7.0.0": {
@@ -2088,16 +2150,64 @@
     }
   },
   "libraries": {
-    "Azure.Core/1.38.0": {
-      "sha512": "IuEgCoVA0ef7E4pQtpC3+TkPbzaoQfa77HlfJDmfuaJUCVJmn7fT0izamZiryW5sYUFKizsftIxMkXKbgIcPMQ==",
+    "Azure.AI.OpenAI/2.1.0": {
+      "sha512": "doixr3tcsIcdzbzF9NxKt+6U0NKj6aPeOCPYONPsWjyf3gxVndVJAdjPcVdqeR/3vcRHXRgGnGlv+iXx5jMA4g==",
       "type": "package",
-      "path": "azure.core/1.38.0",
+      "path": "azure.ai.openai/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.core.1.38.0.nupkg.sha512",
+        "azure.ai.openai.2.1.0.nupkg.sha512",
+        "azure.ai.openai.nuspec",
+        "azureicon.png",
+        "lib/netstandard2.0/Azure.AI.OpenAI.dll",
+        "lib/netstandard2.0/Azure.AI.OpenAI.xml"
+      ]
+    },
+    "Azure.AI.TextAnalytics/5.3.0": {
+      "sha512": "QFGaADxfpEcvUPGqIo2CaXUiR00JN1sU14cgmo4wLgizP7v5WGJT9DYqFrzOBPO/tDYaup9mE4secRahe5xVcw==",
+      "type": "package",
+      "path": "azure.ai.textanalytics/5.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.ai.textanalytics.5.3.0.nupkg.sha512",
+        "azure.ai.textanalytics.nuspec",
+        "azureicon.png",
+        "lib/netstandard2.0/Azure.AI.TextAnalytics.dll",
+        "lib/netstandard2.0/Azure.AI.TextAnalytics.xml"
+      ]
+    },
+    "Azure.AI.Vision.ImageAnalysis/1.0.0": {
+      "sha512": "ImGqg6uroJT0baxiRDq0mADC/xuv0k6i56i9pJG6adKMXKKc8HUbNNvYdvEnzn8GezmiKZXpt1G6+wPAopGJrw==",
+      "type": "package",
+      "path": "azure.ai.vision.imageanalysis/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.ai.vision.imageanalysis.1.0.0.nupkg.sha512",
+        "azure.ai.vision.imageanalysis.nuspec",
+        "azureicon.png",
+        "lib/netstandard2.0/Azure.AI.Vision.ImageAnalysis.dll",
+        "lib/netstandard2.0/Azure.AI.Vision.ImageAnalysis.xml"
+      ]
+    },
+    "Azure.Core/1.45.0": {
+      "sha512": "a4ZZ8SHrYqDYqan0vUZrCoN2V09sSXWqsy5PwgyRDZWF/ZjYPUNqBcOOV01Mm7Rcd4Psf08GUBPOhGz+7onmPQ==",
+      "type": "package",
+      "path": "azure.core/1.45.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.core.1.45.0.nupkg.sha512",
         "azure.core.nuspec",
         "azureicon.png",
         "lib/net461/Azure.Core.dll",
@@ -2106,6 +2216,8 @@
         "lib/net472/Azure.Core.xml",
         "lib/net6.0/Azure.Core.dll",
         "lib/net6.0/Azure.Core.xml",
+        "lib/net8.0/Azure.Core.dll",
+        "lib/net8.0/Azure.Core.xml",
         "lib/netstandard2.0/Azure.Core.dll",
         "lib/netstandard2.0/Azure.Core.xml"
       ]
@@ -3219,13 +3331,14 @@
         "microsoft.codeanalysis.workspaces.msbuild.nuspec"
       ]
     },
-    "Microsoft.CognitiveServices.Speech/1.34.0": {
-      "sha512": "AnsDqBc6DJ7dkmLMH1RsduuJzIT8rm9Y5WNP5T1Fl5V+Zo81g7HsVdVybnlBp3Y8H3asWYxRSfR8yOeW8lDx0g==",
+    "Microsoft.CognitiveServices.Speech/1.43.0": {
+      "sha512": "bO37mcisf5I5Mg8ZvGxH0f/jCjFG7fvnUs7FCnN1zAt+VCvbRzs7nS+RN7wvscAP7N0DkhYWDgT0ASPtq5BqOQ==",
       "type": "package",
-      "path": "microsoft.cognitiveservices.speech/1.34.0",
+      "path": "microsoft.cognitiveservices.speech/1.43.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "LICENSE.txt",
         "build/Microsoft.CognitiveServices.Speech.props",
         "build/REDIST.txt",
         "build/Xamarin.iOS/Microsoft.CognitiveServices.Speech.targets",
@@ -3304,6 +3417,7 @@
         "build/native/include/c_api/speechapi_c_speech_recognition_model.h",
         "build/native/include/c_api/speechapi_c_speech_translation_config.h",
         "build/native/include/c_api/speechapi_c_speech_translation_model.h",
+        "build/native/include/c_api/speechapi_c_synthesis_request.h",
         "build/native/include/c_api/speechapi_c_synthesizer.h",
         "build/native/include/c_api/speechapi_c_translation_recognizer.h",
         "build/native/include/c_api/speechapi_c_translation_result.h",
@@ -3391,6 +3505,7 @@
         "build/native/include/cxx_api/speechapi_cxx_speech_recognizer.h",
         "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_bookmark_eventargs.h",
         "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_request.h",
         "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_result.h",
         "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_viseme_eventargs.h",
         "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_word_boundary_eventargs.h",
@@ -3416,25 +3531,25 @@
         "build/native/uap/x64/Release/Microsoft.CognitiveServices.Speech.core.lib",
         "build/native/x64/Release/Microsoft.CognitiveServices.Speech.core.lib",
         "build/net462/Microsoft.CognitiveServices.Speech.targets",
-        "build/net6.0-android/Microsoft.CognitiveServices.Speech.targets",
-        "build/net6.0-ios/Microsoft.CognitiveServices.Speech.targets",
+        "build/net8.0-android/Microsoft.CognitiveServices.Speech.targets",
+        "build/net8.0-ios/Microsoft.CognitiveServices.Speech.targets",
         "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll",
         "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.xml",
         "lib/monoandroid/Microsoft.CognitiveServices.Speech.csharp.dll",
         "lib/monoandroid/Microsoft.CognitiveServices.Speech.csharp.xml",
         "lib/net462/Microsoft.CognitiveServices.Speech.csharp.dll",
         "lib/net462/Microsoft.CognitiveServices.Speech.csharp.xml",
-        "lib/net6.0-android/Microsoft.CognitiveServices.Speech.csharp.dll",
-        "lib/net6.0-android/Microsoft.CognitiveServices.Speech.csharp.xml",
-        "lib/net6.0-ios/Microsoft.CognitiveServices.Speech.csharp.dll",
-        "lib/net6.0-ios/Microsoft.CognitiveServices.Speech.csharp.xml",
-        "lib/net6.0-maccatalyst/Microsoft.CognitiveServices.Speech.csharp.dll",
-        "lib/net6.0-maccatalyst/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/net8.0-android/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/net8.0-android/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/net8.0-ios/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/net8.0-ios/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "lib/net8.0-maccatalyst/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/net8.0-maccatalyst/Microsoft.CognitiveServices.Speech.csharp.xml",
         "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
         "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
         "lib/uap10.0/Microsoft.CognitiveServices.Speech.csharp.dll",
         "lib/uap10.0/Microsoft.CognitiveServices.Speech.csharp.xml",
-        "microsoft.cognitiveservices.speech.1.34.0.nupkg.sha512",
+        "microsoft.cognitiveservices.speech.1.43.0.nupkg.sha512",
         "microsoft.cognitiveservices.speech.nuspec",
         "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.core.so",
         "runtimes/android-arm/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
@@ -3456,12 +3571,6 @@
         "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
         "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
         "runtimes/android-x86/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
-        "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.core.so",
-        "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so",
-        "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
-        "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
-        "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
-        "runtimes/centos7-x64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
         "runtimes/ios-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a",
         "runtimes/iossimulator-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a",
         "runtimes/iossimulator-x64/native/libMicrosoft.CognitiveServices.Speech.core.a",
@@ -3473,6 +3582,8 @@
         "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
         "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
         "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/linux-arm/native/libpal_azure_c_shared.so",
+        "runtimes/linux-arm/native/libpal_azure_c_shared_openssl3.so",
         "runtimes/linux-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
         "runtimes/linux-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
         "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so",
@@ -3481,6 +3592,8 @@
         "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
         "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
         "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/linux-arm64/native/libpal_azure_c_shared.so",
+        "runtimes/linux-arm64/native/libpal_azure_c_shared_openssl3.so",
         "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
         "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
         "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.core.so",
@@ -3489,23 +3602,23 @@
         "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so",
         "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
         "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.lu.so",
+        "runtimes/linux-x64/native/libpal_azure_c_shared.so",
+        "runtimes/linux-x64/native/libpal_azure_c_shared_openssl3.so",
         "runtimes/maccatalyst-arm64/native/libMicrosoft.CognitiveServices.Speech.core.a",
         "runtimes/maccatalyst-x64/native/libMicrosoft.CognitiveServices.Speech.core.a",
         "runtimes/osx-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
         "runtimes/osx-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
         "runtimes/osx-arm64/native/libMicrosoft.CognitiveServices.Speech.core.dylib",
+        "runtimes/osx-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.dylib",
         "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
         "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
         "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.core.dylib",
+        "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.ort.dylib",
         "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.core.dll",
         "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
-        "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
-        "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
         "runtimes/win-arm/native/Microsoft.CognitiveServices.Speech.extension.lu.dll",
         "runtimes/win-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
         "runtimes/win-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
-        "runtimes/win-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
-        "runtimes/win-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
         "runtimes/win-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.lu.dll",
         "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.core.dll",
         "runtimes/win-arm64/native/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
@@ -4545,6 +4658,24 @@
         "readme.md"
       ]
     },
+    "OpenAI/2.1.0": {
+      "sha512": "zl72nyP4O94ZyEoCLoE8qoc5vp8kSJmRuqR+UdK+jNIjFJGWJYjsb4rAGpMWWRTbPYuk82E8myMJdVQurMLDnQ==",
+      "type": "package",
+      "path": "openai/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "OpenAI.png",
+        "README.md",
+        "lib/net6.0/OpenAI.dll",
+        "lib/net6.0/OpenAI.xml",
+        "lib/netstandard2.0/OpenAI.dll",
+        "lib/netstandard2.0/OpenAI.xml",
+        "openai.2.1.0.nupkg.sha512",
+        "openai.nuspec"
+      ]
+    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
       "type": "package",
@@ -4608,10 +4739,10 @@
         "version.txt"
       ]
     },
-    "System.ClientModel/1.0.0": {
-      "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
+    "System.ClientModel/1.2.1": {
+      "sha512": "s9+M5El+DXdCRRLzxak8uGBKWT8H/eIssGpFtpaMKdJULrQbBDPH/zFbVyHX+NDczhS5EvjHFbBH9/L+0UhmcA==",
       "type": "package",
-      "path": "system.clientmodel/1.0.0",
+      "path": "system.clientmodel/1.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4622,7 +4753,7 @@
         "lib/net6.0/System.ClientModel.xml",
         "lib/netstandard2.0/System.ClientModel.dll",
         "lib/netstandard2.0/System.ClientModel.xml",
-        "system.clientmodel.1.0.0.nupkg.sha512",
+        "system.clientmodel.1.2.1.nupkg.sha512",
         "system.clientmodel.nuspec"
       ]
     },
@@ -5203,69 +5334,27 @@
         "version.txt"
       ]
     },
-    "System.Memory.Data/1.0.2": {
-      "sha512": "JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
+    "System.Memory.Data/6.0.0": {
+      "sha512": "ntFHArH3I4Lpjf5m4DCXQHJuGwWPNVJPaAvM95Jy/u+2Yzt2ryiyIN04LAogkjP9DeRcEOiviAjQotfmPq/FrQ==",
       "type": "package",
-      "path": "system.memory.data/1.0.2",
+      "path": "system.memory.data/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "CHANGELOG.md",
-        "DotNetPackageIcon.png",
-        "README.md",
-        "lib/net461/System.Memory.Data.dll",
-        "lib/net461/System.Memory.Data.xml",
-        "lib/netstandard2.0/System.Memory.Data.dll",
-        "lib/netstandard2.0/System.Memory.Data.xml",
-        "system.memory.data.1.0.2.nupkg.sha512",
-        "system.memory.data.nuspec"
-      ]
-    },
-    "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
-      "type": "package",
-      "path": "system.numerics.vectors/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Numerics.Vectors.dll",
-        "lib/net46/System.Numerics.Vectors.xml",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.0/System.Numerics.Vectors.dll",
-        "lib/netstandard1.0/System.Numerics.Vectors.xml",
-        "lib/netstandard2.0/System.Numerics.Vectors.dll",
-        "lib/netstandard2.0/System.Numerics.Vectors.xml",
-        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
-        "lib/uap10.0.16299/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/System.Numerics.Vectors.dll",
-        "ref/net45/System.Numerics.Vectors.xml",
-        "ref/net46/System.Numerics.Vectors.dll",
-        "ref/net46/System.Numerics.Vectors.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.0/System.Numerics.Vectors.dll",
-        "ref/netstandard1.0/System.Numerics.Vectors.xml",
-        "ref/netstandard2.0/System.Numerics.Vectors.dll",
-        "ref/netstandard2.0/System.Numerics.Vectors.xml",
-        "ref/uap10.0.16299/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.numerics.vectors.4.5.0.nupkg.sha512",
-        "system.numerics.vectors.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "buildTransitive/netcoreapp2.0/System.Memory.Data.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Memory.Data.dll",
+        "lib/net461/System.Memory.Data.xml",
+        "lib/net6.0/System.Memory.Data.dll",
+        "lib/net6.0/System.Memory.Data.xml",
+        "lib/netstandard2.0/System.Memory.Data.dll",
+        "lib/netstandard2.0/System.Memory.Data.xml",
+        "system.memory.data.6.0.0.nupkg.sha512",
+        "system.memory.data.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Reflection.Metadata/7.0.0": {
@@ -5981,9 +6070,13 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Azure.AI.OpenAI >= 2.1.0",
+      "Azure.AI.TextAnalytics >= 5.3.0",
+      "Azure.AI.Vision.ImageAnalysis >= 1.0.0",
+      "Azure.Core >= 1.45.0",
       "BCrypt.Net-Next >= 4.0.3",
       "EntityFramework >= 6.5.1",
-      "Microsoft.CognitiveServices.Speech >= 1.34.0",
+      "Microsoft.CognitiveServices.Speech >= 1.43.0",
       "Microsoft.EntityFrameworkCore >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Abstractions >= 9.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.4",
@@ -6042,6 +6135,22 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Azure.AI.OpenAI": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "Azure.AI.TextAnalytics": {
+            "target": "Package",
+            "version": "[5.3.0, )"
+          },
+          "Azure.AI.Vision.ImageAnalysis": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Azure.Core": {
+            "target": "Package",
+            "version": "[1.45.0, )"
+          },
           "BCrypt.Net-Next": {
             "target": "Package",
             "version": "[4.0.3, )"
@@ -6052,7 +6161,7 @@
           },
           "Microsoft.CognitiveServices.Speech": {
             "target": "Package",
-            "version": "[1.34.0, )"
+            "version": "[1.43.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
