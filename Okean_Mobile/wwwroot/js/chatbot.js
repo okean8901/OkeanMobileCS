@@ -10,36 +10,86 @@ document.addEventListener('DOMContentLoaded', function() {
     chatbotContainer.className = 'chatbot-container';
     chatbotContainer.innerHTML = `
         <div class="chatbot-header">
-            <h3>Okean Mobile Assistant</h3>
-            <button class="close-btn">×</button>
+            <h3><i class="fas fa-robot"></i> Okean Mobile Assistant</h3>
+            <button class="close-btn"><i class="fas fa-times"></i></button>
         </div>
         <div class="chatbot-messages"></div>
         <div class="chatbot-input">
             <input type="text" placeholder="Nhập tin nhắn của bạn...">
-            <button class="send-btn">Gửi</button>
-            <button class="voice-btn">🎤</button>
+            <button class="voice-btn"><i class="fas fa-microphone"></i></button>
+            <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
         </div>
     `;
     document.body.appendChild(chatbotContainer);
 
-    // Xử lý sự kiện
+    // Tạo overlay
+    const chatbotOverlay = document.createElement('div');
+    chatbotOverlay.className = 'chatbot-overlay';
+    document.body.appendChild(chatbotOverlay);
+
+    // Lấy các elements
     const sendBtn = chatbotContainer.querySelector('.send-btn');
     const input = chatbotContainer.querySelector('input');
     const closeBtn = chatbotContainer.querySelector('.close-btn');
     const voiceBtn = chatbotContainer.querySelector('.voice-btn');
     const messagesContainer = chatbotContainer.querySelector('.chatbot-messages');
 
-    // Mở chatbot khi click vào icon
-    chatbotIcon.addEventListener('click', () => {
-        chatbotContainer.style.display = 'flex';
-        chatbotIcon.style.display = 'none';
-        input.focus();
+    let isChatbotVisible = false;
+
+    // Hiển thị chatbot
+    function showChatbot() {
+        if (!isChatbotVisible) {
+            isChatbotVisible = true;
+            chatbotContainer.classList.add('active');
+            chatbotOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            input.focus();
+        }
+    }
+
+    // Ẩn chatbot
+    function hideChatbot() {
+        if (isChatbotVisible) {
+            isChatbotVisible = false;
+            chatbotContainer.classList.remove('active');
+            chatbotOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    }
+
+    // Xử lý sự kiện click vào icon
+    chatbotIcon.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (!isChatbotVisible) {
+            showChatbot();
+        }
     });
 
-    // Đóng chatbot
-    closeBtn.addEventListener('click', () => {
-        chatbotContainer.style.display = 'none';
-        chatbotIcon.style.display = 'flex';
+    // Xử lý sự kiện click vào nút đóng
+    closeBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        hideChatbot();
+    });
+
+    // Xử lý sự kiện click vào overlay
+    chatbotOverlay.addEventListener('click', function(e) {
+        e.preventDefault();
+        hideChatbot();
+    });
+
+    // Xử lý sự kiện click vào container để ngăn chặn việc đóng khi click vào nội dung
+    chatbotContainer.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+    });
+
+    // Xử lý sự kiện phím ESC
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && isChatbotVisible) {
+            hideChatbot();
+        }
     });
 
     // Gửi tin nhắn
@@ -49,19 +99,35 @@ document.addEventListener('DOMContentLoaded', function() {
         addMessage(message, 'user');
         input.value = '';
 
+        // Hiển thị typing indicator
+        const typingIndicator = document.createElement('div');
+        typingIndicator.className = 'typing-indicator';
+        typingIndicator.innerHTML = '<span></span><span></span><span></span>';
+        messagesContainer.appendChild(typingIndicator);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+        // Gửi tin nhắn đến server
         fetch('/api/chatbot/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]')?.value
             },
             body: JSON.stringify({ message: message })
         })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
+            typingIndicator.remove();
             addMessage(data.message, 'bot');
         })
         .catch(error => {
             console.error('Error:', error);
+            typingIndicator.remove();
             addMessage('Xin lỗi, đã có lỗi xảy ra. Vui lòng thử lại sau.', 'bot');
         });
     }
@@ -76,42 +142,60 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Xử lý ghi âm
-    function startVoiceRecording() {
-        navigator.mediaDevices.getUserMedia({ audio: true })
-            .then(stream => {
-                const mediaRecorder = new MediaRecorder(stream);
-                const audioChunks = [];
+    let mediaRecorder;
+    let audioChunks = [];
 
-                mediaRecorder.addEventListener('dataavailable', event => {
-                    audioChunks.push(event.data);
-                });
+    async function startVoiceRecording() {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            mediaRecorder = new MediaRecorder(stream);
+            
+            mediaRecorder.ondataavailable = (event) => {
+                audioChunks.push(event.data);
+            };
 
-                mediaRecorder.addEventListener('stop', () => {
-                    const audioBlob = new Blob(audioChunks);
-                    const formData = new FormData();
-                    formData.append('audioFile', audioBlob);
+            mediaRecorder.onstop = async () => {
+                const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                const formData = new FormData();
+                formData.append('audioFile', audioBlob);
 
-                    fetch('/api/chatbot/speech-to-text', {
+                try {
+                    const response = await fetch('/api/chatbot/speech-to-text', {
                         method: 'POST',
                         body: formData
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.text) {
-                            sendMessage(data.text);
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
                     });
-                });
 
-                mediaRecorder.start();
-                setTimeout(() => mediaRecorder.stop(), 5000);
-            })
-            .catch(error => {
-                console.error('Error accessing microphone:', error);
-            });
+                    if (!response.ok) {
+                        throw new Error('Speech to text failed');
+                    }
+
+                    const data = await response.json();
+                    if (data.text) {
+                        sendMessage(data.text);
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    addMessage('Xin lỗi, không thể xử lý giọng nói của bạn. Vui lòng thử lại sau.', 'bot');
+                }
+
+                audioChunks = [];
+                stream.getTracks().forEach(track => track.stop());
+            };
+
+            mediaRecorder.start();
+            addMessage('Đang ghi âm...', 'bot');
+            
+            // Dừng ghi âm sau 5 giây
+            setTimeout(() => {
+                if (mediaRecorder.state === 'recording') {
+                    mediaRecorder.stop();
+                }
+            }, 5000);
+
+        } catch (error) {
+            console.error('Error accessing microphone:', error);
+            addMessage('Xin lỗi, không thể truy cập microphone của bạn. Vui lòng kiểm tra quyền truy cập.', 'bot');
+        }
     }
 
     // Gắn sự kiện

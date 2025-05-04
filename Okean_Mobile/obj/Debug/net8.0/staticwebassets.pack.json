@@ -5,48 +5,24 @@
       "PackagePath": "staticwebassets\\Okean_Mobile.k6xdhqfh5t.bundle.scp.css"
     },
     {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_base.css",
-      "PackagePath": "staticwebassets\\css\\_base.css"
-    },
-    {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_variables.css",
-      "PackagePath": "staticwebassets\\css\\_variables.css"
-    },
-    {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\chatbot.css",
-      "PackagePath": "staticwebassets\\css\\chatbot.css"
-    },
-    {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_cart.css",
-      "PackagePath": "staticwebassets\\css\\components\\_cart.css"
-    },
-    {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_chatbot.css",
-      "PackagePath": "staticwebassets\\css\\components\\_chatbot.css"
-    },
-    {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_footer.css",
-      "PackagePath": "staticwebassets\\css\\components\\_footer.css"
-    },
-    {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_navbar.css",
-      "PackagePath": "staticwebassets\\css\\components\\_navbar.css"
-    },
-    {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_product.css",
-      "PackagePath": "staticwebassets\\css\\components\\_product.css"
-    },
-    {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\main.css",
-      "PackagePath": "staticwebassets\\css\\main.css"
-    },
-    {
       "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\accessory-category.jpg",
+      "PackagePath": "staticwebassets\\images\\accessory-category.jpg"
+    },
+    {
+      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\hero-image.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-image.jpg"
+    },
+    {
+      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
     },
     {
       "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\products\\24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png",
@@ -89,6 +65,14 @@
       "PackagePath": "staticwebassets\\images\\products\\fd29f716-14ce-4244-85b8-7d387aa53408_IMG_1083.jpg"
     },
     {
+      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\smartphone-category.jpg",
+      "PackagePath": "staticwebassets\\images\\smartphone-category.jpg"
+    },
+    {
+      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\tablet-category.jpg",
+      "PackagePath": "staticwebassets\\images\\tablet-category.jpg"
+    },
+    {
       "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\chatbot.js",
       "PackagePath": "staticwebassets\\js\\chatbot.js"
     },
@@ -97,16 +81,8 @@
       "PackagePath": "staticwebassets\\js\\components\\cart.js"
     },
     {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\chatbot.js",
-      "PackagePath": "staticwebassets\\js\\components\\chatbot.js"
-    },
-    {
       "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
-    },
-    {
-      "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\services\\chatbotService.js",
-      "PackagePath": "staticwebassets\\js\\services\\chatbotService.js"
     },
     {
       "Id": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\site.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0J7jQaxnL4Y4OumMb3q6WSATKI23HusNUOvYr41IVbk=",
+  "Hash": "ApPkea795jKAJL5KpNc46OL8ZiUnNY0Xs56DNeqzgtE=",
   "Source": "Okean_Mobile",
   "BasePath": "_content/Okean_Mobile",
   "Mode": "Default",
@@ -59,195 +59,6 @@
       "OriginalItemSpec": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Okean_Mobile.bundle.scp.css"
     },
     {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_base.css",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "css/_base#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "6foqdx4ta0",
-      "Integrity": "Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\_base.css"
-    },
-    {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_variables.css",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "css/_variables#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ali15squl2",
-      "Integrity": "Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\_variables.css"
-    },
-    {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\chatbot.css",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "css/chatbot#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3ks4wioh88",
-      "Integrity": "k9GqaeUKGH5+rdkr0NgOnscfUaOL9Rv3QeVm+3YA1II=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\chatbot.css"
-    },
-    {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_cart.css",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "css/components/_cart#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cb922akpfi",
-      "Integrity": "WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\components\\_cart.css"
-    },
-    {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_chatbot.css",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "css/components/_chatbot#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "1nraoaxqkw",
-      "Integrity": "k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\components\\_chatbot.css"
-    },
-    {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_footer.css",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "css/components/_footer#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "j2mu24qx7w",
-      "Integrity": "O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\components\\_footer.css"
-    },
-    {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_navbar.css",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "css/components/_navbar#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wm0hgexxbr",
-      "Integrity": "iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\components\\_navbar.css"
-    },
-    {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_product.css",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "css/components/_product#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "lu4mpsygsn",
-      "Integrity": "DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\components\\_product.css"
-    },
-    {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\main.css",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "css/main#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "909b9m6ome",
-      "Integrity": "WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\main.css"
-    },
-    {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
       "SourceId": "Okean_Mobile",
       "SourceType": "Discovered",
@@ -262,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fah33x60b9",
-      "Integrity": "uR7IBZhZeeXf3YUWyZz511ZfNfR2Z55+AoAmRFvlVjo=",
+      "Fingerprint": "nn38zy4yfc",
+      "Integrity": "fbA/tQDeonWxxhjjtuek4Mh66VJqJZU96vqyVuCDmig=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -288,6 +99,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\accessory-category.jpg",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "images/accessory-category#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "57ew4hrjea",
+      "Integrity": "4ecdii8x0O9pSA0zOG/lLpZDNN1UpxHQNugSfJxTzKU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\accessory-category.jpg"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\hero-image.jpg",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "images/hero-image#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rt1xv58csw",
+      "Integrity": "f7qmgs1J8+9KTX4jT92BM3imGF8+P3uEXWp55P7iOHg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero-image.jpg"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\logo.jpg",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "images/logo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4vzw08kx7",
+      "Integrity": "rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.jpg"
     },
     {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\products\\24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png",
@@ -500,6 +374,48 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\fd29f716-14ce-4244-85b8-7d387aa53408_IMG_1083.jpg"
     },
     {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\smartphone-category.jpg",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "images/smartphone-category#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "laf8kz4ovj",
+      "Integrity": "k8CXKLUMFE+m3pEkfpIRq7RzXDUcNw5PYjiNnXnkBm0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\smartphone-category.jpg"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\tablet-category.jpg",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "images/tablet-category#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xdodpko1wt",
+      "Integrity": "tQUb/fpLUotNWwy8LE4Sw+wD4sk6capYFrenTGtLh8Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tablet-category.jpg"
+    },
+    {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\chatbot.js",
       "SourceId": "Okean_Mobile",
       "SourceType": "Discovered",
@@ -514,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nmm7j5hwry",
-      "Integrity": "T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00=",
+      "Fingerprint": "u8csi1rf40",
+      "Integrity": "Am3Te6L06KCWNJYr+POfSZV5X7BwTQ7fLzNy4y44GMg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\chatbot.js"
@@ -542,27 +458,6 @@
       "OriginalItemSpec": "wwwroot\\js\\components\\cart.js"
     },
     {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\chatbot.js",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "js/components/chatbot#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ybhdi1hmr4",
-      "Integrity": "AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\components\\chatbot.js"
-    },
-    {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\main.js",
       "SourceId": "Okean_Mobile",
       "SourceType": "Discovered",
@@ -582,27 +477,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js"
-    },
-    {
-      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\services\\chatbotService.js",
-      "SourceId": "Okean_Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
-      "BasePath": "_content/Okean_Mobile",
-      "RelativePath": "js/services/chatbotService#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "b13akilqul",
-      "Integrity": "3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\services\\chatbotService.js"
     },
     {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\site.js",
@@ -1846,744 +1720,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/_base.6foqdx4ta0.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_base.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "864"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6foqdx4ta0"
-        },
-        {
-          "Name": "label",
-          "Value": "css/_base.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI="
-        }
-      ]
-    },
-    {
-      "Route": "css/_base.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_base.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "864"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI="
-        }
-      ]
-    },
-    {
-      "Route": "css/_variables.ali15squl2.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_variables.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "358"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:14:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ali15squl2"
-        },
-        {
-          "Name": "label",
-          "Value": "css/_variables.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA="
-        }
-      ]
-    },
-    {
-      "Route": "css/_variables.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_variables.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "358"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:14:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA="
-        }
-      ]
-    },
-    {
-      "Route": "css/chatbot.3ks4wioh88.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\chatbot.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2184"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"k9GqaeUKGH5+rdkr0NgOnscfUaOL9Rv3QeVm+3YA1II=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 02:22:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3ks4wioh88"
-        },
-        {
-          "Name": "label",
-          "Value": "css/chatbot.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-k9GqaeUKGH5+rdkr0NgOnscfUaOL9Rv3QeVm+3YA1II="
-        }
-      ]
-    },
-    {
-      "Route": "css/chatbot.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\chatbot.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2184"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"k9GqaeUKGH5+rdkr0NgOnscfUaOL9Rv3QeVm+3YA1II=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 02:22:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-k9GqaeUKGH5+rdkr0NgOnscfUaOL9Rv3QeVm+3YA1II="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_cart.cb922akpfi.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_cart.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "434"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cb922akpfi"
-        },
-        {
-          "Name": "label",
-          "Value": "css/components/_cart.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_cart.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_cart.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "434"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_chatbot.1nraoaxqkw.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_chatbot.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2323"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1nraoaxqkw"
-        },
-        {
-          "Name": "label",
-          "Value": "css/components/_chatbot.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_chatbot.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_chatbot.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2323"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:27 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_footer.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_footer.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1981"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_footer.j2mu24qx7w.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_footer.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1981"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "j2mu24qx7w"
-        },
-        {
-          "Name": "label",
-          "Value": "css/components/_footer.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_navbar.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_navbar.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "321"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_navbar.wm0hgexxbr.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_navbar.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "321"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wm0hgexxbr"
-        },
-        {
-          "Name": "label",
-          "Value": "css/components/_navbar.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_product.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_product.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "978"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys="
-        }
-      ]
-    },
-    {
-      "Route": "css/components/_product.lu4mpsygsn.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_product.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "978"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lu4mpsygsn"
-        },
-        {
-          "Name": "label",
-          "Value": "css/components/_product.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.909b9m6ome.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\main.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "258"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "909b9m6ome"
-        },
-        {
-          "Name": "label",
-          "Value": "css/main.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\main.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "258"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:15:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2594,7 +1730,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5878"
+          "Value": "29718"
         },
         {
           "Name": "Content-Type",
@@ -2602,11 +1738,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uR7IBZhZeeXf3YUWyZz511ZfNfR2Z55+AoAmRFvlVjo=\""
+          "Value": "\"fbA/tQDeonWxxhjjtuek4Mh66VJqJZU96vqyVuCDmig=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 10:46:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2616,12 +1752,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uR7IBZhZeeXf3YUWyZz511ZfNfR2Z55+AoAmRFvlVjo="
+          "Value": "sha256-fbA/tQDeonWxxhjjtuek4Mh66VJqJZU96vqyVuCDmig="
         }
       ]
     },
     {
-      "Route": "css/site.fah33x60b9.css",
+      "Route": "css/site.nn38zy4yfc.css",
       "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2631,7 +1767,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5878"
+          "Value": "29718"
         },
         {
           "Name": "Content-Type",
@@ -2639,11 +1775,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uR7IBZhZeeXf3YUWyZz511ZfNfR2Z55+AoAmRFvlVjo=\""
+          "Value": "\"fbA/tQDeonWxxhjjtuek4Mh66VJqJZU96vqyVuCDmig=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 10:46:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2653,7 +1789,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fah33x60b9"
+          "Value": "nn38zy4yfc"
         },
         {
           "Name": "label",
@@ -2661,7 +1797,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uR7IBZhZeeXf3YUWyZz511ZfNfR2Z55+AoAmRFvlVjo="
+          "Value": "sha256-fbA/tQDeonWxxhjjtuek4Mh66VJqJZU96vqyVuCDmig="
         }
       ]
     },
@@ -2688,7 +1824,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2733,7 +1869,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2744,6 +1880,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/accessory-category.57ew4hrjea.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\accessory-category.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ecdii8x0O9pSA0zOG/lLpZDNN1UpxHQNugSfJxTzKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:55:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "57ew4hrjea"
+        },
+        {
+          "Name": "label",
+          "Value": "images/accessory-category.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ecdii8x0O9pSA0zOG/lLpZDNN1UpxHQNugSfJxTzKU="
+        }
+      ]
+    },
+    {
+      "Route": "images/accessory-category.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\accessory-category.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ecdii8x0O9pSA0zOG/lLpZDNN1UpxHQNugSfJxTzKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:55:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ecdii8x0O9pSA0zOG/lLpZDNN1UpxHQNugSfJxTzKU="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero-image.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\hero-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7qmgs1J8+9KTX4jT92BM3imGF8+P3uEXWp55P7iOHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 07:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7qmgs1J8+9KTX4jT92BM3imGF8+P3uEXWp55P7iOHg="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero-image.rt1xv58csw.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\hero-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7qmgs1J8+9KTX4jT92BM3imGF8+P3uEXWp55P7iOHg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 07:55:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rt1xv58csw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero-image.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7qmgs1J8+9KTX4jT92BM3imGF8+P3uEXWp55P7iOHg="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.j4vzw08kx7.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1619114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 00:56:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4vzw08kx7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1619114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Nov 2024 00:56:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rdfP6aBNiFeb/jb1ZL1Mk/jPGOUR1f9mMIaJOLhaoJc="
         }
       ]
     },
@@ -2770,7 +2152,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2815,7 +2197,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2852,7 +2234,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2889,7 +2271,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2934,7 +2316,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2979,7 +2361,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3016,7 +2398,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3053,7 +2435,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3098,7 +2480,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3135,7 +2517,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3180,7 +2562,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3217,7 +2599,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3262,7 +2644,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3307,7 +2689,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3344,7 +2726,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3389,7 +2771,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3426,7 +2808,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3471,7 +2853,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3508,7 +2890,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3553,7 +2935,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3568,6 +2950,170 @@
       ]
     },
     {
+      "Route": "images/smartphone-category.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\smartphone-category.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8CXKLUMFE+m3pEkfpIRq7RzXDUcNw5PYjiNnXnkBm0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:54:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8CXKLUMFE+m3pEkfpIRq7RzXDUcNw5PYjiNnXnkBm0="
+        }
+      ]
+    },
+    {
+      "Route": "images/smartphone-category.laf8kz4ovj.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\smartphone-category.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8CXKLUMFE+m3pEkfpIRq7RzXDUcNw5PYjiNnXnkBm0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:54:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "laf8kz4ovj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/smartphone-category.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8CXKLUMFE+m3pEkfpIRq7RzXDUcNw5PYjiNnXnkBm0="
+        }
+      ]
+    },
+    {
+      "Route": "images/tablet-category.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\tablet-category.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "608877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tQUb/fpLUotNWwy8LE4Sw+wD4sk6capYFrenTGtLh8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:55:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQUb/fpLUotNWwy8LE4Sw+wD4sk6capYFrenTGtLh8Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/tablet-category.xdodpko1wt.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\tablet-category.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "608877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tQUb/fpLUotNWwy8LE4Sw+wD4sk6capYFrenTGtLh8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 04:55:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xdodpko1wt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tablet-category.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQUb/fpLUotNWwy8LE4Sw+wD4sk6capYFrenTGtLh8Q="
+        }
+      ]
+    },
+    {
       "Route": "js/chatbot.js",
       "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\chatbot.js",
       "Selectors": [],
@@ -3578,7 +3124,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4596"
+          "Value": "7643"
         },
         {
           "Name": "Content-Type",
@@ -3586,11 +3132,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00=\""
+          "Value": "\"Am3Te6L06KCWNJYr+POfSZV5X7BwTQ7fLzNy4y44GMg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 01:56:07 GMT"
+          "Value": "Sun, 04 May 2025 10:55:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3600,12 +3146,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00="
+          "Value": "sha256-Am3Te6L06KCWNJYr+POfSZV5X7BwTQ7fLzNy4y44GMg="
         }
       ]
     },
     {
-      "Route": "js/chatbot.nmm7j5hwry.js",
+      "Route": "js/chatbot.u8csi1rf40.js",
       "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\chatbot.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3615,7 +3161,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4596"
+          "Value": "7643"
         },
         {
           "Name": "Content-Type",
@@ -3623,11 +3169,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00=\""
+          "Value": "\"Am3Te6L06KCWNJYr+POfSZV5X7BwTQ7fLzNy4y44GMg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 01:56:07 GMT"
+          "Value": "Sun, 04 May 2025 10:55:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3637,7 +3183,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nmm7j5hwry"
+          "Value": "u8csi1rf40"
         },
         {
           "Name": "label",
@@ -3645,7 +3191,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T6UsaZjl/UtGu58P3CKqNZXYutoTKRKXRrzK0NvwP00="
+          "Value": "sha256-Am3Te6L06KCWNJYr+POfSZV5X7BwTQ7fLzNy4y44GMg="
         }
       ]
     },
@@ -3672,7 +3218,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:22:08 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3709,7 +3255,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:22:08 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3728,88 +3274,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-TSEL3WrMz9pJkTBey60/RDlaBSY6oKSVdfXYOKGrBpk="
-        }
-      ]
-    },
-    {
-      "Route": "js/components/chatbot.js",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\chatbot.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4423"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:17:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk="
-        }
-      ]
-    },
-    {
-      "Route": "js/components/chatbot.ybhdi1hmr4.js",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\chatbot.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4423"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:17:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ybhdi1hmr4"
-        },
-        {
-          "Name": "label",
-          "Value": "js/components/chatbot.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk="
         }
       ]
     },
@@ -3836,7 +3300,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:17:07 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3873,7 +3337,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:17:07 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3892,88 +3356,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Hk4lQgeIKe58tU1wVdbPrV/i+q1f4bIRfFWQ1f3EMz4="
-        }
-      ]
-    },
-    {
-      "Route": "js/services/chatbotService.b13akilqul.js",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\services\\chatbotService.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "915"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:16:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b13akilqul"
-        },
-        {
-          "Name": "label",
-          "Value": "js/services/chatbotService.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48="
-        }
-      ]
-    },
-    {
-      "Route": "js/services/chatbotService.js",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\services\\chatbotService.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "915"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:16:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48="
         }
       ]
     },
@@ -4000,7 +3382,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4037,7 +3419,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4082,7 +3464,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:16:42 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4127,7 +3509,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 03:16:42 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4164,7 +3546,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4201,7 +3583,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4246,7 +3628,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4283,7 +3665,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4328,7 +3710,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4365,7 +3747,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4410,7 +3792,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4447,7 +3829,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4492,7 +3874,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4529,7 +3911,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4574,7 +3956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4611,7 +3993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4656,7 +4038,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4701,7 +4083,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4738,7 +4120,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4783,7 +4165,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4820,7 +4202,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4857,7 +4239,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4894,7 +4276,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4939,7 +4321,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4984,7 +4366,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5021,7 +4403,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5066,7 +4448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5103,7 +4485,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5148,7 +4530,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5185,7 +4567,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5230,7 +4612,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5267,7 +4649,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5312,7 +4694,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5349,7 +4731,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5386,7 +4768,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5431,7 +4813,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5476,7 +4858,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5513,7 +4895,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5558,7 +4940,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5595,7 +4977,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5632,7 +5014,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5669,7 +5051,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5714,7 +5096,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5759,7 +5141,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5804,7 +5186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5849,7 +5231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5886,7 +5268,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5931,7 +5313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5968,7 +5350,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6005,7 +5387,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6042,7 +5424,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6087,7 +5469,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6132,7 +5514,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6169,7 +5551,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6214,7 +5596,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6251,7 +5633,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6296,7 +5678,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6333,7 +5715,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6370,7 +5752,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6415,7 +5797,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6452,7 +5834,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6497,7 +5879,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6534,7 +5916,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6571,7 +5953,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6616,7 +5998,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6653,7 +6035,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6698,7 +6080,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6743,7 +6125,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6788,7 +6170,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6833,7 +6215,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6878,7 +6260,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6915,7 +6297,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6960,7 +6342,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6997,7 +6379,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7042,7 +6424,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7079,7 +6461,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7124,7 +6506,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7161,7 +6543,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7198,7 +6580,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7243,7 +6625,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7280,7 +6662,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7325,7 +6707,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7362,7 +6744,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7399,7 +6781,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7444,7 +6826,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7489,7 +6871,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7526,7 +6908,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7571,7 +6953,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7608,7 +6990,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7653,7 +7035,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7690,7 +7072,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7727,7 +7109,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7772,7 +7154,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7809,7 +7191,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7854,7 +7236,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7899,7 +7281,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7936,7 +7318,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7981,7 +7363,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8026,7 +7408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8063,7 +7445,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8100,7 +7482,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8145,7 +7527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8182,7 +7564,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8227,7 +7609,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8264,7 +7646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8309,7 +7691,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8346,7 +7728,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8391,7 +7773,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8428,7 +7810,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8465,7 +7847,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8510,7 +7892,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8547,7 +7929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8592,7 +7974,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8637,7 +8019,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8674,7 +8056,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8719,7 +8101,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8756,7 +8138,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8801,7 +8183,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8838,7 +8220,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8875,7 +8257,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8920,7 +8302,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8965,7 +8347,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:14:39 GMT"
+          "Value": "Sun, 04 May 2025 08:34:13 GMT"
         },
         {
           "Name": "Cache-Control",

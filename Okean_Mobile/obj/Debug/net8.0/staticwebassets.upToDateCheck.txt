@@ -1,14 +1,8 @@
-wwwroot\css\_base.css
-wwwroot\css\_variables.css
-wwwroot\css\chatbot.css
-wwwroot\css\components\_cart.css
-wwwroot\css\components\_chatbot.css
-wwwroot\css\components\_footer.css
-wwwroot\css\components\_navbar.css
-wwwroot\css\components\_product.css
-wwwroot\css\main.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\accessory-category.jpg
+wwwroot\images\hero-image.jpg
+wwwroot\images\logo.jpg
 wwwroot\images\products\24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png
 wwwroot\images\products\57ce1939-f5ee-4e49-9fb1-6c107198409a_IMG_1148.jpg
 wwwroot\images\products\5eab6fed-dca7-4584-9b38-bffc4b6c4e99__MG_1034.jpg
@@ -19,11 +13,11 @@ wwwroot\images\products\8346411e-29f4-4b23-9d45-0ecd89787a90_484967871_695434816
 wwwroot\images\products\dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.jpg
 wwwroot\images\products\e8de160f-4367-4339-85b9-c61209c4465d_DSC07623.jpg
 wwwroot\images\products\fd29f716-14ce-4244-85b8-7d387aa53408_IMG_1083.jpg
+wwwroot\images\smartphone-category.jpg
+wwwroot\images\tablet-category.jpg
 wwwroot\js\chatbot.js
 wwwroot\js\components\cart.js
-wwwroot\js\components\chatbot.js
 wwwroot\js\main.js
-wwwroot\js\services\chatbotService.js
 wwwroot\js\site.js
 wwwroot\js\utils\dom.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
