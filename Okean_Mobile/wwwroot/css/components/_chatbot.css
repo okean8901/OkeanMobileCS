@@ -1,0 +1,123 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    height: 500px;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    display: none;
+}
+
+.chatbot-header {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatbot-header h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.chatbot-messages {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.message.user {
+    background: #e9ecef;
+    margin-left: auto;
+}
+
+.message.bot {
+    background: var(--primary-color);
+    color: var(--white);
+    margin-right: auto;
+}
+
+.chatbot-input {
+    padding: 15px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    gap: 10px;
+}
+
+.chatbot-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.chatbot-input button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.chatbot-input button:hover {
+    background: var(--primary-hover);
+}
+
+.voice-btn {
+    background: var(--success-color) !important;
+}
+
+.voice-btn:hover {
+    background: var(--success-hover) !important;
+}
+
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    transition: var(--transition);
+}
+
+.chatbot-icon:hover {
+    transform: scale(1.1);
+    background: var(--primary-hover);
+}
+
+.chatbot-icon i {
+    color: var(--white);
+    font-size: 24px;
+} 

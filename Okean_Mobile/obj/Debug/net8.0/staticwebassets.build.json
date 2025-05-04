@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QR3VwWdOW2qg7GsvDh0MnTorE98+eSBFl1a4zs4NR6c=",
+  "Hash": "0J7jQaxnL4Y4OumMb3q6WSATKI23HusNUOvYr41IVbk=",
   "Source": "Okean_Mobile",
   "BasePath": "_content/Okean_Mobile",
   "Mode": "Default",
@@ -59,6 +59,48 @@
       "OriginalItemSpec": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Okean_Mobile.bundle.scp.css"
     },
     {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_base.css",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "css/_base#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6foqdx4ta0",
+      "Integrity": "Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\_base.css"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_variables.css",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "css/_variables#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ali15squl2",
+      "Integrity": "Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\_variables.css"
+    },
+    {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\chatbot.css",
       "SourceId": "Okean_Mobile",
       "SourceType": "Discovered",
@@ -78,6 +120,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\chatbot.css"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_cart.css",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "css/components/_cart#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cb922akpfi",
+      "Integrity": "WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\components\\_cart.css"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_chatbot.css",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "css/components/_chatbot#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1nraoaxqkw",
+      "Integrity": "k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\components\\_chatbot.css"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_footer.css",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "css/components/_footer#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j2mu24qx7w",
+      "Integrity": "O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\components\\_footer.css"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_navbar.css",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "css/components/_navbar#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wm0hgexxbr",
+      "Integrity": "iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\components\\_navbar.css"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_product.css",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "css/components/_product#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lu4mpsygsn",
+      "Integrity": "DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\components\\_product.css"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\main.css",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "css/main#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "909b9m6ome",
+      "Integrity": "WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
@@ -353,6 +521,90 @@
       "OriginalItemSpec": "wwwroot\\js\\chatbot.js"
     },
     {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\cart.js",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "js/components/cart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pdeam5bcqw",
+      "Integrity": "TSEL3WrMz9pJkTBey60/RDlaBSY6oKSVdfXYOKGrBpk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\components\\cart.js"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\chatbot.js",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "js/components/chatbot#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ybhdi1hmr4",
+      "Integrity": "AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\components\\chatbot.js"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\main.js",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yz9u86ibj5",
+      "Integrity": "Hk4lQgeIKe58tU1wVdbPrV/i+q1f4bIRfFWQ1f3EMz4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\services\\chatbotService.js",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "js/services/chatbotService#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b13akilqul",
+      "Integrity": "3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\services\\chatbotService.js"
+    },
+    {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\site.js",
       "SourceId": "Okean_Mobile",
       "SourceType": "Discovered",
@@ -372,6 +624,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\utils\\dom.js",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "js/utils/dom#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g8xf4q9txn",
+      "Integrity": "AFIYRZpovKhVQlG1mTrgvPbrRv+t2F9X+NukFJ8gR5Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\utils\\dom.js"
     },
     {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -1573,6 +1846,170 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/_base.6foqdx4ta0.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6foqdx4ta0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/_base.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI="
+        }
+      ]
+    },
+    {
+      "Route": "css/_base.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Is+iXM7Q0xhrV0O6mmu+OroN017bG00fosxOdgVFJfI="
+        }
+      ]
+    },
+    {
+      "Route": "css/_variables.ali15squl2.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_variables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:14:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ali15squl2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/_variables.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA="
+        }
+      ]
+    },
+    {
+      "Route": "css/_variables.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\_variables.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:14:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xkmbj4mUpyIfRULBliK38c16ah/0MMGztC9QWLufCTA="
+        }
+      ]
+    },
+    {
       "Route": "css/chatbot.3ks4wioh88.css",
       "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\chatbot.css",
       "Selectors": [],
@@ -1651,6 +2088,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-k9GqaeUKGH5+rdkr0NgOnscfUaOL9Rv3QeVm+3YA1II="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_cart.cb922akpfi.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_cart.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cb922akpfi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components/_cart.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_cart.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_cart.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WDrI8GZifqqV1fKk23+ouiqx9xkwhIBikCk5Gvj1y0I="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_chatbot.1nraoaxqkw.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_chatbot.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1nraoaxqkw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components/_chatbot.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_chatbot.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_chatbot.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k0W/vU8P/QOq1d/4KZIzizh/N7k06C9yrlhml6VUQHQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_footer.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_footer.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_footer.j2mu24qx7w.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_footer.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j2mu24qx7w"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components/_footer.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O314tofo37QIIgfcoR3O2OpheRR2E1CLtFAGH0rb6xk="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_navbar.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_navbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_navbar.wm0hgexxbr.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_navbar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wm0hgexxbr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components/_navbar.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iIr2jW2DbR63gjzfo1ZSR9UChT29tq83LEuWIy34dq0="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_product.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_product.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys="
+        }
+      ]
+    },
+    {
+      "Route": "css/components/_product.lu4mpsygsn.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\components\\_product.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lu4mpsygsn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components/_product.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DYumwGtaJaUzqsz9wJseYnA6/EifLzwJwch9zYGh0ys="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.909b9m6ome.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "909b9m6ome"
+        },
+        {
+          "Name": "label",
+          "Value": "css/main.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:15:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WSO35nuoVDJbIBWWuwqV3E4Z+jkkYitqgPIQcUA4axc="
         }
       ]
     },
@@ -2721,6 +3650,334 @@
       ]
     },
     {
+      "Route": "js/components/cart.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\cart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TSEL3WrMz9pJkTBey60/RDlaBSY6oKSVdfXYOKGrBpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:22:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TSEL3WrMz9pJkTBey60/RDlaBSY6oKSVdfXYOKGrBpk="
+        }
+      ]
+    },
+    {
+      "Route": "js/components/cart.pdeam5bcqw.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\cart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TSEL3WrMz9pJkTBey60/RDlaBSY6oKSVdfXYOKGrBpk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:22:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pdeam5bcqw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/components/cart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TSEL3WrMz9pJkTBey60/RDlaBSY6oKSVdfXYOKGrBpk="
+        }
+      ]
+    },
+    {
+      "Route": "js/components/chatbot.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\chatbot.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk="
+        }
+      ]
+    },
+    {
+      "Route": "js/components/chatbot.ybhdi1hmr4.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\components\\chatbot.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ybhdi1hmr4"
+        },
+        {
+          "Name": "label",
+          "Value": "js/components/chatbot.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AuGpIxOuHMXSZBI3VMm3hHSO9pMTFj0QMierexmfqMk="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hk4lQgeIKe58tU1wVdbPrV/i+q1f4bIRfFWQ1f3EMz4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:17:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hk4lQgeIKe58tU1wVdbPrV/i+q1f4bIRfFWQ1f3EMz4="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.yz9u86ibj5.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hk4lQgeIKe58tU1wVdbPrV/i+q1f4bIRfFWQ1f3EMz4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:17:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yz9u86ibj5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hk4lQgeIKe58tU1wVdbPrV/i+q1f4bIRfFWQ1f3EMz4="
+        }
+      ]
+    },
+    {
+      "Route": "js/services/chatbotService.b13akilqul.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\services\\chatbotService.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b13akilqul"
+        },
+        {
+          "Name": "label",
+          "Value": "js/services/chatbotService.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48="
+        }
+      ]
+    },
+    {
+      "Route": "js/services/chatbotService.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\services\\chatbotService.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:16:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3xnoKrhnjg03Zox5V+AX+9nxT9icKd9HJjZM7C9KZ48="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -2799,6 +4056,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/utils/dom.g8xf4q9txn.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\utils\\dom.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AFIYRZpovKhVQlG1mTrgvPbrRv+t2F9X+NukFJ8gR5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:16:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g8xf4q9txn"
+        },
+        {
+          "Name": "label",
+          "Value": "js/utils/dom.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AFIYRZpovKhVQlG1mTrgvPbrRv+t2F9X+NukFJ8gR5Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/utils/dom.js",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\js\\utils\\dom.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AFIYRZpovKhVQlG1mTrgvPbrRv+t2F9X+NukFJ8gR5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 03:16:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AFIYRZpovKhVQlG1mTrgvPbrRv+t2F9X+NukFJ8gR5Y="
         }
       ]
     },

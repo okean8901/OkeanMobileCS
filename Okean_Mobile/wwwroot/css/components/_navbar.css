@@ -1,0 +1,21 @@
+.navbar-brand {
+    font-weight: 700;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: var(--shadow);
+}
+
+.cart-count {
+    font-size: 0.7rem;
+    position: relative;
+    top: -5px;
+} 

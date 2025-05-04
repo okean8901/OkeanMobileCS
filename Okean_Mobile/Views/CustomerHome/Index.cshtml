@@ -93,9 +93,14 @@
                         <div class="d-flex justify-content-between">
                             <a asp-controller="CustomerProduct" asp-action="Details" asp-route-id="@product.Id" 
                                class="btn btn-outline-primary">Xem chi tiết</a>
-                            <button class="btn btn-success add-to-cart" data-product-id="@product.Id">
-                                <i class="fas fa-shopping-cart"></i> Thêm vào giỏ
-                            </button>
+                            <form class="add-to-cart-form" data-product-id="@product.Id">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="productId" value="@product.Id" />
+                                <input type="hidden" name="quantity" value="1" />
+                                <button type="submit" class="btn btn-success">
+                                    <i class="fas fa-shopping-cart"></i> Thêm vào giỏ
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -104,26 +109,26 @@
     </div>
 </div>
 
+<!-- Toast Notification -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="cartToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header bg-success text-white">
+            <i class="fas fa-check-circle me-2"></i>
+            <strong class="me-auto">Thành công</strong>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Đã thêm sản phẩm vào giỏ hàng thành công!
+        </div>
+    </div>
+</div>
+
 @section Scripts {
-    <script>
-        $(document).ready(function() {
-            $('.add-to-cart').click(function() {
-                var productId = $(this).data('product-id');
-                $.post('/Cart/AddToCart', { productId: productId, quantity: 1 })
-                    .done(function(response) {
-                        if (response.success) {
-                            // Update cart count
-                            $('.cart-count').text(response.cartCount);
-                            // Show success message
-                            alert('Đã thêm sản phẩm vào giỏ hàng');
-                        } else {
-                            alert('Có lỗi xảy ra: ' + response.message);
-                        }
-                    })
-                    .fail(function() {
-                        alert('Có lỗi xảy ra khi thêm vào giỏ hàng');
-                    });
-            });
+    <script type="module">
+        import { Cart } from '/js/components/cart.js';
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            new Cart();
         });
     </script>
 }
