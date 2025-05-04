@@ -10,7 +10,7 @@
             <div class="col-md-6">
                 <h1 class="display-4 fw-bold">Chào mừng đến với Okean Mobile</h1>
                 <p class="lead">Khám phá thế giới công nghệ với những sản phẩm chất lượng cao</p>
-                <a href="@Url.Action("Index", "Product")" class="btn btn-light btn-lg">Xem sản phẩm</a>
+                <a href="@Url.Action("Index", "CustomerProduct")" class="btn btn-light btn-lg">Xem sản phẩm</a>
             </div>
             <div class="col-md-6">
                 <img src="/images/hero-image.jpg" alt="Hero Image" class="img-fluid">
@@ -29,7 +29,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Điện thoại</h5>
                     <p class="card-text">Khám phá những mẫu điện thoại mới nhất</p>
-                    <a href="@Url.Action("Index", "Product", new { category = "smartphone" })" class="btn btn-primary">Xem ngay</a>
+                    <a href="@Url.Action("Index", "CustomerProduct", new { category = "smartphone" })" class="btn btn-primary">Xem ngay</a>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Máy tính bảng</h5>
                     <p class="card-text">Trải nghiệm công nghệ màn hình lớn sắc nét</p>
-                    <a href="@Url.Action("Index", "Product", new { category = "tablet" })" class="btn btn-primary">Xem ngay</a>
+                    <a href="@Url.Action("Index", "CustomerProduct", new { category = "tablet" })" class="btn btn-primary">Xem ngay</a>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Phụ kiện</h5>
                     <p class="card-text">Phụ kiện chính hãng cho thiết bị của bạn</p>
-                    <a href="@Url.Action("Index", "Product", new { category = "accessory" })" class="btn btn-primary">Xem ngay</a>
+                    <a href="@Url.Action("Index", "CustomerProduct", new { category = "accessory" })" class="btn btn-primary">Xem ngay</a>
                 </div>
             </div>
         </div>
@@ -133,28 +133,4 @@
     </script>
 }
 
-<style>
-    .hero-section {
-        background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
-    }
-
-    .category-card {
-        transition: transform 0.3s ease;
-        border: none;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .category-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    }
-
-    .category-card .card-img-top {
-        height: 200px;
-        object-fit: cover;
-    }
-
-    .category-card .card-body {
-        padding: 1.5rem;
-    }
-</style> 
+ 
