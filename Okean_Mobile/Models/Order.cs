@@ -24,7 +24,7 @@ namespace Okean_Mobile.Models
 
         [Required(ErrorMessage = "Vui lòng nhập số điện thoại")]
         [Phone(ErrorMessage = "Số điện thoại không hợp lệ")]
-        [StringLength(20, ErrorMessage = "Số điện thoại không được vượt quá 20 ký tự")]
+        [StringLength(10, ErrorMessage = "Số điện thoại không được vượt quá 10 ký tự")]
         public string PhoneNumber { get; set; }
 
         [StringLength(500, ErrorMessage = "Ghi chú không được vượt quá 500 ký tự")]

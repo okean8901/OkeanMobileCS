@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eWnUmS+8DiiOk3rGw6OfJpIzbs6cpZJsWFBBhRaUgJ4=",
+  "Hash": "+5Zsm50C6C/SNbYe/+uIvI8oB9cybDH4SSy2kRgLx24=",
   "Source": "Okean_Mobile",
   "BasePath": "_content/Okean_Mobile",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4lh7q1ldoj",
-      "Integrity": "yOJD7fB1sKB14BE4IzLgNkNlK+pW2ISTJ4YJm2s66eM=",
+      "Fingerprint": "qhl04ev1vb",
+      "Integrity": "zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1720,51 +1720,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.4lh7q1ldoj.css",
-      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "35551"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yOJD7fB1sKB14BE4IzLgNkNlK+pW2ISTJ4YJm2s66eM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 12:41:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4lh7q1ldoj"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yOJD7fB1sKB14BE4IzLgNkNlK+pW2ISTJ4YJm2s66eM="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1775,7 +1730,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35551"
+          "Value": "35557"
         },
         {
           "Name": "Content-Type",
@@ -1783,11 +1738,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yOJD7fB1sKB14BE4IzLgNkNlK+pW2ISTJ4YJm2s66eM=\""
+          "Value": "\"zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 12:41:06 GMT"
+          "Value": "Sun, 04 May 2025 13:58:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1797,7 +1752,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yOJD7fB1sKB14BE4IzLgNkNlK+pW2ISTJ4YJm2s66eM="
+          "Value": "sha256-zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.qhl04ev1vb.css",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 13:58:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qhl04ev1vb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc="
         }
       ]
     },

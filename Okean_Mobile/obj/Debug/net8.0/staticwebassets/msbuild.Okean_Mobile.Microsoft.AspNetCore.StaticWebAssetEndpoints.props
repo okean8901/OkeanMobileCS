@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/Okean_Mobile/css/site.4lh7q1ldoj.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4lh7q1ldoj"},{"Name":"integrity","Value":"sha256-yOJD7fB1sKB14BE4IzLgNkNlK\u002BpW2ISTJ4YJm2s66eM="},{"Name":"label","Value":"_content/Okean_Mobile/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"35551"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yOJD7fB1sKB14BE4IzLgNkNlK\u002BpW2ISTJ4YJm2s66eM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 12:41:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Okean_Mobile/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yOJD7fB1sKB14BE4IzLgNkNlK\u002BpW2ISTJ4YJm2s66eM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"35551"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yOJD7fB1sKB14BE4IzLgNkNlK\u002BpW2ISTJ4YJm2s66eM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 12:41:06 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"35557"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 13:58:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Okean_Mobile/css/site.qhl04ev1vb.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qhl04ev1vb"},{"Name":"integrity","Value":"sha256-zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc="},{"Name":"label","Value":"_content/Okean_Mobile/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"35557"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 13:58:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Okean_Mobile/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

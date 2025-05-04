@@ -6,7 +6,7 @@ using Okean_Mobile.Models;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace Okean_Mobile.Controllers
+namespace Okean_Mobile.Migrations
 {
     [Authorize(Roles = "Customer")]
     public class CustomerProductController : Controller

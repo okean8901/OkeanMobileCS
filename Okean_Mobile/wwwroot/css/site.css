@@ -924,14 +924,14 @@ a.animated-link:hover::after {
 }
 
 .footer a {
-  color: var(--text-color);
-  text-decoration: none;
-  transition: var(--transition);
-  display: block;
-  margin-bottom: 0.8rem;
-  position: relative;
-  padding-left: 0;
-  font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: var(--transition);
+    display: block;
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 0;
+    font-size: 1rem;
 }
 
 .footer a:hover {
