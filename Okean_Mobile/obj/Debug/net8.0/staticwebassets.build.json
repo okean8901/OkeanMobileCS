@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+5Zsm50C6C/SNbYe/+uIvI8oB9cybDH4SSy2kRgLx24=",
+  "Hash": "DaD0E0NBLzvyBpOsc9KxcGrY8HRskrF7mVnAYscj2/g=",
   "Source": "Okean_Mobile",
   "BasePath": "_content/Okean_Mobile",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qhl04ev1vb",
-      "Integrity": "zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=",
+      "Fingerprint": "jihak1e9tn",
+      "Integrity": "1TDhypKa3DSBpdGwpKEWq7MU/Lrc6Oyy2/5bnnyruC0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -309,6 +309,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\8346411e-29f4-4b23-9d45-0ecd89787a90_484967871_695434816143169_6720345346745522057_n.jpg"
+    },
+    {
+      "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\products\\c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg",
+      "SourceId": "Okean_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\",
+      "BasePath": "_content/Okean_Mobile",
+      "RelativePath": "images/products/c99c7a06-386f-4110-8527-02859583dcf9_DSC08071#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6uekm3c5qx",
+      "Integrity": "Hkq8aQgHhYFYZ97yYLZvz+uDgRD9kayncIEpfCRsPsc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg"
     },
     {
       "Identity": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\products\\dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.jpg",
@@ -1730,7 +1751,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35557"
+          "Value": "35962"
         },
         {
           "Name": "Content-Type",
@@ -1738,11 +1759,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=\""
+          "Value": "\"1TDhypKa3DSBpdGwpKEWq7MU/Lrc6Oyy2/5bnnyruC0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 13:58:56 GMT"
+          "Value": "Thu, 08 May 2025 08:24:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1752,12 +1773,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc="
+          "Value": "sha256-1TDhypKa3DSBpdGwpKEWq7MU/Lrc6Oyy2/5bnnyruC0="
         }
       ]
     },
     {
-      "Route": "css/site.qhl04ev1vb.css",
+      "Route": "css/site.jihak1e9tn.css",
       "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1767,7 +1788,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35557"
+          "Value": "35962"
         },
         {
           "Name": "Content-Type",
@@ -1775,11 +1796,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=\""
+          "Value": "\"1TDhypKa3DSBpdGwpKEWq7MU/Lrc6Oyy2/5bnnyruC0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 13:58:56 GMT"
+          "Value": "Thu, 08 May 2025 08:24:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1789,7 +1810,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qhl04ev1vb"
+          "Value": "jihak1e9tn"
         },
         {
           "Name": "label",
@@ -1797,7 +1818,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc="
+          "Value": "sha256-1TDhypKa3DSBpdGwpKEWq7MU/Lrc6Oyy2/5bnnyruC0="
         }
       ]
     },
@@ -2700,6 +2721,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-i/cs7C/jii1gB70Qp4fd56mDzybbhBsQIidLark8hLs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.6uekm3c5qx.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\products\\c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3359372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hkq8aQgHhYFYZ97yYLZvz+uDgRD9kayncIEpfCRsPsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 14:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6uekm3c5qx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hkq8aQgHhYFYZ97yYLZvz+uDgRD9kayncIEpfCRsPsc="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg",
+      "AssetFile": "T:\\Source code c#\\Okean_Mobile\\OkeanMobileCS\\Okean_Mobile\\wwwroot\\images\\products\\c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3359372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hkq8aQgHhYFYZ97yYLZvz+uDgRD9kayncIEpfCRsPsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 14:09:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hkq8aQgHhYFYZ97yYLZvz+uDgRD9kayncIEpfCRsPsc="
         }
       ]
     },

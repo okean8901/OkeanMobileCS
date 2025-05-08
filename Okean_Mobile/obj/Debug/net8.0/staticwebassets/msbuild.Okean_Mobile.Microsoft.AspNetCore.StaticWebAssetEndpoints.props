@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/Okean_Mobile/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"35557"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 13:58:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1TDhypKa3DSBpdGwpKEWq7MU/Lrc6Oyy2/5bnnyruC0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"35962"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221TDhypKa3DSBpdGwpKEWq7MU/Lrc6Oyy2/5bnnyruC0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 08:24:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Okean_Mobile/css/site.qhl04ev1vb.css">
+    <StaticWebAssetEndpoint Include="_content/Okean_Mobile/css/site.jihak1e9tn.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qhl04ev1vb"},{"Name":"integrity","Value":"sha256-zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc="},{"Name":"label","Value":"_content/Okean_Mobile/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"35557"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zhh4tNwewF9LP2l8CZcixg8vDFk6FtOrTW2QkzUtaqc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 13:58:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jihak1e9tn"},{"Name":"integrity","Value":"sha256-1TDhypKa3DSBpdGwpKEWq7MU/Lrc6Oyy2/5bnnyruC0="},{"Name":"label","Value":"_content/Okean_Mobile/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"35962"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221TDhypKa3DSBpdGwpKEWq7MU/Lrc6Oyy2/5bnnyruC0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 08:24:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Okean_Mobile/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -143,6 +143,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-i/cs7C/jii1gB70Qp4fd56mDzybbhBsQIidLark8hLs="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"362095"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022i/cs7C/jii1gB70Qp4fd56mDzybbhBsQIidLark8hLs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 08:34:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Okean_Mobile/images/products/c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.6uekm3c5qx.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6uekm3c5qx"},{"Name":"integrity","Value":"sha256-Hkq8aQgHhYFYZ97yYLZvz\u002BuDgRD9kayncIEpfCRsPsc="},{"Name":"label","Value":"_content/Okean_Mobile/images/products/c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3359372"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Hkq8aQgHhYFYZ97yYLZvz\u002BuDgRD9kayncIEpfCRsPsc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 14:09:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Okean_Mobile/images/products/c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Hkq8aQgHhYFYZ97yYLZvz\u002BuDgRD9kayncIEpfCRsPsc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3359372"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Hkq8aQgHhYFYZ97yYLZvz\u002BuDgRD9kayncIEpfCRsPsc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 May 2025 14:09:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Okean_Mobile/images/products/dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.gy24sof00f.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.jpg'))</AssetFile>
