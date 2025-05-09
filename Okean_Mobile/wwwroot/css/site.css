@@ -1669,7 +1669,7 @@ a.animated-link:hover::after {
 }
 
 .auth-card {
-    background: #ffffff;
+    background: #F8F9FA;
     border-radius: 16px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -1696,7 +1696,7 @@ a.animated-link:hover::after {
 }
 
     .auth-header h2 {
-        color: #ffffff;
+        color: #0a58ca;
         font-size: 1.5rem;
         font-weight: 600;
         margin-bottom: 0.5rem;
@@ -1825,9 +1825,9 @@ a.animated-link:hover::after {
 }
 
 /* Dark mode support */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     .auth-container {
-        background: #ffffff;
+        background: #F8F9FA;
     }
 
     .auth-card {
