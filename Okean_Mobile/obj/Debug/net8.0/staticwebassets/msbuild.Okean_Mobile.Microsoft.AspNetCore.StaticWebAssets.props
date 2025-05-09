@@ -234,6 +234,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Okean_Mobile</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Okean_Mobile</BasePath>
+      <RelativePath>images/products/d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e3mqiuvkra</Fingerprint>
+      <Integrity>Wmxi7vWXtiEhsRIQZKwKDIZy1EOEi43T65dUzyasiRU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Okean_Mobile</SourceId>

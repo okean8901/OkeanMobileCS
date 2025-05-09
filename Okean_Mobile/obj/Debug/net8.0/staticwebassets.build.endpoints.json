@@ -1151,6 +1151,88 @@
       ]
     },
     {
+      "Route": "images/products/d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.e3mqiuvkra.jpg",
+      "AssetFile": "images/products/d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1474154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wmxi7vWXtiEhsRIQZKwKDIZy1EOEi43T65dUzyasiRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 08:28:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3mqiuvkra"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wmxi7vWXtiEhsRIQZKwKDIZy1EOEi43T65dUzyasiRU="
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/products/d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg",
+      "AssetFile": "images/products/d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1474154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wmxi7vWXtiEhsRIQZKwKDIZy1EOEi43T65dUzyasiRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 08:28:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wmxi7vWXtiEhsRIQZKwKDIZy1EOEi43T65dUzyasiRU="
+        }
+      ]
+    },
+    {
       "Route": "images/products/dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.gy24sof00f.jpg",
       "AssetFile": "images/products/dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.jpg",
       "Selectors": [],

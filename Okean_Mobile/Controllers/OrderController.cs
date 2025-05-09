@@ -242,5 +242,33 @@ namespace Okean_Mobile.Controllers
             TempData["ErrorMessage"] = "Thanh toán thất bại. Vui lòng thử lại.";
             return RedirectToAction(nameof(Index));
         }
+
+        // POST: Order/MarkAsReceived/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> MarkAsReceived(int id)
+        {
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var order = await _context.Orders
+                .FirstOrDefaultAsync(o => o.Id == id && o.UserId == userId);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            if (order.Status != "Shipped")
+            {
+                TempData["ErrorMessage"] = "Chỉ có thể xác nhận đã nhận hàng khi đơn hàng đang trong trạng thái đang giao hàng.";
+                return RedirectToAction(nameof(Details), new { id = order.Id });
+            }
+
+            order.Status = "Complete";
+            _context.Update(order);
+            await _context.SaveChangesAsync();
+
+            TempData["SuccessMessage"] = "Đã xác nhận nhận hàng thành công!";
+            return RedirectToAction(nameof(Details), new { id = order.Id });
+        }
     }
 }
