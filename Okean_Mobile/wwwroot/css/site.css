@@ -193,7 +193,7 @@ a.animated-link:hover::after {
   background-color: var(--background-color);
   box-shadow: var(--shadow);
   padding: 1rem 0;
-  height: 50px;
+  height: 60px;
 }
 
 .navbar-brand {

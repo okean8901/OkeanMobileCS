@@ -39,6 +39,8 @@ namespace Okean_Mobile.Models
 
         public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new HashSet<OrderDetail>();
 
+        public virtual ICollection<ProductReview> Reviews { get; set; } = new HashSet<ProductReview>();
+
         public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }
