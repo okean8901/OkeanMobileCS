@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ii68owmcjb</Fingerprint>
-      <Integrity>+spWMM4SsmdenCbcz/fqENHLW65SM9ayM7JOd1cULtA=</Integrity>
+      <Fingerprint>hb5zq3wvmb</Fingerprint>
+      <Integrity>U/TO4nXvTsLfO3fLMRCvLxGh18QnA3VfFVtxo0u61rc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -90,221 +90,59 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\4efba8f6-58b2-438d-a6e2-bf9924ef3e00_samsung-galaxy-s23-cu-xam.jpg.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>Okean_Mobile</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png</RelativePath>
+      <RelativePath>images/products/4efba8f6-58b2-438d-a6e2-bf9924ef3e00_samsung-galaxy-s23-cu-xam.jpg.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j121cwlo0q</Fingerprint>
-      <Integrity>aeMcr/m57iy6E9JHJLmJOoRtBmBWqXlfkV/of48xOMk=</Integrity>
+      <Fingerprint>hgt8hcczdk</Fingerprint>
+      <Integrity>ISh+ZrurUckhqOt7JV4ZoPvEwt++YAI+QCUtzgMJkdw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\24c0f011-0a1e-4b24-b408-6896b50fb3be_Ảnh chụp màn hình 2025-04-19 110230.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\4efba8f6-58b2-438d-a6e2-bf9924ef3e00_samsung-galaxy-s23-cu-xam.jpg.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\57ce1939-f5ee-4e49-9fb1-6c107198409a_IMG_1148.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\7412992a-2e97-4fe9-b42d-2aba098500c2_tai-nghe-samsung-galaxy-buds-pro-2.jpg.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>Okean_Mobile</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/57ce1939-f5ee-4e49-9fb1-6c107198409a_IMG_1148.jpg</RelativePath>
+      <RelativePath>images/products/7412992a-2e97-4fe9-b42d-2aba098500c2_tai-nghe-samsung-galaxy-buds-pro-2.jpg.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uugoyucdea</Fingerprint>
-      <Integrity>qvrjjzjREAGoOT8rvq7Nh9zXFXF9GMs1oQ6E1D1lkpE=</Integrity>
+      <Fingerprint>v9x2zwlv77</Fingerprint>
+      <Integrity>86ewiNEjbKM8OJaY+Br6fXWfbTuTYi7ZP3hd/T8nF1U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\57ce1939-f5ee-4e49-9fb1-6c107198409a_IMG_1148.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\7412992a-2e97-4fe9-b42d-2aba098500c2_tai-nghe-samsung-galaxy-buds-pro-2.jpg.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\5eab6fed-dca7-4584-9b38-bffc4b6c4e99__MG_1034.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\8480d7d4-61fd-4e58-b7b1-1b1c06a08f3b_samsung-galaxy-tab-a9-xanh-navy.jpg.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>Okean_Mobile</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/5eab6fed-dca7-4584-9b38-bffc4b6c4e99__MG_1034.jpg</RelativePath>
+      <RelativePath>images/products/8480d7d4-61fd-4e58-b7b1-1b1c06a08f3b_samsung-galaxy-tab-a9-xanh-navy.jpg.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dbsmh3xuuy</Fingerprint>
-      <Integrity>J5ppZFhjUuntCtgDQXiVrNltYb5cMgF7tq4vgGjwdTw=</Integrity>
+      <Fingerprint>zaad6ml3qm</Fingerprint>
+      <Integrity>a2MGkCthZrx6poJvVJSb5zKusppx0Z1vg83/w5UNer8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\5eab6fed-dca7-4584-9b38-bffc4b6c4e99__MG_1034.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\603ce06e-9b8f-4a16-b7dd-ce450f35d56c_DSC07566.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Okean_Mobile</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/603ce06e-9b8f-4a16-b7dd-ce450f35d56c_DSC07566.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vz6j4d2slq</Fingerprint>
-      <Integrity>1V33S9gNBmC1uWfCThsX5vc2WPMPjW3yzLpYmYr5xl8=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\603ce06e-9b8f-4a16-b7dd-ce450f35d56c_DSC07566.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\60fb92b2-1e22-4f49-8676-f217315c2bfb_IMG_1053.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Okean_Mobile</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/60fb92b2-1e22-4f49-8676-f217315c2bfb_IMG_1053.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xxwgikgqqr</Fingerprint>
-      <Integrity>xawHWeJ1loMq+NRL+IeZ4f8//ZKR40ggFALrKKfPUQw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\60fb92b2-1e22-4f49-8676-f217315c2bfb_IMG_1053.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\774f40b8-2713-4681-b47c-0f81b6a04b67_6O7A7393.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Okean_Mobile</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/774f40b8-2713-4681-b47c-0f81b6a04b67_6O7A7393.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>l1s7aloyir</Fingerprint>
-      <Integrity>R7jeVrN8zr71CDDOfSs2R2x18xDUMT9H9FPuVFhpGJU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\774f40b8-2713-4681-b47c-0f81b6a04b67_6O7A7393.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\8346411e-29f4-4b23-9d45-0ecd89787a90_484967871_695434816143169_6720345346745522057_n.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Okean_Mobile</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/8346411e-29f4-4b23-9d45-0ecd89787a90_484967871_695434816143169_6720345346745522057_n.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j2n7bni3jz</Fingerprint>
-      <Integrity>i/cs7C/jii1gB70Qp4fd56mDzybbhBsQIidLark8hLs=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\8346411e-29f4-4b23-9d45-0ecd89787a90_484967871_695434816143169_6720345346745522057_n.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Okean_Mobile</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6uekm3c5qx</Fingerprint>
-      <Integrity>Hkq8aQgHhYFYZ97yYLZvz+uDgRD9kayncIEpfCRsPsc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\c99c7a06-386f-4110-8527-02859583dcf9_DSC08071.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Okean_Mobile</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e3mqiuvkra</Fingerprint>
-      <Integrity>Wmxi7vWXtiEhsRIQZKwKDIZy1EOEi43T65dUzyasiRU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\d984e516-b75b-4c73-b10c-21a76d03da1a_DSC07964.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Okean_Mobile</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gy24sof00f</Fingerprint>
-      <Integrity>CCxCgIYPVA7aTVf06Z8smGSNT7LX1YUaPrqhpaT7vQc=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\dd6be8a9-9241-469e-9cca-c98ae5ea4a83_DSC07474.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\e8de160f-4367-4339-85b9-c61209c4465d_DSC07623.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Okean_Mobile</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/e8de160f-4367-4339-85b9-c61209c4465d_DSC07623.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ft9qmuub74</Fingerprint>
-      <Integrity>M2Ld3TETNIRjYhIeig2dpRpnu5u8X7hPC/UM4SIPFyI=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\e8de160f-4367-4339-85b9-c61209c4465d_DSC07623.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\fd29f716-14ce-4244-85b8-7d387aa53408_IMG_1083.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Okean_Mobile</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Okean_Mobile</BasePath>
-      <RelativePath>images/products/fd29f716-14ce-4244-85b8-7d387aa53408_IMG_1083.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5hypvpkkgj</Fingerprint>
-      <Integrity>N8IiaoDInXez6DXVf18p3IHsGutoYhm79jQe/GFZ4CU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\fd29f716-14ce-4244-85b8-7d387aa53408_IMG_1083.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\8480d7d4-61fd-4e58-b7b1-1b1c06a08f3b_samsung-galaxy-tab-a9-xanh-navy.jpg.webp'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\smartphone-category.jpg'))">
       <SourceType>Package</SourceType>
