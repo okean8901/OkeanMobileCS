@@ -284,5 +284,10 @@ namespace Okean_Mobile.Controllers
             TempData["SuccessMessage"] = "Đã xác nhận nhận hàng thành công!";
             return RedirectToAction(nameof(Details), new { id = order.Id });
         }
+
+        public IActionResult ShowQrCode()
+        {
+            return View();
+        }
     }
 }

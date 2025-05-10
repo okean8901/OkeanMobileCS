@@ -2418,3 +2418,54 @@ td.align-middle {
         justify-content: center;
     }
 }
+
+/* QR Code Container Styles */
+.qr-code-container {
+    background: var(--background-secondary);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    text-align: center;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.qr-code-container h1 {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.qr-code-container img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid var(--primary-color);
+    border-radius: var(--radius);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.qr-code-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.qr-code-container p {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin-top: 1rem;
+}
+
+.qr-code-container .btn {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: var(--radius);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.qr-code-container .btn:hover {
+    background-color: var(--primary-hover);
+    transform: scale(1.05);
+}
+
