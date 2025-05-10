@@ -15,9 +15,9 @@ namespace Okean_Mobile.Controllers
     public class OrderController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly Okean_Mobile.Services.VNPayService _vnPayService;
+        private readonly VNPayService _vnPayService;
 
-        public OrderController(ApplicationDbContext context, Okean_Mobile.Services.VNPayService vnPayService)
+        public OrderController(ApplicationDbContext context, VNPayService vnPayService)
         {
             _context = context;
             _vnPayService = vnPayService;
@@ -67,6 +67,7 @@ namespace Okean_Mobile.Controllers
             try
             {
                 var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                var user = await _context.Users.FindAsync(userId);
                 var cartItems = await _context.CartItems
                     .Include(c => c.Product)
                     .Where(c => c.UserId == userId)
@@ -100,6 +101,7 @@ namespace Okean_Mobile.Controllers
 
                 // Create order
                 order.UserId = userId;
+                order.User = user;
                 order.OrderDate = DateTime.Now;
                 order.Status = "Pending";
                 order.OrderDetails = new List<OrderDetail>();
@@ -137,7 +139,13 @@ namespace Okean_Mobile.Controllers
                 {
                     decimal amount = order.OrderDetails.Sum(od => od.Quantity * od.Price);
                     string orderInfo = $"Thanh toán đơn hàng #{order.Id}";
-                    string paymentUrl = _vnPayService.CreatePaymentUrl(order.Id, amount, orderInfo);
+                    string paymentUrl = _vnPayService.CreatePaymentUrl(
+                        orderId: order.Id.ToString(),
+                        fullName: user.Username,
+                        description: orderInfo,
+                        amount: (double)amount,
+                        context: HttpContext
+                    );
                     return Redirect(paymentUrl);
                 }
 
@@ -211,7 +219,13 @@ namespace Okean_Mobile.Controllers
 
             decimal amount = order.OrderDetails.Sum(od => od.Quantity * od.Price);
             string orderInfo = $"Thanh toán đơn hàng #{order.Id}";
-            string paymentUrl = _vnPayService.CreatePaymentUrl(order.Id, amount, orderInfo);
+            string paymentUrl = _vnPayService.CreatePaymentUrl(
+                orderId: order.Id.ToString(),
+                fullName: order.User.Username,
+                description: orderInfo,
+                amount: (double)amount,
+                context: HttpContext
+            );
 
             return Redirect(paymentUrl);
         }

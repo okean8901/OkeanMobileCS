@@ -6,6 +6,9 @@ using Okean_Mobile.Repositories;
 using Okean_Mobile.Repositories.Implementation;
 using Okean_Mobile.Repositories.Interfaces;
 using Okean_Mobile.Services;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Okean_Mobile
 {
@@ -16,7 +19,8 @@ namespace Okean_Mobile
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews()
+                .AddRazorRuntimeCompilation();
 
             // Register DbContext with SQL Server
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -28,7 +32,7 @@ namespace Okean_Mobile
             builder.Services.AddScoped<IOrderRepository, OrderRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<ICartRepository, CartRepository>();
-            builder.Services.AddScoped<Okean_Mobile.Services.VNPayService>();
+            builder.Services.AddScoped<VNPayService>();
             builder.Services.AddScoped<IChatbotService, ChatbotService>();
 
             // Configure cookie authentication
@@ -39,7 +43,10 @@ namespace Okean_Mobile
                     options.AccessDeniedPath = "/Account/AccessDenied";
                 });
 
+            // Add other services
+            builder.Services.AddHttpContextAccessor();
             builder.Services.AddSession();
+            builder.Services.AddMemoryCache();
 
             var app = builder.Build();
 
@@ -53,9 +60,10 @@ namespace Okean_Mobile
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseSession();
+
             app.UseAuthentication();
             app.UseAuthorization();
-            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",

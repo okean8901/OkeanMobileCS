@@ -449,90 +449,143 @@ a.animated-link:hover::after {
   margin-bottom: 0.5rem;
 }
 
-/* Enhanced Search Form Styles */
+/* Enhanced Input Group Styles */
+/*.input-group {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: var(--transition);
+    background: var(--white);
+}*/
 .input-group {
-  display: flex;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  gap: 10px;
+    display: flex;
+    align-items: stretch;
+    
+    
+    
+}
+
+.input-group:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(13, 110, 253, 0.1);
+}
+
+.input-group:focus-within {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
+/*.input-group .btn {
+    min-width: 38px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-secondary);
+    border: none;
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 auto;
+}*/
+
+    .input-group .btn {
+        padding: 0.375rem 0.75rem;
+        line-height: 1.5;
+    }
+
+    /* Đảm bảo các nút và input có cùng chiều cao */
+    .input-group > .btn,
+    .input-group > .form-control {
+        height: 100%;
+    }
+/* Loại bỏ mũi tên lên/xuống trong input number */
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity-input {
+    -moz-appearance: textfield;
+}
+
+/* Căn giữa nội dung trong ô */
+td.align-middle {
+    vertical-align: middle;
+}
+
+.input-group .btn:hover {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.input-group .btn:active {
+    transform: scale(0.95);
+}
+
+.input-group .btn:disabled {
+    background: var(--background-secondary);
+    color: var(--text-muted);
+    cursor: not-allowed;
+    opacity: 0.7;
 }
 
 .input-group .form-control {
-  flex: 1;
-  min-width: 300px;
-  height: 45px;
-  padding: 12px 20px;
-  border: 2px solid var(--border-color);
-  border-radius: 30px;
-  font-size: 1.1rem;
-  background: var(--white);
-  transition: all 0.3s ease;
-  box-shadow: var(--shadow-sm);
+    width: 60px;
+    height: 100%;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    background: transparent;
+    padding: 8px;
+    margin: 0;
+    -moz-appearance: textfield;
+    flex: 0 0 auto;
+    border: none; /* Loại bỏ border mặc định */
+    border-left: 1px solid #ced4da; /* Viền trái */
+    border-right: 1px solid #ced4da;
+    /*    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);*/
+}
+
+.input-group .form-control::-webkit-outer-spin-button,
+.input-group .form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .input-group .form-control:focus {
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.1);
-  outline: none;
-  transform: translateY(-2px);
+    outline: none;
+    box-shadow: none;
 }
 
-.input-group .btn-primary {
-  min-width: 150px;
-  height: 45px;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
-  color: var(--white);
-  border: none;
-  border-radius: 30px;
-  padding: 0 30px;
-  font-size: 1.1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  box-shadow: var(--shadow);
-}
-
-.input-group .btn-primary:hover {
-  background: linear-gradient(135deg, var(--primary-hover), var(--primary-color));
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-hover);
-}
-
-.input-group .btn-primary:active {
-  transform: translateY(0);
-}
-
-.input-group .btn-primary i {
-  font-size: 1.2rem;
-}
-
-/* Responsive Styles */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .input-group {
-    flex-direction: column;
-    padding: 0 15px;
-  }
-  
-  .input-group .form-control {
-    width: 100%;
-    min-width: unset;
-    height: 45px;
-    font-size: 1rem;
-    padding: 10px 20px;
-  }
-  
-  .input-group .btn-primary {
-    width: 100%;
-    min-width: unset;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 1rem;
-  }
+    .input-group {
+        height: 36px;
+    }
+
+    .input-group .btn {
+        min-width: 36px;
+        font-size: 1.1rem;
+    }
+
+    .input-group .form-control {
+        width: 45px;
+        font-size: 0.95rem;
+    }
 }
 
 /* Custom Scrollbar for the Entire Page */
@@ -2090,5 +2143,278 @@ a.animated-link:hover::after {
     .product-gallery {
         grid-template-columns: repeat(4, 1fr);
         gap: 0.5rem;
+    }
+}
+
+/* Enhanced Cart Styles */
+.cart-container {
+    padding: 2rem 0;
+}
+
+.cart-item {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 1.5rem;
+    transition: var(--transition);
+    overflow: hidden;
+}
+
+.cart-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-hover);
+}
+
+.cart-item-header {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item-body {
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.cart-item-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.cart-item-image:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow);
+}
+
+.cart-item-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cart-item-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+}
+
+.cart-item-price {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+/* Enhanced Cart Quantity Selector - Modern Design */
+.cart-quantity-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 1rem 0;
+    width: 180px;
+    position: relative;
+}
+
+.cart-quantity-selector label {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart-quantity-selector label::before {
+    content: '🛒';
+    font-size: 1.1rem;
+}
+
+.cart-quantity-input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background: var(--white);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.cart-quantity-input-group:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.1);
+}
+
+.cart-quantity-input-group:focus-within {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+    transform: translateY(-1px);
+}
+
+.cart-quantity-btn {
+    width: 45px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-secondary);
+    border: none;
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.cart-quantity-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, var(--primary-color), var(--primary-hover));
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.cart-quantity-btn:hover::before {
+    opacity: 1;
+}
+
+.cart-quantity-btn:hover {
+    color: var(--white);
+}
+
+.cart-quantity-btn:active {
+    transform: scale(0.95);
+}
+
+.cart-quantity-btn:disabled {
+    background: var(--background-secondary);
+    color: var(--text-muted);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.cart-quantity-btn:disabled::before {
+    display: none;
+}
+
+.cart-quantity-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.cart-quantity-input {
+    flex: 1;
+    height: 43px;
+    border: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    background: transparent;
+    padding: 0;
+    -moz-appearance: textfield;
+}
+
+.cart-quantity-input::-webkit-outer-spin-button,
+.cart-quantity-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cart-quantity-input:focus {
+    outline: none;
+}
+
+.cart-quantity-stock {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: var(--background-secondary);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.cart-quantity-stock::before {
+    content: '📦';
+    font-size: 1rem;
+}
+
+.cart-quantity-stock.warning {
+    color: var(--warning-color);
+    background: rgba(255, 159, 28, 0.1);
+}
+
+.cart-quantity-stock.warning::before {
+    content: '⚠️';
+}
+
+.cart-quantity-stock.danger {
+    color: var(--danger-color);
+    background: rgba(230, 57, 70, 0.1);
+}
+
+.cart-quantity-stock.danger::before {
+    content: '🚫';
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .cart-quantity-selector {
+        width: 100%;
+        max-width: 250px;
+        margin: 1rem auto;
+    }
+
+    .cart-quantity-input-group {
+        width: 100%;
+    }
+
+    .cart-item-body {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.25rem;
+        gap: 1.5rem;
+    }
+
+    .cart-item-image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cart-item-details {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cart-quantity-stock {
+        justify-content: center;
     }
 }

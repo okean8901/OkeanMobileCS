@@ -1,0 +1,23 @@
+@{
+    ViewBag.Title = "Thanh toán thành công";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
+                    <h2 class="mt-3 text-success">@ViewBag.Message</h2>
+                    <p class="lead">Mã đơn hàng: @ViewBag.OrderId</p>
+                    <p>Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi!</p>
+                    <div class="mt-4">
+                        <a href="/" class="btn btn-primary">Về trang chủ</a>
+                        <a href="/Order/Details/@ViewBag.OrderId" class="btn btn-outline-primary">Xem chi tiết đơn hàng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
