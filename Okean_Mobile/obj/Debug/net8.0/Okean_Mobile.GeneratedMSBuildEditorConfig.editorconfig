@@ -9,185 +9,181 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Okean_Mobile
 build_property.RootNamespace = Okean_Mobile
-build_property.ProjectDir = T:\Source code c#\Okean_Mobile\OkeanMobileCS\Okean_Mobile\
+build_property.ProjectDir = T:\Source code c#\Okean_Mobile\OkeanMobile_ASP.NET_MVC\Okean_Mobile\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 2.1
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = T:\Source code c#\Okean_Mobile\OkeanMobileCS\Okean_Mobile
+build_property.MSBuildProjectDirectory = T:\Source code c#\Okean_Mobile\OkeanMobile_ASP.NET_MVC\Okean_Mobile
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Account/Login.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Account/Register.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/AdminHome/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/AdminHome/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ib21lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/AdminOrder/Details.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/AdminOrder/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5PcmRlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/AdminOrder/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/AdminOrder/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5PcmRlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Admin/Category.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Admin/Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Admin/Product.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Admin/Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Cart/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Category/Create.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Category/Delete.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Category/Edit.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Category/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/CustomerHome/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/CustomerHome/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJIb21lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/CustomerProduct/Details.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/CustomerProduct/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJQcm9kdWN0XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/CustomerProduct/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/CustomerProduct/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJQcm9kdWN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Home/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Order/Create.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Order/Details.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Order/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Order/Payment.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Order/Payment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Order/ShowQrCode.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Order/ShowQrCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcU2hvd1FyQ29kZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Payment/PaymentFailed.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Payment/PaymentFailed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQYXltZW50RmFpbGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Payment/PaymentSuccess.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Payment/PaymentSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQYXltZW50U3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Product/Create.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Product/Delete.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Product/Details.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Product/Edit.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Product/EmptyCategory.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Product/EmptyCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFbXB0eUNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Product/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Shared/Error.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Shared/_AdminLayout.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Shared/_Footer.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Shared/_Layout.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Shared/_LayoutWithFooter.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Shared/_LayoutWithFooter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRXaXRoRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/Shared/_ValidationScriptsPartial.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/User/Create.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/User/Delete.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/User/Details.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/User/Edit.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/User/Index.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/_ViewImports.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[T:/Source code c\#/Okean_Mobile/OkeanMobileCS/Okean_Mobile/Views/_ViewStart.cshtml]
+[T:/Source code c\#/Okean_Mobile/OkeanMobile_ASP.NET_MVC/Okean_Mobile/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
