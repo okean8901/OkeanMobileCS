@@ -29,12 +29,22 @@ namespace Okean_Mobile.Controllers
         }
 
         // GET: Product
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var products = await _context.Products
+            var products = _context.Products
                 .Include(p => p.Category)
-                .ToListAsync();
-            return View(products);
+                .AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(p => 
+                    p.Name.Contains(searchString) || 
+                    p.Description.Contains(searchString) ||
+                    p.Category.Name.Contains(searchString));
+            }
+
+            ViewBag.CurrentFilter = searchString;
+            return View(await products.ToListAsync());
         }
 
         // GET: Product/Details/5
