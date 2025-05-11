@@ -27,6 +27,10 @@
                 <span asp-validation-for="Password" class="validation-error"></span>
             </div>
 
+            <div class="form-group text-end mb-3">
+                <a asp-action="ForgotPassword" class="text-primary">Quên mật khẩu?</a>
+            </div>
+
             <button type="submit" class="btn-auth">
                 <i class="fas fa-sign-in-alt me-2"></i>Đăng nhập
             </button>
@@ -37,3 +41,7 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

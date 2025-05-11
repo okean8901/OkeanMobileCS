@@ -75,6 +75,10 @@
               "target": "Package",
               "version": "[6.5.1, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -112,6 +116,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

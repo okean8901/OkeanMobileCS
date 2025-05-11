@@ -3,13 +3,13 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<div class="container-fluid">
-    <h1 class="h3 mb-4 text-gray-800">Trang quản trị</h1>
+<div class="container-fluid admin-dashboard">
+    <h1 class="h3 mb-4">Trang quản trị</h1>
 
     <div class="row">
         <!-- Thống kê đơn hàng -->
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card stats-card border-left-primary shadow h-100">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -28,7 +28,7 @@
 
         <!-- Thống kê sản phẩm -->
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-success shadow h-100 py-2">
+            <div class="card stats-card border-left-success shadow h-100">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -47,7 +47,7 @@
 
         <!-- Thống kê khách hàng -->
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-info shadow h-100 py-2">
+            <div class="card stats-card border-left-info shadow h-100">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -66,7 +66,7 @@
 
         <!-- Thống kê doanh thu -->
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-warning shadow h-100 py-2">
+            <div class="card stats-card border-left-warning shadow h-100">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
@@ -85,11 +85,11 @@
     </div>
 
     <!-- Các chức năng nhanh -->
-    <div class="row">
+    <div class="row quick-actions">
         <div class="col-lg-6 mb-4">
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Quản lý sản phẩm</h6>
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="font-weight-bold">Quản lý sản phẩm</h6>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -109,9 +109,9 @@
         </div>
 
         <div class="col-lg-6 mb-4">
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Quản lý đơn hàng</h6>
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="font-weight-bold">Quản lý đơn hàng</h6>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -131,9 +131,9 @@
         </div>
 
         <div class="col-lg-6 mb-4">
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Quản lý danh mục</h6>
+            <div class="card shadow">
+                <div class="card-header">
+                    <h6 class="font-weight-bold">Quản lý danh mục</h6>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -154,35 +154,43 @@
     </div>
 
     <!-- Đơn hàng gần đây -->
-    <div class="card shadow mb-4">
-        <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Đơn hàng gần đây</h6>
-        </div>
-        <div class="card-body">
-            <div class="table-responsive">
-                <table class="table table-bordered" width="100%" cellspacing="0">
-                    <thead>
-                        <tr>
-                            <th>Mã đơn hàng</th>
-                            <th>Khách hàng</th>
-                            <th>Ngày đặt</th>
-                            <th>Tổng tiền</th>
-                            <th>Trạng thái</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var order in ViewBag.RecentOrders)
-                        {
+    <div class="recent-orders">
+        <div class="card shadow">
+            <div class="card-header">
+                <h6 class="font-weight-bold">Đơn hàng gần đây</h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table" width="100%" cellspacing="0">
+                        <thead>
                             <tr>
-                                <td>@order.Id</td>
-                                <td>@order.CustomerName</td>
-                                <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
-                                <td>@order.TotalAmount.ToString("N0")đ</td>
-                                <td>@order.Status</td>
+                                <th>Mã đơn hàng</th>
+                                <th>Khách hàng</th>
+                                <th>Ngày đặt</th>
+                                <th>Tổng tiền</th>
+                                <th>Trạng thái</th>
                             </tr>
-                        }
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            @foreach (var order in ViewBag.RecentOrders)
+                            {
+                                <tr>
+                                    <td>#@order.Id</td>
+                                    <td>@order.CustomerName</td>
+                                    <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                                    <td>@order.TotalAmount.ToString("N0")đ</td>
+                                    <td>
+                                        <span class="status-badge @(order.Status == "Pending" ? "status-pending" : 
+                                                                   order.Status == "Completed" ? "status-completed" : 
+                                                                   "status-cancelled")">
+                                            @order.Status
+                                        </span>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

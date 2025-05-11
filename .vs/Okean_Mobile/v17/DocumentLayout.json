@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|t:\\source code c#\\okean_mobile\\okeanmobile_asp.net_mvc\\okean_mobile\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|solutionrelative:okean_mobile\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|t:\\source code c#\\okean_mobile\\okeanmobile_asp.net_mvc\\okean_mobile\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|solutionrelative:okean_mobile\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -105,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|t:\\source code c#\\okean_mobile\\okeanmobile_asp.net_mvc\\okean_mobile\\controllers\\customerproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|solutionrelative:okean_mobile\\controllers\\customerproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|t:\\source code c#\\okean_mobile\\okeanmobile_asp.net_mvc\\okean_mobile\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|solutionrelative:okean_mobile\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8367924-9C77-4483-8524-A605D02E9EC1}|Okean_Mobile\\Okean_Mobile.csproj|t:\\source code c#\\okean_mobile\\okeanmobile_asp.net_mvc\\okean_mobile\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -350,7 +350,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -382,13 +382,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\AdminHome\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\AdminHome\\Index.cshtml",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\AdminHome\\Index.cshtml",
               "RelativeToolTip": "Okean_Mobile\\Views\\AdminHome\\Index.cshtml",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAqwKkAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAuwJ8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-03T03:01:40.561Z",
               "EditorCaption": ""
@@ -396,30 +396,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\CustomerProduct\\Details.cshtml",
-              "RelativeDocumentMoniker": "Okean_Mobile\\Views\\CustomerProduct\\Details.cshtml",
-              "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\CustomerProduct\\Details.cshtml",
-              "RelativeToolTip": "Okean_Mobile\\Views\\CustomerProduct\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T06:45:43.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Home\\Index.cshtml",
-              "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Okean_Mobile\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T09:36:07.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Models\\ViewModel\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\ViewModel\\RegisterViewModel.cs",
@@ -427,35 +403,38 @@
               "RelativeToolTip": "Okean_Mobile\\Models\\ViewModel\\RegisterViewModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:17:16.944Z"
+              "WhenOpened": "2025-04-28T11:17:16.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "Okean_Mobile\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIQAAADdAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAIBJwIQAAADdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T03:32:04.309Z"
+              "WhenOpened": "2025-05-10T03:32:04.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Okean_Mobile\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAIBJwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T10:14:48.177Z"
+              "WhenOpened": "2025-04-28T10:14:48.177Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RecentOrderViewModel.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Models\\RecentOrderViewModel.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\RecentOrderViewModel.cs",
@@ -463,11 +442,51 @@
               "RelativeToolTip": "Okean_Mobile\\Models\\RecentOrderViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T16:24:15.226Z"
+              "WhenOpened": "2025-05-10T16:24:15.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\AccountController.cs",
+              "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Okean_Mobile\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAwwPIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T09:25:42.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Home\\Index.cshtml",
+              "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Okean_Mobile\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T09:36:07.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\CustomerProduct\\Details.cshtml",
+              "RelativeDocumentMoniker": "Okean_Mobile\\Views\\CustomerProduct\\Details.cshtml",
+              "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\CustomerProduct\\Details.cshtml",
+              "RelativeToolTip": "Okean_Mobile\\Views\\CustomerProduct\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T06:45:43.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AdminHomeController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\AdminHomeController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\AdminHomeController.cs",
@@ -475,11 +494,12 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\AdminHomeController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T03:12:01.578Z"
+              "WhenOpened": "2025-05-03T03:12:01.578Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Models\\ViewModel\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\ViewModel\\LoginViewModel.cs",
@@ -487,11 +507,12 @@
               "RelativeToolTip": "Okean_Mobile\\Models\\ViewModel\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:17:16.889Z"
+              "WhenOpened": "2025-04-28T12:17:16.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AdminOrderController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\AdminOrderController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\AdminOrderController.cs",
@@ -499,23 +520,25 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\AdminOrderController.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T15:19:42.754Z"
+              "WhenOpened": "2025-05-10T15:19:42.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Order.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\Order.cs",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Models\\Order.cs",
               "RelativeToolTip": "Okean_Mobile\\Models\\Order.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvx8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T08:59:09.796Z"
+              "WhenOpened": "2025-04-28T08:59:09.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CartController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\CartController.cs",
@@ -523,11 +546,12 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\CartController.cs",
               "ViewState": "AgIAALYAAAAAAAAAAAASwAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:25:56.068Z"
+              "WhenOpened": "2025-04-28T09:25:56.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\HomeController.cs",
@@ -535,11 +559,12 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:18:45.708Z"
+              "WhenOpened": "2025-04-28T12:18:45.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ChatbotController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\ChatbotController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\ChatbotController.cs",
@@ -547,23 +572,25 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\ChatbotController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T01:58:24.618Z"
+              "WhenOpened": "2025-05-04T01:58:24.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Models\\OrderDetail.cs",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Models\\OrderDetail.cs",
               "RelativeToolTip": "Okean_Mobile\\Models\\OrderDetail.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T08:59:25.806Z"
+              "WhenOpened": "2025-04-28T08:59:25.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\PaymentController.cs",
@@ -571,11 +598,12 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\PaymentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T05:51:48.186Z"
+              "WhenOpened": "2025-05-10T05:51:48.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AdminController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\AdminController.cs",
@@ -583,35 +611,38 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\AdminController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:25:49.499Z"
+              "WhenOpened": "2025-04-28T09:25:49.499Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Order\\Create.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Order\\Create.cshtml",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Order\\Create.cshtml",
               "RelativeToolTip": "Okean_Mobile\\Views\\Order\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAGMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBJwGMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T07:56:03.733Z"
+              "WhenOpened": "2025-05-10T07:56:03.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "site.css",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\css\\site.css",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\wwwroot\\css\\site.css",
               "RelativeToolTip": "Okean_Mobile\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwDwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-29T09:13:36.355Z"
+              "WhenOpened": "2025-04-29T09:13:36.355Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Cart\\Index.cshtml",
@@ -619,11 +650,12 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Cart\\Index.cshtml",
               "ViewState": "AgIAAMUAAAAAAAAAAAAwwOIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T09:32:04.734Z"
+              "WhenOpened": "2025-04-28T09:32:04.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "cart.js",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\wwwroot\\js\\components\\cart.js",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\js\\components\\cart.js",
@@ -631,11 +663,12 @@
               "RelativeToolTip": "Okean_Mobile\\wwwroot\\js\\components\\cart.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-04T14:12:59.749Z"
+              "WhenOpened": "2025-05-04T14:12:59.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "chatbot.js",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\wwwroot\\js\\chatbot.js",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\js\\chatbot.js",
@@ -643,11 +676,12 @@
               "RelativeToolTip": "Okean_Mobile\\wwwroot\\js\\chatbot.js",
               "ViewState": "AgIAAFsAAAAAAAAAAAAQwNAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-04T14:13:03.683Z"
+              "WhenOpened": "2025-05-04T14:13:03.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "main.js",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\wwwroot\\js\\main.js",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\js\\main.js",
@@ -655,11 +689,12 @@
               "RelativeToolTip": "Okean_Mobile\\wwwroot\\js\\main.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-04T10:47:32.232Z"
+              "WhenOpened": "2025-05-04T10:47:32.232Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "site.js",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Okean_Mobile\\wwwroot\\js\\site.js",
@@ -667,7 +702,8 @@
               "RelativeToolTip": "Okean_Mobile\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-29T09:20:49.923Z"
+              "WhenOpened": "2025-04-29T09:20:49.923Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -679,11 +715,12 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250510034801_AddProductReviews.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T03:48:01.32Z"
+              "WhenOpened": "2025-05-10T03:48:01.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CustomerProductController.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\CustomerProductController.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\CustomerProductController.cs",
@@ -691,11 +728,12 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\CustomerProductController.cs",
               "ViewState": "AgIAAJMAAAAAAAAAAAAowKsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T03:53:36.273Z"
+              "WhenOpened": "2025-05-10T03:53:36.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "VNPayService.cs",
               "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Services\\VNPayService.cs",
               "RelativeDocumentMoniker": "Okean_Mobile\\Services\\VNPayService.cs",
@@ -703,19 +741,8 @@
               "RelativeToolTip": "Okean_Mobile\\Services\\VNPayService.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAEwDMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T06:00:13.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\AccountController.cs",
-              "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Okean_Mobile\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwCQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:25:42.627Z"
+              "WhenOpened": "2025-05-10T06:00:13.502Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -727,7 +754,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250510021425_PendingModelChanges.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T02:14:25.881Z"
+              "WhenOpened": "2025-05-10T02:14:25.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -737,9 +765,10 @@
               "RelativeDocumentMoniker": "Okean_Mobile\\Controllers\\OrderController.cs",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Okean_Mobile\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAmwHIAAABtAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAmwHIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:26:01.703Z"
+              "WhenOpened": "2025-04-28T09:26:01.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -751,7 +780,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Order\\Details.cshtml",
               "ViewState": "AgIAABYAAAAAAAAAAAAmwBgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T10:15:09.384Z"
+              "WhenOpened": "2025-04-29T10:15:09.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -761,9 +791,10 @@
               "RelativeDocumentMoniker": "Okean_Mobile\\appsettings.json",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\appsettings.json",
               "RelativeToolTip": "Okean_Mobile\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-28T08:55:28.504Z"
+              "WhenOpened": "2025-04-28T08:55:28.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -775,7 +806,8 @@
               "RelativeToolTip": "Okean_Mobile\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:13:51.055Z"
+              "WhenOpened": "2025-05-04T14:13:51.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -787,7 +819,8 @@
               "RelativeToolTip": "Okean_Mobile\\Services\\ChatbotService.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAqwH8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T02:25:39.075Z"
+              "WhenOpened": "2025-05-04T02:25:39.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -799,7 +832,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T09:31:19.329Z"
+              "WhenOpened": "2025-04-28T09:31:19.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -811,7 +845,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T09:30:53.687Z"
+              "WhenOpened": "2025-04-28T09:30:53.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -823,7 +858,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Admin\\Category.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T09:31:47.693Z"
+              "WhenOpened": "2025-04-28T09:31:47.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -835,7 +871,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250428102942_seedcategory.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T10:29:42.493Z"
+              "WhenOpened": "2025-04-28T10:29:42.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -847,7 +884,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250428110300_log.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:03:00.807Z"
+              "WhenOpened": "2025-04-28T11:03:00.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -859,7 +897,8 @@
               "RelativeToolTip": "Okean_Mobile\\Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T08:58:45.599Z"
+              "WhenOpened": "2025-04-28T08:58:45.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -871,7 +910,8 @@
               "RelativeToolTip": "Okean_Mobile\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T08:57:31.615Z"
+              "WhenOpened": "2025-04-28T08:57:31.615Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -883,7 +923,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250428094048_SeedDataMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:13:41.356Z"
+              "WhenOpened": "2025-05-04T14:13:41.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -893,9 +934,10 @@
               "RelativeDocumentMoniker": "Okean_Mobile\\Migrations\\20250428090737_InitialCreate.cs",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Migrations\\20250428090737_InitialCreate.cs",
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250428090737_InitialCreate.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAACBjwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:13:36.181Z"
+              "WhenOpened": "2025-05-04T14:13:36.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -907,7 +949,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\CustomerProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T14:13:32.654Z"
+              "WhenOpened": "2025-05-04T14:13:32.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -917,9 +960,10 @@
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Shared\\_Footer.cshtml",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Shared\\_Footer.cshtml",
               "RelativeToolTip": "Okean_Mobile\\Views\\Shared\\_Footer.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAIBZwCwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAACBjwCwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T10:09:15.621Z"
+              "WhenOpened": "2025-05-02T10:09:15.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -931,7 +975,8 @@
               "RelativeToolTip": "Okean_Mobile\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T08:58:15.396Z"
+              "WhenOpened": "2025-04-28T08:58:15.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -941,9 +986,10 @@
               "RelativeDocumentMoniker": "Okean_Mobile\\Program.cs",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Program.cs",
               "RelativeToolTip": "Okean_Mobile\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwD8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:06:58.231Z"
+              "WhenOpened": "2025-04-28T09:06:58.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -953,9 +999,10 @@
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\CustomerHome\\Index.cshtml",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\CustomerHome\\Index.cshtml",
               "RelativeToolTip": "Okean_Mobile\\Views\\CustomerHome\\Index.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAIBZwBEAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAACBjwBEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T08:47:01.468Z"
+              "WhenOpened": "2025-05-04T08:47:01.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -967,7 +1014,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Shared\\_LayoutWithFooter.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T10:05:23.148Z"
+              "WhenOpened": "2025-05-02T10:05:23.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -977,9 +1025,10 @@
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\CustomerProduct\\Index.cshtml",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\CustomerProduct\\Index.cshtml",
               "RelativeToolTip": "Okean_Mobile\\Views\\CustomerProduct\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAACBjwEkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAIBpwEkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T06:15:42.295Z"
+              "WhenOpened": "2025-05-03T06:15:42.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -991,7 +1040,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250503081310_payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T08:13:11.428Z"
+              "WhenOpened": "2025-05-03T08:13:11.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1003,7 +1053,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250428103223_seedcate2.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T10:32:23.91Z"
+              "WhenOpened": "2025-04-28T10:32:23.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1015,7 +1066,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250502032650_AddUserTimestamps.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T03:26:52.792Z"
+              "WhenOpened": "2025-05-02T03:26:52.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1027,7 +1079,8 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAJUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T03:05:31.576Z"
+              "WhenOpened": "2025-04-30T03:05:31.576Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1039,7 +1092,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Category\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T02:56:15.192Z"
+              "WhenOpened": "2025-04-30T02:56:15.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1049,9 +1103,10 @@
               "RelativeDocumentMoniker": "Okean_Mobile\\Views\\Product\\Index.cshtml",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Okean_Mobile\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAACBjwA8AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBpwA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T09:32:22.395Z"
+              "WhenOpened": "2025-04-28T09:32:22.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1063,7 +1118,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Product\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T14:12:19.657Z"
+              "WhenOpened": "2025-05-01T14:12:19.657Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1075,7 +1131,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T03:16:03.738Z"
+              "WhenOpened": "2025-04-30T03:16:03.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1087,7 +1144,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\User\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T03:27:26.184Z"
+              "WhenOpened": "2025-05-02T03:27:26.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1099,7 +1157,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\User\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T03:27:27.608Z"
+              "WhenOpened": "2025-05-02T03:27:27.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1111,7 +1170,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\User\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T03:27:29.128Z"
+              "WhenOpened": "2025-05-02T03:27:29.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1123,7 +1183,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\User\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T03:27:28.473Z"
+              "WhenOpened": "2025-05-02T03:27:28.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1135,7 +1196,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Product\\EmptyCategory.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T09:08:12.714Z"
+              "WhenOpened": "2025-04-29T09:08:12.714Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1147,7 +1209,8 @@
               "RelativeToolTip": "Okean_Mobile\\Controllers\\ProductController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:26:10.053Z"
+              "WhenOpened": "2025-04-28T09:26:10.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1159,7 +1222,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Product\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T09:07:44.46Z"
+              "WhenOpened": "2025-04-29T09:07:44.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1171,7 +1235,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Product\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T01:54:38.192Z"
+              "WhenOpened": "2025-05-02T01:54:38.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1183,7 +1248,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250430065629_urlimg.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T06:56:30.325Z"
+              "WhenOpened": "2025-04-30T06:56:30.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1195,7 +1261,8 @@
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Implementation\\ProductRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAcwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:19:32.458Z"
+              "WhenOpened": "2025-04-28T09:19:32.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1207,7 +1274,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Category\\Create.cshtml",
               "ViewState": "AgIAACUAAAAAAAAAAAAqwEUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T02:56:09.948Z"
+              "WhenOpened": "2025-04-30T02:56:09.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1219,7 +1287,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Category\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T02:56:13.797Z"
+              "WhenOpened": "2025-04-30T02:56:13.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1231,7 +1300,8 @@
               "RelativeToolTip": "Okean_Mobile\\Migrations\\20250430031836_AddProductFields.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T03:18:37.324Z"
+              "WhenOpened": "2025-04-30T03:18:37.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1243,7 +1313,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Category\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T02:56:14.526Z"
+              "WhenOpened": "2025-04-30T02:56:14.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1255,7 +1326,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Admin\\Product.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T09:31:32.11Z"
+              "WhenOpened": "2025-04-28T09:31:32.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1267,7 +1339,8 @@
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Implementation\\CategoryRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:18:43.358Z"
+              "WhenOpened": "2025-04-28T09:18:43.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1279,7 +1352,8 @@
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Interfaces\\ICartRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T09:39:50.023Z"
+              "WhenOpened": "2025-04-29T09:39:50.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1291,7 +1365,8 @@
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Implementation\\CartRepository.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAUwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T09:40:07.487Z"
+              "WhenOpened": "2025-04-29T09:40:07.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1303,7 +1378,8 @@
               "RelativeToolTip": "Okean_Mobile\\Views\\Order\\Index.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAcwCUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T09:32:13.31Z"
+              "WhenOpened": "2025-04-28T09:32:13.31Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1315,7 +1391,8 @@
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Implementation\\OrderRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAmwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:22:21.208Z"
+              "WhenOpened": "2025-04-28T09:22:21.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1327,7 +1404,8 @@
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Interfaces\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:17:40.046Z"
+              "WhenOpened": "2025-04-28T09:17:40.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1339,7 +1417,8 @@
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Interfaces\\IOrderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:18:14.951Z"
+              "WhenOpened": "2025-04-28T09:18:14.951Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1351,7 +1430,8 @@
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Interfaces\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T09:17:59.793Z"
+              "WhenOpened": "2025-04-28T09:17:59.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1361,9 +1441,10 @@
               "RelativeDocumentMoniker": "Okean_Mobile\\Repositories\\Implementation\\UserRepository.cs",
               "ToolTip": "T:\\Source code c#\\Okean_Mobile\\OkeanMobile_ASP.NET_MVC\\Okean_Mobile\\Repositories\\Implementation\\UserRepository.cs",
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Implementation\\UserRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:06:43.861Z"
+              "WhenOpened": "2025-04-28T12:06:43.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1375,7 +1456,8 @@
               "RelativeToolTip": "Okean_Mobile\\Repositories\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:05:25.441Z"
+              "WhenOpened": "2025-04-28T12:05:25.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1387,7 +1469,8 @@
               "RelativeToolTip": "Okean_Mobile\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T08:57:04.179Z"
+              "WhenOpened": "2025-04-28T08:57:04.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1399,7 +1482,8 @@
               "RelativeToolTip": "Okean_Mobile\\Okean_Mobile.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-28T10:11:39.182Z"
+              "WhenOpened": "2025-04-28T10:11:39.182Z",
+              "EditorCaption": ""
             }
           ]
         },

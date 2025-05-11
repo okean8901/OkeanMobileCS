@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Okean_Mobile.Models;
 using Okean_Mobile.Repositories.Interfaces;
 using Okean_Mobile.ViewModels;
+using Okean_Mobile.Services;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
@@ -14,11 +15,18 @@ namespace Okean_Mobile.Controllers
     {
         // Khai báo repository để tương tác với database
         private readonly IUserRepository _userRepository;
+        private readonly IEmailService _emailService;
+        private readonly IOtpService _otpService;
 
         // Constructor: Inject UserRepository để sử dụng
-        public AccountController(IUserRepository userRepository)
+        public AccountController(
+            IUserRepository userRepository,
+            IEmailService emailService,
+            IOtpService otpService)
         {
             _userRepository = userRepository;
+            _emailService = emailService;
+            _otpService = otpService;
         }
 
         // ======= Hàm băm mật khẩu sử dụng SHA256 =======
@@ -145,6 +153,100 @@ namespace Okean_Mobile.Controllers
             // Xóa cookie đăng nhập
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             // Chuyển hướng về trang đăng nhập
+            return RedirectToAction("Login");
+        }
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = await _userRepository.GetByEmailAsync(model.Email);
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Email không tồn tại trong hệ thống");
+                return View(model);
+            }
+
+            // Tạo OTP
+            var otp = _otpService.GenerateOtp();
+            
+            // Lưu OTP vào TempData để sử dụng sau
+            TempData["ResetPasswordOtp"] = otp;
+            TempData["ResetPasswordEmail"] = model.Email;
+
+            // Gửi email chứa OTP
+            var subject = "Mã xác nhận đặt lại mật khẩu - Okean Mobile";
+            var body = $@"
+                <h2>Xin chào,</h2>
+                <p>Bạn đã yêu cầu đặt lại mật khẩu tại Okean Mobile.</p>
+                <p>Mã xác nhận của bạn là: <strong>{otp}</strong></p>
+                <p>Mã này sẽ hết hạn sau 5 phút.</p>
+                <p>Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này.</p>
+            ";
+
+            await _emailService.SendEmailAsync(model.Email, subject, body);
+
+            return RedirectToAction("ResetPassword");
+        }
+
+        [HttpGet]
+        public IActionResult ResetPassword()
+        {
+            var email = TempData.Peek("ResetPasswordEmail") as string;
+            if (string.IsNullOrEmpty(email))
+            {
+                return RedirectToAction("ForgotPassword");
+            }
+
+            var model = new ResetPasswordViewModel { Email = email };
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var storedOtp = TempData["ResetPasswordOtp"] as string;
+            var storedEmail = TempData["ResetPasswordEmail"] as string;
+
+            if (string.IsNullOrEmpty(storedOtp) || string.IsNullOrEmpty(storedEmail))
+            {
+                ModelState.AddModelError("", "Phiên làm việc đã hết hạn. Vui lòng thử lại.");
+                return RedirectToAction("ForgotPassword");
+            }
+
+            if (!_otpService.ValidateOtp(storedOtp, model.OtpCode))
+            {
+                ModelState.AddModelError("", "Mã OTP không chính xác");
+                return View(model);
+            }
+
+            var user = await _userRepository.GetByEmailAsync(model.Email);
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Email không tồn tại trong hệ thống");
+                return View(model);
+            }
+
+            // Cập nhật mật khẩu mới
+            user.Password = HashPassword(model.NewPassword);
+            await _userRepository.UpdateUserAsync(user);
+
+            // Xóa TempData
+            TempData.Remove("ResetPasswordOtp");
+            TempData.Remove("ResetPasswordEmail");
+
+            TempData["SuccessMessage"] = "Mật khẩu đã được đặt lại thành công";
             return RedirectToAction("Login");
         }
     }
